@@ -2,7 +2,7 @@
 #values can repeat
 
 list_of_intigers = [0, 1, 2, 3, 4, 5]
-list_of_strings = ["a", "b", "c"]
+list_of_strings = ["a", "b", "c", "z", "g"]
 list_of_bools = [True, True, False, True]
 empty_list = []
 print('Empty list', empty_list)
@@ -45,3 +45,17 @@ mute_list = [0]
 print('Initial mute_list', mute_list)
 mute_list[0] = 1
 print('mute_list after mutation', mute_list)
+
+#sort list Asc
+list_of_strings.sort()
+print('List sorted A-Z', list_of_strings)
+
+#sort list Desc
+list_of_strings.sort(reverse=True)
+print('List sorted Z-A', list_of_strings)
+print('List after modifications', list_of_strings)
+
+#list sorted temporarily
+temporarily_sorted = sorted(list_of_strings)
+print('List temporarily sorted', temporarily_sorted)
+print('List after temporary sorting', list_of_strings)
