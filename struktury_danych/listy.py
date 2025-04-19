@@ -59,3 +59,16 @@ print('List after modifications', list_of_strings)
 temporarily_sorted = sorted(list_of_strings)
 print('List temporarily sorted', temporarily_sorted)
 print('List after temporary sorting', list_of_strings)
+print('Sorted temporarily', sorted(list_of_strings)) #temporarily
+print('Current state', list_of_strings) #previous version restored
+list_of_strings.sort()
+print('Restored', list_of_strings)
+print('Temporarily reversed', sorted(list_of_strings, reverse=True))
+
+#reverse() method just reverses the list - doesn't sort it!
+list_of_strings.reverse()
+print('Reversed with function reverse()', list_of_strings)
+
+#jako argument z True w metodzie sort sortuje Desc
+#jako metoda po prostu wyświetla w odwróconej kolejności trwale
+#kolejne użycie reverse() znowu odwróci kolejność
