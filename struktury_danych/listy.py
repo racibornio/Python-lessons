@@ -1,5 +1,6 @@
 #mutable, ordered, iterable, cannot be a key in dictionary unless with 'frozenset'
 #values can repeat
+from operator import index
 
 list_of_intigers = [0, 1, 2, 3, 4, 5]
 list_of_strings = ["a", "b", "c", "z", "g"]
@@ -72,3 +73,18 @@ print('Reversed with function reverse()', list_of_strings)
 #jako argument z True w metodzie sort sortuje Desc
 #jako metoda po prostu wyświetla w odwróconej kolejności trwale
 #kolejne użycie reverse() znowu odwróci kolejność
+
+# wypełnij pustą listę 10-ma wartościami int 1-10
+list_for_data = []
+for i in range(1, 11):
+    list_for_data.append(i)
+
+print('List length:', len(list_for_data))
+# odczyt listy - dwa argumenty przy wywołaniu intepretowania jako index i wartość odpowiednio
+for i, v in enumerate(list_for_data):
+    print(i, ':', v)
+
+for i in range(len(list_for_data)):
+    list_for_data.pop()
+
+print('List length:', len(list_for_data))
