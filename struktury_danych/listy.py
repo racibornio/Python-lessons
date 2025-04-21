@@ -1,5 +1,19 @@
 #mutable, ordered, iterable, cannot be a key in dictionary unless with 'frozenset'
 #values can repeat
+#nazwa_listy.append(wartość) -> wstawia wartość na sam koniec
+#nazwa_listy.insert(nr_indeksu, wartość) -> wstawia wartość na podany indeks przesuwając resztę w prawo
+#nazwa_listy.pop() -> usuwa ostatni indeks, ale pozwala to przypisać do zmiennej
+#nazwa_listy.pop(nr_indeksu) -> usuwa wskazany indeks, ale pozwala to przypisać do zmiennej
+#del nazwa_listy[nr_indeksu] -> po prostu usuwa wskazany indeks
+#nazwa_listy.remove(wartość) -> usuwa pierwsze wystąpienie podanej wartości
+#nazwa_listy.sort() -> sortuje listę Asc (dla intów najpierw zrzutuj)
+#nazwa_listy.sort(reverse=True) -> sortuje listę Desc (dla intów najpierw zrzutuj)
+#zmienna = sorted(nazwa_listy) -> tymczasowo sortuje listę Asc
+#zmienna = sorted(nazwa_listy, reverse=True) -> tymczasowo sortuje listę Desc
+#nazwa_listy.reverse() -> przerzuca zastaną kolejność elementów - ustawia listę od końca
+#ROZSZERZANIE LISTY
+
+
 from operator import index
 
 list_of_intigers = [0, 1, 2, 3, 4, 5]
@@ -38,14 +52,38 @@ print(removed_value, "has been removed.")
 
 print(list_of_strings)
 
-list_of_lists = [ [1, 3, 5, 7, 9], [2, 4, 6, 8, 0], ['a', 'e', 'i', 'o', 'u'], ['ą', 'ć', 'ę', 'ł', 'ń', 'ó', 'ś', 'ź', 'ż'] ]
+list_of_lists = [ [1, 3, 5, 7, 9],
+                  [2, 4, 6, 8, 0],
+                  ['a', 'e', 'i', 'o', 'u'],
+                  ['ą', 'ć', 'ę', 'ł', 'ń', 'ó', 'ś', 'ź', 'ż'] ]
 
 print(list_of_lists[0][0],list_of_lists[1][0],list_of_lists[2][0],list_of_lists[3][0])
 
+#przejdź przez nad-listę i wyświetl całe pod-listy
+for i in range(len(list_of_lists)):
+    print('Lista:', list_of_lists[i])
+
+#wejdź do każdej pod-listy i wypisz jej elementy
+for i in range(len(list_of_lists)):
+    for j in list_of_lists[i]:
+        print('Element', j)
+
+#tabliczka mnożenia
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(i, '*', j, '=', i*j)
+
+#test mutowalności listy
 mute_list = [0]
 print('Initial mute_list', mute_list)
+before_mutation = id(mute_list)
 mute_list[0] = 1
 print('mute_list after mutation', mute_list)
+after_mutation = id(mute_list)
+if before_mutation == after_mutation:
+    print('The address has not changed - the list is a mutable structure')
+else:
+    print('The address has changed - the list is not a mutable structure')
 
 #sort list Asc
 list_of_strings.sort()
@@ -88,3 +126,34 @@ for i in range(len(list_for_data)):
     list_for_data.pop()
 
 print('List length:', len(list_for_data))
+
+# #wariant 1 - wypełnij listę podanymi wartościami
+# lista_do_wypelnienia = []
+# licznik = 10
+# for i in range(1, 11):
+#     lista_do_wypelnienia.append(input(f'Wpisz dane jeszcze {licznik} razy'))
+#     licznik -= 1
+#     print('Lista teraz:', lista_do_wypelnienia)
+#
+# print('Cała lista to', lista_do_wypelnienia)
+#
+#
+# #wariant 2 - wypełnij listę podanymi wartościami - szybsza
+# lista_inaczej = []
+# for i, e in enumerate(range(10, 0, -1)):
+#     lista_inaczej.append(input(f'Wpisz dane do listy jeszcze {e} razy'))
+#     print('Lista teraz:', lista_inaczej)
+#     #print('i:', i, 'e:', e)
+#
+# print('Cała lista:', lista_inaczej)
+
+
+#rozszerzanie listy
+lista_do_rozszerzenia = [0, 1]
+print('Init', lista_do_rozszerzenia, 'id:', id(lista_do_rozszerzenia))
+lista_do_rozszerzenia += [2, 3] #działa na tym samym obiekcie
+print('Po instrukcji "lista_do_rozszerzenia += [2, 3]:"', lista_do_rozszerzenia, 'id:', id(lista_do_rozszerzenia))
+lista_do_rozszerzenia = lista_do_rozszerzenia + [4, 5] #tworzy nowy obiekt
+print('Po instrukcji "lista_do_rozszerzenia = lista_do_rozszerzenia + [4, 5]":', lista_do_rozszerzenia, 'id:', id(lista_do_rozszerzenia))
+lista_do_rozszerzenia.extend([6, 7, 8]) #działa na tym samym obiekcie
+print('Po instrukcji "lista_do_rozszerzenia.extend([6, 7, 8])":', lista_do_rozszerzenia, 'id:', id(lista_do_rozszerzenia))

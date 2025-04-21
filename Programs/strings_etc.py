@@ -19,3 +19,11 @@ string_immutability_test = 'fda'
 print(string_immutability_test)
 string_immutability_test = 'f'
 print(string_immutability_test)
+
+podana_liczba = input("Wpisz liczbę")
+
+podana_liczba_type = type(podana_liczba)
+print('Typ to', podana_liczba_type)
+convert_to_int = int(podana_liczba)
+podana_liczba_type = type(convert_to_int)
+print('Po zmianie typu', podana_liczba_type)
