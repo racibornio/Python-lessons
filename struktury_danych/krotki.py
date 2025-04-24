@@ -1,10 +1,6 @@
 #immutable, ordered, iterable, can be a key in dictionary
 #values can repeat
 #useful for returning multiple values from functions, keys in dictionaries
-from email.policy import default
-from itertools import count
-from operator import index
-from xml.etree.ElementTree import tostring
 
 empty_tuple = tuple()
 print('Empty tuple', empty_tuple)
@@ -21,13 +17,18 @@ print('Tuple index last', krotka1int.index(krotka1int[-1]))
 value_to_check =  1
 print(value_to_check, 'occurs', krotka1int.count(value_to_check), 'times')
 
-print('Tuple lenght is', len(krotka1int))
+print('Tuple length is', len(krotka1int))
 
 def do_math_calculations(number_to_calculate):
     divided_by_half = number_to_calculate / 2
     multiplied_by_two = number_to_calculate * 2
-    return (divided_by_half, multiplied_by_two)
+    division_outcome = str(divided_by_half)
+    div_out_text = print('Division:', division_outcome)
+    multiplication_outcome = str(multiplied_by_two)
+    mult_out_text = print('Multliplicaiton:', multiplication_outcome)
+    return (div_out_text, mult_out_text)
 
+do_math_calculations(12)
+tuple_to_list = list(do_math_calculations(44))
+print('Tuple to list:', tuple_to_list, 'and its id is:', id(tuple_to_list))
 
-tuple_outcome = do_math_calculations(12)
-print('The outcome is', tuple_outcome)
