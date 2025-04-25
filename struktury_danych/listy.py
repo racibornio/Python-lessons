@@ -13,8 +13,7 @@
 #zmienna = sorted(nazwa_listy, reverse=True) -> tymczasowo sortuje listę Desc
 #nazwa_listy.reverse() -> przerzuca zastaną kolejność elementów - ustawia listę od końca
 #ROZSZERZANIE LISTY
-
-
+import random
 from operator import index
 
 list_of_intigers = [0, 1, 2, 3, 4, 5]
@@ -128,25 +127,25 @@ for i in range(len(list_for_data)):
 
 print('List length:', len(list_for_data))
 
-#wariant 1 - wypełnij listę podanymi wartościami
-lista_do_wypelnienia = []
-licznik = 10
-for i in range(1, 11):
-    lista_do_wypelnienia.append(input(f'Wpisz dane jeszcze {licznik} razy'))
-    licznik -= 1
-    print('Lista teraz:', lista_do_wypelnienia)
-
-print('Cała lista to', lista_do_wypelnienia)
-
-
-#wariant 2 - wypełnij listę podanymi wartościami - szybsza
-lista_inaczej = []
-for i, e in enumerate(range(10, 0, -1)):
-    lista_inaczej.append(input(f'Wpisz dane do listy jeszcze {e} razy'))
-    print('Lista teraz:', lista_inaczej)
-    print('i:', i, 'e:', e)
-
-print('Cała lista:', lista_inaczej)
+# #wariant 1 - wypełnij listę podanymi wartościami
+# lista_do_wypelnienia = []
+# licznik = 10
+# for i in range(1, 11):
+#     lista_do_wypelnienia.append(input(f'Wpisz dane jeszcze {licznik} razy'))
+#     licznik -= 1
+#     print('Lista teraz:', lista_do_wypelnienia)
+#
+# print('Cała lista to', lista_do_wypelnienia)
+#
+#
+# #wariant 2 - wypełnij listę podanymi wartościami - szybsza
+# lista_inaczej = []
+# for i, e in enumerate(range(10, 0, -1)):
+#     lista_inaczej.append(input(f'Wpisz dane do listy jeszcze {e} razy'))
+#     print('Lista teraz:', lista_inaczej)
+#     print('i:', i, 'e:', e)
+#
+# print('Cała lista:', lista_inaczej)
 
 
 #rozszerzanie listy
@@ -210,3 +209,36 @@ print(letter_to_check, 'occurs', number_of_occurences, 'times.')
 the_text_list = ['j', 'a', 'j', 'w', 'j']
 number_of_occurences_in_list = the_text_list.count(letter_to_check)
 print(letter_to_check, 'occurs', number_of_occurences_in_list, 'times in list.')
+
+list_to_choose = [1, 2, 3, 4]
+chosen_value = random.choice(list_to_choose)
+print('Chosen value 1:', chosen_value)
+chosen_value = random.choice(list_to_choose)
+print('Chosen value 1:', chosen_value)
+chosen_value = random.choice(list_to_choose)
+print('Chosen value 1:', chosen_value)
+chosen_value = random.choice(list_to_choose)
+print('Chosen value 1:', chosen_value)
+
+shuffled_list = list_to_choose[:]
+random.shuffle(shuffled_list)
+print('Original list', list_to_choose)
+print('Shuffled list', shuffled_list)
+print('Shuffled list', shuffled_list)
+print('Original list', list_to_choose)
+random.shuffle(list_to_choose)
+print('Orignial shuffled on-the-fly', list_to_choose)
+
+print('Sample values', random.sample(list_to_choose, 2))
+
+exercise_list = ['fdsa', 'fjdskl', 'f98sdafd']
+
+print('Index fdsa', exercise_list.index('fdsa'))
+print('Index fjdskl', exercise_list.index('fjdskl'))
+for i in range(len(exercise_list)):
+    if i == len(exercise_list) - 1:
+        print('i ' + exercise_list[i])
+    elif i == len(exercise_list) - 2:
+        print(exercise_list[i], end=' ')
+    else:
+        print(exercise_list[i], end=', ')
