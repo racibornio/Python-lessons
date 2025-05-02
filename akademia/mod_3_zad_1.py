@@ -13,7 +13,11 @@ result = {
     "value": most_stable_record.to_frame().T  # Convert the Series to a DataFrame for consistency
 }
 
-# Import the required dependencies
+
+
+
+
+
 import pandas as pd
 
 # Assuming df is a list of DataFrames and we are working with the first DataFrame
@@ -48,7 +52,6 @@ result_df = pd.DataFrame(most_stable_participants + least_stable_participants)
 
 
 
-# TODO: import the required dependencies
 import pandas as pd
 
 # Load the dataframe
