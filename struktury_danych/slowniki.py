@@ -40,7 +40,7 @@ samochody = {
 print(samochody)
 print(samochody["Toyota"])
 
-samochody["Mazda"]=  {"Rok_prod" : 1999, "Pojemność" : 1.4}
+samochody["Mazda"] = {"Rok_prod" : 1999, "Pojemność" : 1.4}
 print(samochody)
 print(samochody["Mazda"])
 

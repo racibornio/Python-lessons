@@ -1,6 +1,8 @@
 import random
 import sys
 
+from pandas.core.interchange.from_dataframe import primitive_column_to_ndarray
+
 liczba = 0
 while liczba < 5:
     print("Liczba:", liczba)
@@ -50,3 +52,57 @@ for i in range (10,0):
 
 
 print('siemanko', end=':-)')
+print()
+
+"""random number z funkcji random()"""
+rn = random.random()
+print("Random number from random() :", rn)
+
+
+"""random number z funkcji randint(min, max)"""
+rnd = random.randint(-90, -80)
+print("Random number from random() :", rnd)
+
+
+"""rzutowanie typów"""
+value_to_cast = input("Enter a number:")
+print(value_to_cast, "- type:", type(value_to_cast))
+integered = int(value_to_cast)
+print(value_to_cast, "- casted to int:", type(integered))
+floated = float(integered)
+print(value_to_cast, "- casted to float:", type(floated))
+
+
+"""pętla i wychodzenie z pętli"""
+while True:
+    value = input("Enter a value:")
+    if value == ' ':
+        break
+    else:
+        print("You typed", value)
+
+
+print("The loop is over.")
+
+
+"""use sys.exit"""
+# while True:
+#     value = input("Enter a value to check sys.exit():")
+#     integered_value = int(value)
+#     if integered_value < 0:
+#         print("Negative number - the program will end now...")
+#         sys.exit()
+#
+#
+#     print("You entered", value)
+
+
+"""global"""
+new_var = input("Enter a new variable")
+integered_var = int(new_var)
+if integered_var >= 0:
+    global doubled_var
+    doubled_var= integered_var * 2
+
+
+print("Global var declared in a body:", doubled_var)
