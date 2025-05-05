@@ -87,3 +87,15 @@ slownik_list = {
 }
 print("Wyświetlenie słownika list", slownik_list)
 print("Wyświetlenie 2-giej pozycji 1-go słownika", slownik_list["listaNiepar"][1])
+
+calkiem_nowy_slownik = {}
+print('Nowy słownik', calkiem_nowy_slownik, 'jego id', id(calkiem_nowy_slownik))
+calkiem_nowy_slownik["klucz a"] = {"wartość a"}
+klucz = next(iter(calkiem_nowy_slownik))
+wartosc_wartosci = calkiem_nowy_slownik["klucz a"]
+print('Nowy słownik', calkiem_nowy_slownik, 'jego id', id(calkiem_nowy_slownik), 'id klucza', id(klucz), 'id wartości', id(wartosc_wartosci))
+
+calkiem_nowy_slownik["a"] = {"a"}
+print(calkiem_nowy_slownik)
+calkiem_nowy_slownik["a"] = {"b"}
+print(calkiem_nowy_slownik)
