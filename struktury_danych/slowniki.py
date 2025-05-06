@@ -95,7 +95,60 @@ klucz = next(iter(calkiem_nowy_slownik))
 wartosc_wartosci = calkiem_nowy_slownik["klucz a"]
 print('Nowy słownik', calkiem_nowy_slownik, 'jego id', id(calkiem_nowy_slownik), 'id klucza', id(klucz), 'id wartości', id(wartosc_wartosci))
 
-calkiem_nowy_slownik["a"] = {"a"}
-print(calkiem_nowy_slownik)
-calkiem_nowy_slownik["a"] = {"b"}
-print(calkiem_nowy_slownik)
+calkiem_nowy_slownik["a"] = "a"
+print('Wyświetlamy nowy słownik', calkiem_nowy_slownik)
+calkiem_nowy_slownik["b"] = "b"
+print('Wyświetlamy nowy słownik', calkiem_nowy_slownik)
+calkiem_nowy_slownik[1] = 1
+print('Wyświetlamy nowy słownik', calkiem_nowy_slownik)
+
+slownik_3 = {"a-K" : "a-V", "b-K" : "b-V"}
+print(slownik_3)
+slownik_3["c-K"] = "c-V"
+print(slownik_3)
+print(slownik_3["a-K"])
+
+przykladowy_slownik = {
+    1 : "a",
+    2 : "b",
+    3 : "c"
+}
+
+print(przykladowy_slownik)
+
+slownik_adresow_pamieci = {}
+
+for k, v in przykladowy_slownik.items():
+    slownik_adresow_pamieci[id(k)] = id(v)
+    print(id(k), ':', id(v))
+
+for i in przykladowy_slownik.keys():
+    print('Klucze słownika:', i)
+
+
+for i in przykladowy_slownik.values():
+    print('Wartości słownika', i)
+
+
+for i in przykladowy_slownik.items():
+    print('Pary klucz-wartość słownika', i)
+
+
+przykladowy_slownik[4] = "d"
+print(przykladowy_slownik)
+
+for i in range(0, 11):
+    if i in przykladowy_slownik:
+        print(i, 'znajduje się')
+    else:
+        print(i, 'nie znajduje się')
+
+
+for i in range(0, 11):
+    print(i, przykladowy_slownik.get(i, 'nie ma wartości'))
+
+
+print(przykladowy_slownik.setdefault(0, '0  nie istnieje'))
+przykladowy_slownik[0] = 0
+
+print(przykladowy_slownik.setdefault(0, '0  nie istnieje'))
