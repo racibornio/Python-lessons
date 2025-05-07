@@ -1,3 +1,5 @@
+import pprint
+
 #unordered
 
 slownik_1 = {}
@@ -152,3 +154,22 @@ print(przykladowy_slownik.setdefault(0, '0  nie istnieje'))
 przykladowy_slownik[0] = 0
 
 print(przykladowy_slownik.setdefault(0, '0  nie istnieje'))
+
+
+slownik_slownikow = {
+    "1-kk" : {"2-vk" : "2-vv"}
+}
+
+print('Słownik słowników', slownik_slownikow)
+
+
+zmienna_tekstowa = 'Długi wpis w celu pokazania jak działa import modułu pythonprint - pprint'
+count = {}
+
+for character in zmienna_tekstowa:
+    count.setdefault(character, 0)
+    count[character] = count[character] + 1
+
+
+pprint.pprint(count)
+pprint.pprint()
