@@ -1,5 +1,11 @@
+from traceback import print_tb
+
 import pandas as pd
 import random
+from Programs.random_coin import probability_r
+
+# wyświetl absolutnie wszystkie kolumny
+pd.options.display.max_columns = None
 
 # zad. 1 - powstaje data frame
 df = pd.DataFrame([
@@ -7,12 +13,28 @@ df = pd.DataFrame([
     {"D2 k1": "D2 v1", "D2 k2": "D2 v2"},
     {"D3 k1": "D3 v1", "D3 k2": "D3 v2"}
 ],
-    index = ['1st', '2nd', '3rd']
+    index = ['1st', '2nd', '3rd'] # dodawane dla lepszej czytelności
 )
+print()
 
+# wyświetlenie wartości po uprzednio przypisanym indeksie
+print('Wyświetlenie wartości po uprzednio przypisanym indeksie:')
+tylko_1_st = df.loc['1st']
+print(tylko_1_st)
+print()
+
+print('Wyświetlenie całej struktury:')
 print(df)
+
+# wyświetl kolumny
+print('Kolumny:')
 print(df.columns)
+print()
+
+# wyświetl index czyli etykiety wierszy, jak id w DB
+print('Indeks:')
 print(df.index)
+print()
 
 
 # zad. 2 - lista na dane losowe - eksploracja
@@ -72,9 +94,19 @@ print('description:')
 print(df.describe())
 print()
 
-# pokaż unikaty
-print('unikatowe:')
+# policz unikaty
+print('Policz unikaty:')
 print(df.nunique())
+print()
+
+# pokaż unikaty konkretnej kolumny
+print('Unikaty samej kolumny age:')
+print(df['age'].unique())
+print()
+
+#pokaż wartości unikatów i ich liczbę
+print('Pokaż wartości unikatów i liczbę ich wystąpień:')
+print(df['age'].value_counts())
 print()
 
 # pokaż ile razy dana wartość występuje w kolumnie
@@ -144,8 +176,49 @@ df["age"] += 1
 print(df)
 print()
 
-# zmiana nazwy kolumny
+
+
+# zmiana nazwy kolumny - gdy tylko niektóre to słownikiem
 print('Zmiana nazwy kolumny:')
 df = df.rename(columns={"name" : "Imię"})
 print(df)
 print()
+
+# alternatywnie - nie trzeba nadpisywać zmiennej gdy damy inplace=True
+print('Zmiana nazw wielu kolumn - słownikiem:')
+df.rename(columns={"age" : "Wiek",
+                   "weight" : "Waga [kg]",
+                   "height [cm]" : "Wzrost [cm]",
+                   "country" : "Kraj",
+                   "bmi" : "BMI",
+                   "bmi category" : "Zaszeregowanie"
+                   },
+          inplace=True)
+
+print(df)
+print()
+
+#zmiana nazwy kolumn wg kolejności występowania
+print('Zmiana nazw wszytkich kolumn - listą:')
+df.columns = ['Imię', 'Wiek', 'Waga', 'Wzrost', 'Kraj', 'BMI', 'Klasyfikacja']
+print(df)
+print()
+
+# zmiana kolejności kolumn - zwykłe wpisanie pożądanej kolejności na nowo do df
+
+# sortowanie po kolumnie - rosnąco i malejąco
+print()
+print('Sortowanie rosnąco:')
+print(df.sort_values(by="Wzrost"))
+print()
+print('Sortowanie malejąco:')
+print(df.sort_values(by="Wzrost", ascending=False))
+print()
+
+
+# usunięcie konkretnej kolumny
+print('Kolumny teraz:')
+print(df.columns)
+print('Usuwamy klasyfikację')
+df = df.drop('Klasyfikacja', axis=1)
+print(df.columns)
