@@ -33,3 +33,14 @@ wpisz.isalpha() #jeśli tylko litery i niepusty
 wpisz.isalnum() #jeśli litery i cyfry i niepusty
 wpisz.isdecimal() #jeśli tylko cyfry i niepusy
 wpisz.isspace() #jeśli tylko spacje, taby i znaki nowego wiersza i niepusty
+
+
+# startswith, endswith
+dlugi_napis = '1d1a fdjsak 0o'
+czy_od_1a = dlugi_napis.startswith('1')
+print('Czy zaczyna się od "1"?: ', czy_od_1a)
+czy_koniec_o = dlugi_napis.endswith('o')
+print('Czy koniec na "o"?:', czy_koniec_o)
+
+
+# join() i split()
