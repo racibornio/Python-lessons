@@ -1,5 +1,3 @@
-from traceback import print_tb
-
 import pandas as pd
 
 df = pd.DataFrame(
@@ -39,7 +37,38 @@ print('Usuń wiersze tylko na podzbiorze kolumny:')
 print(df.dropna(subset="age"))
 print()
 
-# wypełnij brakujące dane stałymi wartościami
+# wypełnij brakujące dane stałymi wartościami - fillna() automatycznie rozpoznaje brakujące dane i do nich wstawia watości
 print('Wypełnij brakujące dane stałymi wartościami:')
 print(df.fillna({"age" : 30, "city" : "Unknown", "salary" : 5882}))
+print()
+
+# jak działa fillna():
+# df["kolumna"].fillna(wartosc)
+# dla każdej komórki w kolumnie:
+# jeśli zawiera wartość brakującą (NaN, None, pd.NA), to zostanie zamieniona na wartosc
+# jeśli zawiera wartość niebrakującą, to zostaje bez zmian
+
+# wypełnij brakujące dane średnią z dostępnych danych
+print('Wypełnij brakujące dane średnią z dostępnych danych:')
+df2 = df.copy()
+df2["age"] = df2["age"].fillna(df2["age"].mean())
+df2["salary"] = df2["salary"].fillna(df2["salary"].median())
+
+# lub
+#df2.fillna({"age": df2["age"].mean(), "salary": df2["salary"].median()}, inplace=True)
+
+print(df2)
+print()
+
+print('Znowu pierwszy data frame:')
+print(df)
+print()
+print('...i wypełnienie go jedną paczką kodu')
+df.fillna(
+    {"age" : df["age"].mean(),
+     "city" : "Unknown",
+     "salary" : df["salary"].median()
+     }, inplace=True
+)
+print(df)
 print()
