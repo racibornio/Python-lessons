@@ -1,8 +1,5 @@
-from traceback import print_tb
-
 import pandas as pd
 import random
-from Programs.random_coin import probability_r
 
 # wyświetl absolutnie wszystkie kolumny
 pd.options.display.max_columns = None
@@ -222,3 +219,19 @@ print(df.columns)
 print('Usuwamy klasyfikację')
 df = df.drop('Klasyfikacja', axis=1)
 print(df.columns)
+print()
+
+# próbny słownik na test niejednowymiarowości
+lista_slownikow = [
+    { "k1-1" : "v1-1" },
+    { "k2-1" : "v2-1", "k2-2" : "v2-2" },
+    { "k3-1" : "v3-1", "k3-2" : "v3-2", "k3-3" : "v3-3"}
+]
+
+print('Próbna lista słowników niejednowymiarowych')
+print(lista_slownikow)
+print()
+
+print('Wrzucenie tej listy do data frame')
+lista_slownikow_df = pd.DataFrame(lista_slownikow)
+print(lista_slownikow_df)

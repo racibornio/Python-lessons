@@ -86,3 +86,27 @@ rownolegly_slownik_df = pd.DataFrame(lista_slownikow_jednakowych_kluczy)
 print('Lista słowników jednakowych kluczy:')
 print(rownolegly_slownik_df)
 print()
+
+# filtrowanie po wartości, której nie ma na liście - czyli wyklucz tych z podanej tu listy i wtedy zwróć wartości pozostające
+print('Filtrowanie po wartości, której nie ma na liście:')
+print('Jeszcze raz czysty data frame:')
+print(df)
+print('Teraz filtrowanie:')
+print(df[~df["name"].isin(['Adam', 'Celina'])])
+print()
+
+# teraz przeciwnie - filtrowanie tylko po wartościach, które są w przekazanej liście
+print('Teraz przeciwnie - filtrowanie tylko po wartościach, które występują w przekazanej liście:')
+df = df[df["name"].isin(['Adam', 'Celina'])]
+print(df)
+print()
+
+# filtrowanie data frame po dacie
+print('Filtrowanie po dacie:')
+daty_df = pd.DataFrame([
+    {"date" : "2021-01-01"},
+    {"date" : "2021-02-01"}
+])
+daty_df["date"] = pd.to_datetime(daty_df["date"])
+print(daty_df[daty_df["date"] > "2021-01-15"])
+print()
