@@ -10,6 +10,13 @@ df = pd.DataFrame(
     index=["pracownik HR 0", "pracownik HR 1", "pracownik IT 0", "pracownik IT 1"]
 )
 
+# zapis danych do słownika
+data_in_dictionary = df.to_dict(orient='records')
+print('Wyświetl dane przerobione na słownik:')
+print(data_in_dictionary)
+print()
+
+print('Czysty odczyt zbioru jako data frame:')
 print(df)
 
 # wybranie tylko niektórych kolumn do wyświetlenia

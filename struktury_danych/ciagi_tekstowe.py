@@ -43,4 +43,23 @@ czy_koniec_o = dlugi_napis.endswith('o')
 print('Czy koniec na "o"?:', czy_koniec_o)
 
 
-# join() i split()
+# join(), split() i partition()
+# join() to metoda łańcuchowa, wywoływana na separatorze, a nie funkcja przyjmująca wiele argumentów
+tekst_1 = "fjdkal"
+tekst_2 = "fud0s9a"
+tekst_3 = "f0dsafdsa0"
+tekst_laczony = "-".join([tekst_1, tekst_2, tekst_3])
+print(tekst_laczony)
+
+# split()
+tekst_do_rozbicia = "jeden dwa trzy cztery, pięć sześć; siedem i osiem."
+print(tekst_do_rozbicia.split())
+tekst_do_rozbicia_z_parametrem = "dwaq piętnqaście q osiemq qurde"
+print(tekst_do_rozbicia_z_parametrem.split('q')) # jako argument może przyjąć znak nowego wiersz - \n
+
+# partition() - wyszukuje w ciągu tekstowym przekazany jej separator, a następnie zwraca krotkę
+# trzech podciągów tekstowych: „tekst przed separatorem”, „separator”, „tekst po separatorze”
+tekst_do_podzialu_metoda_partition = "to jest do podziału tekst"
+krotka_po_wyodrebnieniu = tekst_do_podzialu_metoda_partition.partition('do')
+print(krotka_po_wyodrebnieniu)
+print('Wynik działania krotki:', krotka_po_wyodrebnieniu[0], 'separator:', krotka_po_wyodrebnieniu[1], 'reszta:', krotka_po_wyodrebnieniu[2])

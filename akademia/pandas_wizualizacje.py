@@ -14,6 +14,10 @@ print('Czysty data frame:')
 print(df)
 print()
 
+print('Sam wykres bez parametrów:')
+print(df.plot())
+print()
+
 # histogram
 #df.hist()
 df["age"].hist(bins=3)
