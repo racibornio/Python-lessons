@@ -85,6 +85,13 @@ while True:
 print("The loop is over.")
 
 
+zmienna = 4
+print('Czy zmienna typu int? - ', isinstance(zmienna, int))
+
+inna_zmienna = 'fda'
+print('Czy zmienna typu int lub float? - ', isinstance(inna_zmienna, (int, float)))
+print('Czy zmienna typu string? - ', isinstance(inna_zmienna, str))
+
 """use sys.exit"""
 # while True:
 #     value = input("Enter a value to check sys.exit():")
@@ -95,14 +102,3 @@ print("The loop is over.")
 #
 #
 #     print("You entered", value)
-
-
-"""global"""
-new_var = input("Enter a new variable")
-integered_var = int(new_var)
-if integered_var >= 0:
-    global doubled_var
-    doubled_var= integered_var * 2
-
-
-print("Global var declared in a body:", doubled_var)
