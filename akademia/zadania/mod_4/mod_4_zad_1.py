@@ -111,8 +111,8 @@ for i in range(len(df.columns) - 1):
 
 
 # wykresy
-# histogram
 
+# histogram
 df["Klasa"].hist(bins=5)
 plt.show()
 
