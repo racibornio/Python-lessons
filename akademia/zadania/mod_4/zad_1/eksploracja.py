@@ -1,11 +1,10 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 
 # Konfiguracja: wyświetlaj wszystko
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 
-df = pd.read_csv(r'C:\\Users\\pos\\Documents\\Python\\Python-lessons\\akademia\\zadania\\mod_4\\25__iris.csv')
+df = pd.read_csv(r'/akademia/zadania/mod_4/zad_1/25__iris.csv')
 print(df)
 print()
 
