@@ -1,0 +1,53 @@
+df = pd.DataFrame( { [] } )
+
+##############################################
+##########      puste wartości      ##########
+##############################################
+
+df.isnull() -> tabela true/false dla pustych/niepustych komórek data frame
+df.isnull().sum() -> każda kolumna i suma jej nulli
+
+usuń wiersze z pustymi
+df.dropna() -> usuń N/A, czyli null z całego data frame
+df.dropna(axis=1) -> j.w.
+df.dropna(subset="nazwa_kolumny") -> usunięcie nulli tylko z konkretnej kolumny
+
+wypełnij puste miejsca wskazanymi danymi
+df.fillna({"age" : 30, "city" : "Unknown", "salary" : 5882}) -> wypełnienie pustych konkretnymi wartościami
+df2 = df.copy() -> skopiowanie data frame do innego
+df2["age"] = df2["age"].fillna(df2["age"].mean()) -> wypełnienie pustych średnią z istniejących
+df2["salary"] = df2["salary"].fillna(df2["salary"].median()) -> wypełnienie pustych medianą z istniejących
+df2.fillna({"age": df2["age"].mean(), "salary": df2["salary"].median()}, inplace=True) -> wypełnienie w locie
+df.fillna(
+    {"age" : df["age"].mean(),
+     "city" : "Unknown",
+     "salary" : df["salary"].median()
+     }, inplace=True
+)
+
+określenie współczynnika korelacji
+df[["age", "salary"]].corr()
+
+
+
+##############################################
+##########         duplikaty        ##########
+##############################################
+
+df.duplicated() -> tabela true/false dla duplikatów w data frame
+df.duplicated(subset=["Name", "Age", "City"]) -> true/false duplikaty dla wybranych kolumn
+print(df[df.duplicated()]) -> wyświetl zduplikowane wiersze
+df.drop_duplicates() -> usuń wiersze zaw. jakiekolwiek duplikaty
+df.drop_duplicates(subset=["Name", "Age", "City"]) -> usuń duplikaty tylko z wybranych wierszy
+df.drop_duplicates(subset=["Name", "Age", "City"], keep="last") -> usuń duplikaty, zachowaj ostatnie
+
+
+
+##############################################
+##########      naprawa błędów      ##########
+##############################################
+
+
+##############################################
+##########       filtrowanie        ##########
+##############################################

@@ -14,7 +14,7 @@ print('Nowy data frame:')
 print(df)
 print()
 
-# pokaż duplikaty czy są jakieś duplikaty - True lub False
+# pokaż czy są jakieś duplikaty - True lub False
 print('Pokaż duplikaty:')
 print(df.duplicated())
 print()
