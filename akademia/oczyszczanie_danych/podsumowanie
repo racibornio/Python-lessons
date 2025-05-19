@@ -47,7 +47,29 @@ df.drop_duplicates(subset=["Name", "Age", "City"], keep="last") -> usuń duplika
 ##########      naprawa błędów      ##########
 ##############################################
 
+df["Age"] = df["Age"].replace({"thirty-five" : 35, "Twenty-five" : 25}) -> naprawa poprzez podmianę wartości
+df["Age"] = pd.to_numeric(df["Age"], errors='coerce') -> zmiana typu kolumny, coerce zwraca NaN w razie błędów
+                                        errors="raise" -> domyślne, rzuca wyjatek w razie błędów
+                                        errors="ignore" -> zostawia bez zmian nawet jeśli wartości są nienumeryczne
+
+df2.loc[(df2["Age"] < 0) | (df2["Age"] > 120), "Age"] = None -> naprawa błędu walidacyjnego
+
 
 ##############################################
 ##########       filtrowanie        ##########
 ##############################################
+
+data_in_dictionary = df.to_dict(orient='records') -> zapis danych do słownika
+df[["name", "age"]] -> wyświetlenie tylko wybranych kolumn
+name_and_age_df = df[["name", "age"]].copy() -> stworzenie nowego data frame tylko z wybranymi kolumnami
+df["age"] > 40 -> tylko pozycje spełniające warunek
+(df["age"] > 40) & (df["height"] > 150) -> tylko pozycje spełniające warunki
+(df["age"] > 40) | (df["height"] > 150) -> tylko pozycje spełniające warunki
+df.iloc[1] -> tylko rekord o podanym id
+df.iloc[0:3] -> tylko rekordy po id z zakresu
+df.loc["pracownik IT 0"] -> tylko rekordy o przypisanym uprzednio indeksie: index=["pracownik HR 0", "pracownik HR 1", "pracownik IT 0", "pracownik IT 1"]
+df[~df["name"].isin(['Adam', 'Celina'])] -> tylko wartrości niespełniające warunku
+df[df["name"].isin(['Adam', 'Celina'])] -> tylko wartości spełniające warunek
+
+daty_df["date"] = pd.to_datetime(daty_df["date"]) -> zmiana typu kolumny liczbowej na datę do filtrowania
+daty_df[daty_df["date"] > "2021-01-15"] -> tylko wartości z określoną datą

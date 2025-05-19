@@ -43,12 +43,12 @@ print()
 
 # podaj tylko rekordy spełniające warunki
 print('Tylko osoby pow. 40-go r.ż. i 150cm:')
-print((df["age"] > 40) & (df["height"] > 150) )
+print((df["age"] > 40) & (df["height"] > 150))
 print()
 
 # podaj tylko rekordy spełniające warunki
 print('Tylko osoby pow. 40-go r.ż. lub 150cm:')
-print((df["age"] > 40) | (df["height"] > 150) )
+print((df["age"] > 40) | (df["height"] > 150))
 print()
 
 # podaj rekord o podanym id

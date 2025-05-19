@@ -1,3 +1,5 @@
+from traceback import print_tb
+
 import pandas as pd
 
 # Konfiguracja: wyświetlaj wszystko
@@ -57,3 +59,15 @@ print(
         {"pclass" : "klasa niewiadoma", "survived" : "nie wiadomo", "name" : "anonim", "sex" : "płeć nieznana", " age" : "wiek nieznany", "sibsp" : "czy rodzina?", "parch" : "czy rodzice/dzieci?", "ticket" : "czy bilet?", "fare" : "jaki przejazd?", "cabin" : "kabina?", "embarked" : "czy wyruszył?", "boat" : "czy łódź?", "body" : "numer ciała", "home.dest" : "skąd/dokąd ?"}
     )
 )
+print()
+
+print('Totalna suma:')
+print(len(df))
+print()
+
+print('Liczba wierszy i kolumn:')
+print(df.shape)
+print()
+
+print('Wierszy:', df.shape[0], ', kolumn:', df.shape[1])
+print()
