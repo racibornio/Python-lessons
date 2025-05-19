@@ -1,6 +1,33 @@
 df = pd.DataFrame( { [] } )
 
 ##############################################
+##########    eksploracja zbioru    ##########
+##############################################
+
+df.head() -> pierwsze 5
+df.head(9) -> pierwsze 9
+df.tail() -> ostatnie 5
+df.tail(11) -> ostatnie 11
+df.sample() -> losowych 5
+df.sample(7) -> losowych 7
+df.info() -> informacje o kolumnach
+df.describe() -> opis data frame
+df.unique() -> policz unikaty
+df['age'].unique() -> pokaż duplikaty wybranej kolumny
+df['age'].value_counts() -> pokaż wartości unikatów i ilość ich wystąpień
+df["height [m]"] = df["height [cm]"] / 100 -> nowa kolumna z kalkulacji innej
+df["bmi category"] = df["bmi"].apply(bmi_category) -> nowa kolumna z wynikiem działania funkcji
+df.drop(columns="height [m]", inplace=True) -> usunięcie kolumny
+df = df.drop('Klasyfikacja', axis=1) -> trwałe usunięcie kolumny
+df["age"] += 1 -> nadpisanie wartości w kolumnie
+df = df.rename(columns={"name" : "Imię"}) -> zmiana nazwy kolumny
+df.columns = ['Imię', 'Wiek', 'Waga', 'Wzrost', 'Kraj', 'BMI', 'Klasyfikacja'] -> zmiana nazw kolumn w kolejności występowania
+df.sort_values(by="Wzrost") -> sortowanie po kolumnie - rosnąco
+df.sort_values(by="Wzrost", ascending=False) -> sortowanie po kolumnie - malejąco
+
+
+
+##############################################
 ##########      puste wartości      ##########
 ##############################################
 

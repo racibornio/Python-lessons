@@ -71,3 +71,7 @@ print()
 
 print('Wierszy:', df.shape[0], ', kolumn:', df.shape[1])
 print()
+
+
+survived_first_class = df[(df['class'] == 1) & (df['survived'] == 1)]
+print(f'1st class survivors: {survived_first_class.to_string()}')
