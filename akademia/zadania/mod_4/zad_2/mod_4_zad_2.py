@@ -1,8 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from matplotlib.pyplot import legend
-from pandas.core.config_init import pc_max_info_rows_doc
-from pandas.core.interchange.from_dataframe import primitive_column_to_ndarray
 
 # Konfiguracja: wyświetlaj wszystko
 pd.set_option('display.max_rows', None)
@@ -10,7 +7,8 @@ pd.set_option('display.max_columns', None)
 
 
 df = pd.read_csv('26__titanic.csv')
-total = len(df)
+victims_total = len(df)
+print(f'This set contains data on {victims_total} persons.')
 print(df.sample(15).to_string())
 print()
 df.columns = ['class', 'survived', 'full_name', 'sex', 'age', 'siblings/spouse', 'parents/children', 'ticket_no', 'fare_price', 'cabin_no', 'embarked', 'boat_no', 'body_no', 'destination']
@@ -18,9 +16,9 @@ print(df.sample(15).to_string())
 print()
 
 survivors = (df['survived'] == 1).sum()
-print(f'Survived {survivors} of {total} persons.')
+print(f'Survived {survivors} of {victims_total} persons.')
 non_survivors = (df['survived'] == 0).sum()
-print(f'Not survived {non_survivors} of {total} persons.')
+print(f'Not survived {non_survivors} of {victims_total} persons.')
 print()
 
 
@@ -45,7 +43,7 @@ print('1st class survivors', first_class_survivors)
 
 first_class_non_survivors = ( (df['class'] == 1) & (df['survived'] == 0) ).sum()
 print('1st class non-survivors', first_class_non_survivors)
-surviving_ratio_first_class = round(first_class_survivors / total * 100, 2)
+surviving_ratio_first_class = round(first_class_survivors / victims_total * 100, 2)
 print(f'Your chance to survive as the 1st class passenger was {surviving_ratio_first_class}%')
 print()
 
@@ -55,7 +53,7 @@ print('2nd class survivors', second_class_survivors)
 
 second_class_non_survivors = ( (df['class'] == 2) & (df['survived'] == 0) ).sum()
 print('2nd class non-survivors', second_class_non_survivors)
-surviving_ratio_second_class = round(second_class_survivors / total * 100, 2)
+surviving_ratio_second_class = round(second_class_survivors / victims_total * 100, 2)
 print(f'Your chance to survive as the 2nd class passenger was {surviving_ratio_second_class}%')
 print()
 
@@ -65,7 +63,7 @@ print('3rd class survivors', third_class_survivors)
 
 third_class_non_survivors = ( (df['class'] == 3) & (df['survived'] == 0) ).sum()
 print('3rd class non-survivors', third_class_non_survivors)
-surviving_ratio_third_class = round(third_class_survivors / total * 100, 2)
+surviving_ratio_third_class = round(third_class_survivors / victims_total * 100, 2)
 print(f'Your chance to survive as the 3rd class passenger was {surviving_ratio_third_class}%')
 print()
 
@@ -170,3 +168,5 @@ print()
 
 bodies_not_found = df['body_no'].isnull().sum()
 print(f"{bodies_not_found} bodies have never been found.")
+total_passengers = 2200
+survived_passengers = total_passengers - victims_total

@@ -10,6 +10,10 @@ df = pd.read_csv('26__titanic.csv')
 print(df.head(5).to_string())
 print()
 
+print('Typy danych w kolumnach:')
+print(df.dtypes)
+print()
+
 print('Kolumny:')
 print(df.columns)
 print()
