@@ -243,3 +243,18 @@ survivors_traveling_with_parents_children = ((not_null_passengers_df['survived']
 non_survivors_traveling_with_parents_children = ((not_null_passengers_df['survived'] == 0) & (not_null_passengers_df['parents/children'] != 0)).sum()
 chance_to_survive_traveling_with_parents_children = survivors_traveling_with_parents_children / traveling_with_parents_children * 100
 print(f'{traveling_with_parents_children} passengers traveled with parents or children - {survivors_traveling_with_parents_children} survived while {non_survivors_traveling_with_parents_children} did not survive so traveling with parents or children your chance to survive was {round(chance_to_survive_traveling_with_parents_children, 2)}%')
+
+youngest_survived = df[df['survived'] == 1]['age'].min()
+print(f'The youngest survivor was {youngest_survived} years old.')
+
+oldest_survived = df[df['survived'] == 1]['age'].max()
+print(f'The oldest survivor was {oldest_survived} years old.')
+
+youngest_non_survivor = df[df['survived'] == 0]['age'].min()
+print(f'The youngest non-survivor was {youngest_non_survivor} years old.')
+
+oldest_non_survivor = df[df['survived'] == 0]['age'].max()
+print(f'The oldest non-survivor was {oldest_non_survivor} years old.')
+print(
+    df.groupby(['age'])['survived'].sum()
+)
