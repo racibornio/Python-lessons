@@ -1,5 +1,9 @@
+from tkinter.font import names
+from traceback import print_tb
+
 import pandas as pd
 import matplotlib.pyplot as plt
+from fontTools.subset import subset
 
 # Konfiguracja: wyświetlaj wszystko
 pd.set_option('display.max_rows', None)
@@ -7,30 +11,51 @@ pd.set_option('display.max_columns', None)
 
 
 df = pd.read_csv('26__titanic.csv')
-victims_total = len(df)
-print(f'This set contains data on {victims_total} persons.')
-print(df.sample(15).to_string())
+
+# sniff data
+print(df.sample(5).to_string())
 print()
+
+
+# rename columns and sniff data again
 df.columns = ['class', 'survived', 'full_name', 'sex', 'age', 'siblings/spouse', 'parents/children', 'ticket_no', 'fare_price', 'cabin_no', 'embarked', 'boat_no', 'body_no', 'destination']
 print(df.sample(15).to_string())
 print()
 
+
+# analyze facts
+print('### BACKGROUND QUICK FACTS ###')
+total_passengers = 2200
+passengers_in_this_set = len(df)
+print(f'{total_passengers} traveled in total. This set analyses {passengers_in_this_set} persons who have been found either alive or dead.')
+missing_passengers = total_passengers - passengers_in_this_set
+print(f'What happened to {missing_passengers} is unknown.')
+bodies_not_found = df['body_no'].isnull().sum()
 survivors = (df['survived'] == 1).sum()
-print(f'Survived {survivors} of {victims_total} persons.')
+print(f'{bodies_not_found} bodies have never been found.')
+print(f'{survivors} persons out of {passengers_in_this_set} survived.')
 non_survivors = (df['survived'] == 0).sum()
-print(f'Not survived {non_survivors} of {victims_total} persons.')
+print(f'{non_survivors} passengers {passengers_in_this_set} death has been confirmed.')
 print()
 
 
+# data set anlysis
+print('### THIS DATA SET QUICK FACTS ###')
 if df['survived'].isnull().sum() > 0:
     print('At least one information on survived/not-survived is missing.')
-    print()
 
 
 if df['class'].isnull().sum() > 0:
     print('At least one information on the class assignment is missing.')
-    print()
 
+print()
+print('Data types:')
+print(df.dtypes)
+
+print()
+
+# the analysis starts here
+print('### DATA SET ANALYSIS ###')
 first_class_passengers = (df['class'] == 1).sum()
 second_class_passengers = (df['class'] == 2).sum()
 third_class_passengers = (df['class'] == 3).sum()
@@ -43,7 +68,7 @@ print('1st class survivors', first_class_survivors)
 
 first_class_non_survivors = ( (df['class'] == 1) & (df['survived'] == 0) ).sum()
 print('1st class non-survivors', first_class_non_survivors)
-surviving_ratio_first_class = round(first_class_survivors / victims_total * 100, 2)
+surviving_ratio_first_class = round(first_class_survivors / passengers_in_this_set * 100, 2)
 print(f'Your chance to survive as the 1st class passenger was {surviving_ratio_first_class}%')
 print()
 
@@ -53,7 +78,7 @@ print('2nd class survivors', second_class_survivors)
 
 second_class_non_survivors = ( (df['class'] == 2) & (df['survived'] == 0) ).sum()
 print('2nd class non-survivors', second_class_non_survivors)
-surviving_ratio_second_class = round(second_class_survivors / victims_total * 100, 2)
+surviving_ratio_second_class = round(second_class_survivors / passengers_in_this_set * 100, 2)
 print(f'Your chance to survive as the 2nd class passenger was {surviving_ratio_second_class}%')
 print()
 
@@ -63,14 +88,15 @@ print('3rd class survivors', third_class_survivors)
 
 third_class_non_survivors = ( (df['class'] == 3) & (df['survived'] == 0) ).sum()
 print('3rd class non-survivors', third_class_non_survivors)
-surviving_ratio_third_class = round(third_class_survivors / victims_total * 100, 2)
+surviving_ratio_third_class = round(third_class_survivors / passengers_in_this_set * 100, 2)
 print(f'Your chance to survive as the 3rd class passenger was {surviving_ratio_third_class}%')
 print()
 
-
+# correlation
 class_survived_corr = df[["class", "survived"]].corr()
 print(f'Class vs. survived correlation is {class_survived_corr}.')
 
+# new variables for new data frame for charts drawing purposes
 class_labels = ['1st class', '2nd class', '3rd class']
 survivors_by_class = [first_class_survivors, second_class_survivors, third_class_survivors]
 non_survivors_by_class = [first_class_non_survivors, second_class_non_survivors, third_class_non_survivors]
@@ -163,10 +189,57 @@ print(f'The 3rd class most expensive ticket was {round(most_expensive_to_cheapes
 
 print()
 print()
+print(df['siblings/spouse'].sum(), 'siblings/spouse')
+print()
+traveled_alone = (df['siblings/spouse'] == 0).sum()
+print(f'{traveled_alone} passengers traveled alone.')
+print()
 
+survivors_per_siblings_or_spouse = df.groupby(['siblings/spouse'])['survived'].sum()
+print('Depending on number of co-passengers see the sum of survivors:')
+print(survivors_per_siblings_or_spouse)
+print()
+print('Powstała struktura', type(survivors_per_siblings_or_spouse), 'typ danych:', survivors_per_siblings_or_spouse.dtype)
+print(survivors_per_siblings_or_spouse[0])
+print(survivors_per_siblings_or_spouse[4.0])
 
+non_survivors_per_siblings_or_spouse = df.groupby(['siblings/spouse'])['survived'].apply(lambda x: (x == 0).sum())
+print('Depending on number of co-passengers see the sum of non-survivors:')
+print(non_survivors_per_siblings_or_spouse)
+print()
 
-bodies_not_found = df['body_no'].isnull().sum()
-print(f"{bodies_not_found} bodies have never been found.")
-total_passengers = 2200
-survived_passengers = total_passengers - victims_total
+# each column from among of 'survived', 'siblings/spouse', and 'parents/children' has nulls so data is not consistent - a new data frame is needed
+print('Problematic columns:')
+print(df['survived'].isnull().sum(), 'rows is not a number for column "survived"')
+print(df['siblings/spouse'].isnull().sum(), 'rows is not a number for column "siblings/spouse"')
+print(df['parents/children'].isnull().sum(), 'rows is not a number for column "parents/children"')
+print()
+
+# new data frame created because of the above:
+not_null_passengers_df = df.copy()
+not_null_passengers_df = not_null_passengers_df.dropna(subset=['siblings/spouse', 'parents/children'])
+
+# confirm that the data is consistent around the columns of interest
+print(not_null_passengers_df['survived'].isnull().sum(), 'rows is not a number for column "survived"')
+print(not_null_passengers_df['siblings/spouse'].isnull().sum(), 'rows is not a number for column "siblings/spouse"')
+print(not_null_passengers_df['parents/children'].isnull().sum(), 'rows is not a number for column "parents/children"')
+print()
+
+# conduct data mining
+traveling_alone = ((not_null_passengers_df['siblings/spouse'] == 0) & (not_null_passengers_df['parents/children'] == 0)).sum()
+survivors_traveling_alone = ((not_null_passengers_df['survived'] == 1) & (not_null_passengers_df['siblings/spouse'] == 0) & (not_null_passengers_df['parents/children'] == 0)).sum()
+non_survivors_traveling_alone = ((not_null_passengers_df['survived'] == 0) & (not_null_passengers_df['siblings/spouse'] == 0) & (not_null_passengers_df['parents/children'] == 0)).sum()
+chance_to_survive_traveling_alone = survivors_traveling_alone / traveling_alone * 100
+print(f'{traveling_alone} passengers traveled alone - {survivors_traveling_alone} survived while {non_survivors_traveling_alone} did not survive so traveling alone your chance to survive was {round(chance_to_survive_traveling_alone, 2)}%.')
+
+traveling_with_siblings_spouse = (not_null_passengers_df['siblings/spouse'] != 0).sum()
+survivors_traveling_with_siblings_spouse = ((not_null_passengers_df['survived'] == 1) & (not_null_passengers_df['siblings/spouse'] != 0)).sum()
+non_survivors_traveling_with_siblings_spouse = ((not_null_passengers_df['survived'] == 0) & (not_null_passengers_df['siblings/spouse'] != 0)).sum()
+chance_to_survive_traveling_with_siblings_spouse = survivors_traveling_with_siblings_spouse / traveling_with_siblings_spouse * 100
+print(f'{traveling_with_siblings_spouse} passengers traveled with siblings or spouse - {survivors_traveling_with_siblings_spouse} survived while {non_survivors_traveling_with_siblings_spouse} did not survive so traveling with siblings or spouse your chance to survive was {round(chance_to_survive_traveling_with_siblings_spouse, 2)}%')
+
+traveling_with_parents_children = (not_null_passengers_df['parents/children'] != 0).sum()
+survivors_traveling_with_parents_children = ((not_null_passengers_df['survived'] == 1) & (not_null_passengers_df['parents/children'] != 0) ).sum()
+non_survivors_traveling_with_parents_children = ((not_null_passengers_df['survived'] == 0) & (not_null_passengers_df['parents/children'] != 0)).sum()
+chance_to_survive_traveling_with_parents_children = survivors_traveling_with_parents_children / traveling_with_parents_children * 100
+print(f'{traveling_with_parents_children} passengers traveled with parents or children - {survivors_traveling_with_parents_children} survived while {non_survivors_traveling_with_parents_children} did not survive so traveling with parents or children your chance to survive was {round(chance_to_survive_traveling_with_parents_children, 2)}%')
