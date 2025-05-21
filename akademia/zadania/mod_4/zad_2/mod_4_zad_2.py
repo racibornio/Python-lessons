@@ -281,5 +281,5 @@ survivors_by_age_df = pd.DataFrame(
 )
 
 print()
-survivors_by_age_df.columns = ['survived_sum']
-print(survivors_by_age_df)
+survivors_by_age_df.columns = ['survivors_sum']
+print(survivors_by_age_df.sort_values('survivors_sum'))
