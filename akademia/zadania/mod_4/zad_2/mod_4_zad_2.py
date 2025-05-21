@@ -244,17 +244,42 @@ non_survivors_traveling_with_parents_children = ((not_null_passengers_df['surviv
 chance_to_survive_traveling_with_parents_children = survivors_traveling_with_parents_children / traveling_with_parents_children * 100
 print(f'{traveling_with_parents_children} passengers traveled with parents or children - {survivors_traveling_with_parents_children} survived while {non_survivors_traveling_with_parents_children} did not survive so traveling with parents or children your chance to survive was {round(chance_to_survive_traveling_with_parents_children, 2)}%')
 
+print()
+
 youngest_survived = df[df['survived'] == 1]['age'].min()
-print(f'The youngest survivor was {youngest_survived} years old.')
+print(f'The youngest survivor was {round(youngest_survived, 2)} years old.')
 
 oldest_survived = df[df['survived'] == 1]['age'].max()
-print(f'The oldest survivor was {oldest_survived} years old.')
+print(f'The oldest survivor was {round(oldest_survived, 2)} years old.')
+
+average_survivor_age = df[df['survived'] == 1]['age'].mean()
+print(f'Survivor average age was {round(average_survivor_age, 2)} years old.')
+
+median_survivor_age = df[df['survived'] == 1]['age'].median()
+print(f'Median of the survivor age was {round(median_survivor_age, 2)}.')
 
 youngest_non_survivor = df[df['survived'] == 0]['age'].min()
-print(f'The youngest non-survivor was {youngest_non_survivor} years old.')
+print(f'The youngest non-survivor was {round(youngest_non_survivor, 2)} years old.')
 
 oldest_non_survivor = df[df['survived'] == 0]['age'].max()
-print(f'The oldest non-survivor was {oldest_non_survivor} years old.')
-print(
+print(f'The oldest non-survivor was {round(oldest_non_survivor, 2)} years old.')
+
+average_non_survivor_age = df[df['survived'] == 0]['age'].mean()
+print(f'Non-survivors average age was {round(average_non_survivor_age, 2)} years old.')
+
+median_non_survivor_age = df[df['survived'] == 0]['age'].median()
+print(f'Median of non-survivors age was {round(median_non_survivor_age, 2)}.')
+
+print()
+
+survivors_by_age = df.groupby(['age'])['survived'].sum()
+print(f'Survivors by age:')
+print(round( survivors_by_age, 2 ))
+
+survivors_by_age_df = pd.DataFrame(
     df.groupby(['age'])['survived'].sum()
 )
+
+print()
+survivors_by_age_df.columns = ['survived_sum']
+print(survivors_by_age_df)
