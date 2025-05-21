@@ -1,9 +1,5 @@
-from tkinter.font import names
-from traceback import print_tb
-
 import pandas as pd
 import matplotlib.pyplot as plt
-from fontTools.subset import subset
 
 # Konfiguracja: wyświetlaj wszystko
 pd.set_option('display.max_rows', None)
@@ -13,18 +9,25 @@ pd.set_option('display.max_columns', None)
 df = pd.read_csv('26__titanic.csv')
 
 # sniff data
+print('###################################################')
+print('################ MEET THE DATA SET ################')
+print('###################################################')
 print(df.sample(5).to_string())
 print()
 
 
 # rename columns and sniff data again
+print('###################################################')
+print('################# RENAMED COLUMNS #################')
+print('###################################################')
 df.columns = ['class', 'survived', 'full_name', 'sex', 'age', 'siblings/spouse', 'parents/children', 'ticket_no', 'fare_price', 'cabin_no', 'embarked', 'boat_no', 'body_no', 'destination']
 print(df.sample(15).to_string())
 print()
 
-
 # analyze facts
-print('### BACKGROUND QUICK FACTS ###')
+print('##################################################')
+print('##### A FEW QUICK FACTS ON THE CIRCUMSTANCES #####')
+print('##################################################')
 total_passengers = 2200
 passengers_in_this_set = len(df)
 print(f'{total_passengers} traveled in total. This set analyses {passengers_in_this_set} persons who have been found either alive or dead.')
@@ -39,8 +42,10 @@ print(f'{non_survivors} passengers {passengers_in_this_set} death has been confi
 print()
 
 
-# data set anlysis
-print('### THIS DATA SET QUICK FACTS ###')
+# data set analysis
+print('#################################################')
+print('############### DATA SET ANALYSIS ###############')
+print('#################################################')
 if df['survived'].isnull().sum() > 0:
     print('At least one information on survived/not-survived is missing.')
 
@@ -55,7 +60,9 @@ print(df.dtypes)
 print()
 
 # the analysis starts here
-print('### DATA SET ANALYSIS ###')
+print('###################################################')
+print('############ PURE ANALYSIS STARTS HERE ############')
+print('###################################################')
 first_class_passengers = (df['class'] == 1).sum()
 second_class_passengers = (df['class'] == 2).sum()
 third_class_passengers = (df['class'] == 3).sum()
@@ -94,7 +101,8 @@ print()
 
 # correlation
 class_survived_corr = df[["class", "survived"]].corr()
-print(f'Class vs. survived correlation is {class_survived_corr}.')
+print(f'Class vs. survived correlation is:')
+print(class_survived_corr)
 
 # new variables for new data frame for charts drawing purposes
 class_labels = ['1st class', '2nd class', '3rd class']
@@ -141,19 +149,24 @@ print()
 
 cheapest_tickets_by_class = prices_not_zero_df.groupby(['class'])['fare_price'].min()
 print(
-    'Cheapest tickets by class (excluding zeros): \n', cheapest_tickets_by_class
+    'The cheapest tickets by class (excluding zeros): \n', cheapest_tickets_by_class
 )
 print()
 
 most_expensive_tickets_by_class = prices_not_zero_df.groupby(['class'])['fare_price'].max()
 print(
-    'Most expensive tickets by class:\n', most_expensive_tickets_by_class
+    'The most expensive tickets by class:\n', most_expensive_tickets_by_class
 )
 print()
 
 # the cheapest vs. the most expensive tickets in 1st class
 print(f'1st class cheapest ticket: {cheapest_tickets_by_class[1.0]}')
 print(f'1st class most expensive ticket: {most_expensive_tickets_by_class[1.0]}')
+print()
+
+# the cheapest vs. the most expensive tickets in 2n class
+print(f'2nd class cheapest ticket: {cheapest_tickets_by_class[2.0]}')
+print(f'2nd class most expensive ticket: {most_expensive_tickets_by_class[2.0]}')
 print()
 
 # the cheapest vs. the most expensive tickets in 3rd class
@@ -175,37 +188,18 @@ print(f'The 3rd class cheapest ticket price was {round(cheapest_to_most_expensiv
 
 print()
 
-# how many times was the most expensive more expensive than the cheapest in the 1st class
+# how many times was the most expensive ticket more expensive than the cheapest in the 1st class
 most_expensive_to_cheapest_1st_class = most_expensive_tickets_by_class[1.0] / cheapest_tickets_by_class[1.0]
 print(f'The 1st class most expensive ticket was {round(most_expensive_to_cheapest_1st_class, 2)} times more expensive than the cheapest one.')
 
-# how many times was the most expensive more expensive than the cheapest in the 2nd class
+# how many times was the most expensive ticket more expensive than the cheapest in the 2nd class
 most_expensive_to_cheapest_2nd_class = most_expensive_tickets_by_class[2.0] / cheapest_tickets_by_class[2.0]
 print(f'The 2nd class most expensive ticket was {round(most_expensive_to_cheapest_2nd_class, 2)} times more expensive than the cheapest one.')
 
-# how many times was the most expensive more expensive than the cheapest in the 3rd class
+# how many times was the most expensive ticket more expensive than the cheapest in the 3rd class
 most_expensive_to_cheapest_3rd_class = most_expensive_tickets_by_class[3.0] / cheapest_tickets_by_class[3.0]
 print(f'The 3rd class most expensive ticket was {round(most_expensive_to_cheapest_3rd_class, 2)} times more expensive than the cheapest one.')
 
-print()
-print()
-print(df['siblings/spouse'].sum(), 'siblings/spouse')
-print()
-traveled_alone = (df['siblings/spouse'] == 0).sum()
-print(f'{traveled_alone} passengers traveled alone.')
-print()
-
-survivors_per_siblings_or_spouse = df.groupby(['siblings/spouse'])['survived'].sum()
-print('Depending on number of co-passengers see the sum of survivors:')
-print(survivors_per_siblings_or_spouse)
-print()
-print('Powstała struktura', type(survivors_per_siblings_or_spouse), 'typ danych:', survivors_per_siblings_or_spouse.dtype)
-print(survivors_per_siblings_or_spouse[0])
-print(survivors_per_siblings_or_spouse[4.0])
-
-non_survivors_per_siblings_or_spouse = df.groupby(['siblings/spouse'])['survived'].apply(lambda x: (x == 0).sum())
-print('Depending on number of co-passengers see the sum of non-survivors:')
-print(non_survivors_per_siblings_or_spouse)
 print()
 
 # each column from among of 'survived', 'siblings/spouse', and 'parents/children' has nulls so data is not consistent - a new data frame is needed
@@ -220,12 +214,16 @@ not_null_passengers_df = df.copy()
 not_null_passengers_df = not_null_passengers_df.dropna(subset=['siblings/spouse', 'parents/children'])
 
 # confirm that the data is consistent around the columns of interest
+print('Because of the above, the following data frame has been created to exclude missing data:')
 print(not_null_passengers_df['survived'].isnull().sum(), 'rows is not a number for column "survived"')
 print(not_null_passengers_df['siblings/spouse'].isnull().sum(), 'rows is not a number for column "siblings/spouse"')
 print(not_null_passengers_df['parents/children'].isnull().sum(), 'rows is not a number for column "parents/children"')
 print()
 
 # conduct data mining
+print('############################################################')
+print('# CHANCES TO SURVIVE - ALONE vs. WITH ADULTS vs. WITH KIDS #')
+print('############################################################')
 traveling_alone = ((not_null_passengers_df['siblings/spouse'] == 0) & (not_null_passengers_df['parents/children'] == 0)).sum()
 survivors_traveling_alone = ((not_null_passengers_df['survived'] == 1) & (not_null_passengers_df['siblings/spouse'] == 0) & (not_null_passengers_df['parents/children'] == 0)).sum()
 non_survivors_traveling_alone = ((not_null_passengers_df['survived'] == 0) & (not_null_passengers_df['siblings/spouse'] == 0) & (not_null_passengers_df['parents/children'] == 0)).sum()
@@ -246,6 +244,10 @@ print(f'{traveling_with_parents_children} passengers traveled with parents or ch
 
 print()
 
+# the youngest and the oldest survivors and non-survivors
+print('###################################################')
+print('# YOUNGEST AND OLDEST SURVIVORS AND NON-SURVIVORS #')
+print('###################################################')
 youngest_survived = df[df['survived'] == 1]['age'].min()
 print(f'The youngest survivor was {round(youngest_survived, 2)} years old.')
 
@@ -257,6 +259,8 @@ print(f'Survivor average age was {round(average_survivor_age, 2)} years old.')
 
 median_survivor_age = df[df['survived'] == 1]['age'].median()
 print(f'Median of the survivor age was {round(median_survivor_age, 2)}.')
+
+print()
 
 youngest_non_survivor = df[df['survived'] == 0]['age'].min()
 print(f'The youngest non-survivor was {round(youngest_non_survivor, 2)} years old.')
@@ -271,15 +275,46 @@ median_non_survivor_age = df[df['survived'] == 0]['age'].median()
 print(f'Median of non-survivors age was {round(median_non_survivor_age, 2)}.')
 
 print()
+print('##################################################')
+print('####### AGE & SUM OF SURVIVORS AT EACH AGE #######')
+print('##################################################')
+df_clean = df[['age', 'survived']].dropna()
+df_clean['age'] = df_clean['age'].astype(int)
+survivors_by_age = df_clean.groupby('age')['survived'].sum().astype(int)
+print(survivors_by_age)
 
-survivors_by_age = df.groupby(['age'])['survived'].sum()
-print(f'Survivors by age:')
-print(round( survivors_by_age, 2 ))
+plt.figure(figsize=(12, 6))
+survivors_by_age.plot(kind='bar')
 
-survivors_by_age_df = pd.DataFrame(
-    df.groupby(['age'])['survived'].sum()
-)
+plt.title('Number of survivors by age')
+plt.xlabel('Age')
+plt.ylabel('Number of survivors')
+plt.xticks(rotation=90)
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.tight_layout()
+plt.show()
 
 print()
-survivors_by_age_df.columns = ['survivors_sum']
-print(survivors_by_age_df.sort_values('survivors_sum'))
+
+print('##################################################')
+print('############# % OF SURVIVORS PER SEX #############')
+print('##################################################')
+women_traveled = df[df['sex'] == 'female'].shape[0]
+print(f'{int(women_traveled)} woman traveled.')
+women_survied = df[df['sex'] == 'female']['survived'].sum()
+print(f'{int(women_survied)} woman survived.')
+print()
+
+men_traveled = df[df['sex'] == 'male'].shape[0]
+print(f'{int(men_traveled)} woman traveled.')
+men_survied = df[df['sex'] == 'male']['survived'].sum()
+print(f'{int(men_survied)} woman survived.')
+print()
+
+women_chance_to_survive = women_survied / women_traveled * 100
+print(f'Woman had {round(women_chance_to_survive, 2)}% chance to survive.')
+print()
+
+men_chance_to_survive = men_survied / men_traveled * 100
+print(f'Men had {round(men_chance_to_survive, 2)}% chance to survive.')
+print()
