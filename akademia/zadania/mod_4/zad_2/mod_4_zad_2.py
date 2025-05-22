@@ -1,10 +1,11 @@
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from pandas.core.interchange.from_dataframe import primitive_column_to_ndarray
 
 # Konfiguracja: wyświetlaj wszystko
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
-
 
 df = pd.read_csv('26__titanic.csv')
 
@@ -46,12 +47,198 @@ print()
 print('#################################################')
 print('############### DATA SET ANALYSIS ###############')
 print('#################################################')
-if df['survived'].isnull().sum() > 0:
-    print('At least one information on survived/not-survived is missing.')
+print()
+print('############## NULL VALUES COUNTER ##############')
+print()
+for column in df:
+    column_sum_of_null = df[column].isnull().sum()
+    print(f'{column_sum_of_null} times null in {column}.')
 
 
-if df['class'].isnull().sum() > 0:
-    print('At least one information on the class assignment is missing.')
+print()
+print('############### COLUMN: CLASS ###############')
+print()
+print('Column "class" type:', df['class'].dtype)
+print('Unique values:', df['class'].unique())
+print()
+
+print()
+print('############### COLUMN: SURVIVED ###############')
+print()
+print('Column "survived" type:', df['survived'].dtype)
+print('Unique values:', df['survived'].unique())
+print()
+
+print()
+print('############### COLUMN: FULL NAME ###############')
+print()
+print('Column "full_name" type:', df['full_name'].dtype)
+print('Unique values:', df['full_name'].unique())
+print()
+
+print()
+print('############### COLUMN: SEX ###############')
+print()
+print('Column "sex" type:', df['sex'].dtype)
+print('Unique values:', df['sex'].unique())
+print()
+
+print()
+print('############### COLUMN: AGE ###############')
+print()
+print('Column "age" type:', df['age'].dtype)
+print('Unique values:', np.sort(df['age'].unique()))
+print()
+
+print()
+print('############### COLUMN: SIBLINGS/SPOUSE ###############')
+print()
+print('Column "siblings/spouse" type:', df['siblings/spouse'].dtype)
+print('Unique values:', df['siblings/spouse'].unique())
+print()
+
+print()
+print('############### COLUMN: PARENTS/CHILDREN ###############')
+print()
+print('Column "parents/children" type:', df['parents/children'].dtype)
+print('Unique values:', df['parents/children'].unique())
+print()
+
+print()
+print('############### COLUMN: TICKET NO ###############')
+print()
+print('Column "ticket_no" type:', df['ticket_no'].dtype)
+print('Unique values:', sorted(df['ticket_no'].astype(str).unique()))
+print()
+
+print()
+print('############### COLUMN: FARE PRICE ###############')
+print()
+print('Column "fare_price" type:', df['fare_price'].dtype)
+print('Unique values:', np.sort(df['fare_price'].unique()))
+total_cost_of_journey = df['fare_price'].sum()
+print()
+print(f'All passengers paid {total_cost_of_journey} for the journey.')
+average_ticket_price = df['fare_price'].mean()
+median_ticket_price = df['fare_price'].median()
+print(f'Average ticket price was {round(average_ticket_price, 2)} while the median was {round(median_ticket_price, 2)}.')
+# histogram
+df['fare_price'].hist(bins = 200, legend=True)
+plt.title('Price per sold tickets - histogram')
+plt.xlabel('Price for ticket')
+plt.ylabel('Number of tickets sold')
+plt.show()
+print()
+
+print()
+print('############### COLUMN: CABIN NO. ###############')
+print()
+print('Column "cabin_no" type:', df['cabin_no'].dtype)
+print('Unique values:', df['cabin_no'].unique())
+print()
+assgined_cabins_assignment_sum = df['cabin_no'].count()
+unknown_cabins_assignment_sum = df['cabin_no'].isnull().sum()
+print(f'{assgined_cabins_assignment_sum} allocations to cabins have been identified. Still allocation of {unknown_cabins_assignment_sum} cabins is unknown.')
+print()
+
+print()
+print('############### COLUMN: EMBARKED ###############')
+print()
+print('Column "embarked" type:', df['embarked'].dtype)
+print('Unique values:', df['embarked'].unique())
+embarked_from_cherbourg = (df['embarked'] == 'C').sum()
+embarked_from_southampton = (df['embarked'] == 'S').sum()
+embarked_from_queenstown = (df['embarked'] == 'Q').sum()
+print(f'{embarked_from_southampton} persons onboarded in Southampton then {embarked_from_cherbourg} onboarded in Cherbourg and finally {embarked_from_queenstown} onbarded in Queenstown.')
+print()
+survivors_cherbourg = ((df['embarked'] == 'C') & (df['survived'] == 1)).sum()
+non_survivors_cherbourg = ((df['embarked'] == 'C') & (df['survived'] == 0)).sum()
+print(f'From among of those who embarked in Cherbourg {survivors_cherbourg} survived while {non_survivors_cherbourg} died.')
+
+survivors_southampton = ((df['embarked'] == 'S') & (df['survived'] == 1)).sum()
+non_survivors_southampton = ((df['embarked'] == 'S') & (df['survived'] == 0)).sum()
+print(f'From among of those who embarked in Southampton {survivors_southampton} survived while {non_survivors_southampton} died.')
+
+survivors_queenstown = ((df['embarked'] == 'Q') & (df['survived'] == 1)).sum()
+non_survivors_queenstown = ((df['embarked'] == 'Q') & (df['survived'] == 0)).sum()
+print(f'From among of those who embarked in Queenstown {survivors_queenstown} survived while {non_survivors_queenstown} died.')
+
+#new data frame for chart purposes
+embarkement_survived_df = pd.DataFrame({
+    'embarked' : ['Cherbourg', 'Southampton', 'Queenstown'],
+    'survived' : [survivors_cherbourg, survivors_southampton, survivors_queenstown],
+    'not-survived' : [non_survivors_cherbourg, non_survivors_southampton, non_survivors_queenstown]
+})
+
+embarkement_survived_df.set_index('embarked', inplace=True)
+embarkement_survived_df.plot(kind='bar', stacked=True)
+plt.title('Survived/not-survived per embarkement port')
+plt.xlabel('Embarkement port')
+plt.ylabel('Number of passengers')
+plt.legend(['Survived', 'Not survived'])
+plt.tight_layout()
+plt.show()
+print()
+
+print()
+print('############### COLUMN: BOAT NO. ###############')
+print()
+print('Column "boat_no" type:', df['boat_no'].dtype)
+print('Unique values:', sorted(df['boat_no'].astype(str).unique()))
+boats_total = df['boat_no'].nunique()
+print(f'There has been {boats_total} boats in total.')
+in_boat = df['boat_no'].notnull().sum()
+boat_passangers = in_boat / boats_total
+print(f'{in_boat} persons got their boat which gives {int(boat_passangers)} passengers in one boat.')
+not_in_boat = df['boat_no'].isnull().sum()
+print(f'{not_in_boat} persons did not get their boat.')
+print()
+
+print()
+print('################################################')
+print('# Check if not shitty data regarding survivors #')
+print('################################################')
+bodies_from_boats = ((df['boat_no'].notnull()) & (df['body_no'].notnull())).sum()
+print(f'Dead from boats: {bodies_from_boats}.')
+bodies_despite_survived = ((df['survived'] == 1) & (df['body_no'].notnull())).sum()
+print(f'Survived despite body_no: {bodies_despite_survived}.')
+print()
+
+print()
+print('############### COLUMN: BODY NO. ###############')
+print()
+print('Column "body_no" type:', df['body_no'].dtype)
+print('Unique values:', np.sort(df['body_no'].unique()))
+total_bodies = df['body_no'].count()
+print(f'Bodies found in total: {total_bodies}')
+
+
+print()
+print()
+print()
+
+age_by_sex = df.groupby(['sex'])['age'].mean()
+print(f'Average age in each sex was:')
+print(round(age_by_sex, 0))
+print()
+sex_by_age = df.groupby(['age', 'sex']).size()
+print(f'Sum of passengers of each sex per age:')
+print(sex_by_age)
+
+# new data frame for scatter plot purpose
+sex_by_age_df = df.groupby(['age', 'sex']).size().reset_index(name='count')
+for gender in sex_by_age_df['sex'].unique():
+    subset = sex_by_age_df[sex_by_age_df['sex'] == gender]
+    plt.scatter(subset['age'], subset['count'], label=gender, alpha=0.7)
+
+# scatter plot itself
+plt.xlabel('Age')
+plt.ylabel('Passengers sum')
+plt.title('Passengers sum per age by sex')
+plt.legend()
+plt.grid(True)
+plt.show()
+
 
 print()
 print('Data types:')
@@ -117,11 +304,11 @@ plot_df = pd.DataFrame({
     'chance_to_survive' : chance_to_survive
 })
 
-plot_df.plot(kind="pie", y="survived", labels=plot_df["class"], legend=False)
-plt.show()
-
-plot_df.plot(kind="bar", x="class", y=["chance_to_survive"])
-plt.show()
+# plot_df.plot(kind="pie", y="survived", labels=plot_df["class"], legend=False)
+# plt.show()
+#
+# plot_df.plot(kind="bar", x="class", y=["chance_to_survive"])
+# plt.show()
 
 print()
 print('New data frame:')
@@ -286,13 +473,13 @@ print(survivors_by_age)
 plt.figure(figsize=(12, 6))
 survivors_by_age.plot(kind='bar')
 
-plt.title('Number of survivors by age')
-plt.xlabel('Age')
-plt.ylabel('Number of survivors')
-plt.xticks(rotation=90)
-plt.grid(axis='y', linestyle='--', alpha=0.7)
-plt.tight_layout()
-plt.show()
+# plt.title('Number of survivors by age')
+# plt.xlabel('Age')
+# plt.ylabel('Number of survivors')
+# plt.xticks(rotation=90)
+# plt.grid(axis='y', linestyle='--', alpha=0.7)
+# plt.tight_layout()
+# plt.show()
 
 print()
 
