@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from pandas.core.interchange.from_dataframe import primitive_column_to_ndarray
 
 # Konfiguracja: wyświetlaj wszystko
 pd.set_option('display.max_rows', None)
@@ -39,7 +38,7 @@ survivors = (df['survived'] == 1).sum()
 print(f'{bodies_not_found} bodies have never been found.')
 print(f'{survivors} persons out of {passengers_in_this_set} survived.')
 non_survivors = (df['survived'] == 0).sum()
-print(f'{non_survivors} passengers {passengers_in_this_set} death has been confirmed.')
+print(f'Death of {non_survivors} passengers out of {passengers_in_this_set} in this set has been confirmed.')
 print()
 
 
@@ -294,6 +293,11 @@ print()
 class_survived_corr = df[["class", "survived"]].corr()
 print(f'Class vs. survived correlation is:')
 print(class_survived_corr)
+print()
+df['sex_numeric'] = df['sex'].map({'male': 0, 'female': 1})
+sex_survived_corr = df[["sex_numeric", "survived"]].corr()
+print(f'Sex vs. survived correlation is:')
+print(sex_survived_corr)
 
 # new variables for new data frame for charts drawing purposes
 class_labels = ['1st class', '2nd class', '3rd class']
@@ -308,11 +312,11 @@ plot_df = pd.DataFrame({
     'chance_to_survive' : chance_to_survive
 })
 
-# plot_df.plot(kind="pie", y="survived", labels=plot_df["class"], legend=False)
-# plt.show()
-#
-# plot_df.plot(kind="bar", x="class", y=["chance_to_survive"])
-# plt.show()
+plot_df.plot(kind="pie", y="survived", labels=plot_df["class"], legend=False)
+plt.show()
+
+plot_df.plot(kind="bar", x="class", y=["chance_to_survive"])
+plt.show()
 
 print()
 print('New data frame:')
@@ -477,13 +481,13 @@ print(survivors_by_age)
 plt.figure(figsize=(12, 6))
 survivors_by_age.plot(kind='bar')
 
-# plt.title('Number of survivors by age')
-# plt.xlabel('Age')
-# plt.ylabel('Number of survivors')
-# plt.xticks(rotation=90)
-# plt.grid(axis='y', linestyle='--', alpha=0.7)
-# plt.tight_layout()
-# plt.show()
+plt.title('Number of survivors by age')
+plt.xlabel('Age')
+plt.ylabel('Number of survivors')
+plt.xticks(rotation=90)
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.tight_layout()
+plt.show()
 
 print()
 
@@ -491,19 +495,19 @@ print('##################################################')
 print('############# % OF SURVIVORS PER SEX #############')
 print('##################################################')
 women_traveled = df[df['sex'] == 'female'].shape[0]
-print(f'{int(women_traveled)} woman traveled.')
+print(f'{int(women_traveled)} women traveled.')
 women_survied = df[df['sex'] == 'female']['survived'].sum()
-print(f'{int(women_survied)} woman survived.')
+print(f'{int(women_survied)} women survived.')
 print()
 
 men_traveled = df[df['sex'] == 'male'].shape[0]
-print(f'{int(men_traveled)} woman traveled.')
+print(f'{int(men_traveled)} men traveled.')
 men_survied = df[df['sex'] == 'male']['survived'].sum()
-print(f'{int(men_survied)} woman survived.')
+print(f'{int(men_survied)} men survived.')
 print()
 
 women_chance_to_survive = women_survied / women_traveled * 100
-print(f'Woman had {round(women_chance_to_survive, 2)}% chance to survive.')
+print(f'Women had {round(women_chance_to_survive, 2)}% chance to survive.')
 print()
 
 men_chance_to_survive = men_survied / men_traveled * 100
