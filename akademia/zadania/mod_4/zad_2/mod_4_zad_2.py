@@ -136,9 +136,9 @@ print()
 print('Column "cabin_no" type:', df['cabin_no'].dtype)
 print('Unique values:', df['cabin_no'].unique())
 print()
-assgined_cabins_assignment_sum = df['cabin_no'].count()
+known_cabins_assignment_sum = df['cabin_no'].count()
 unknown_cabins_assignment_sum = df['cabin_no'].isnull().sum()
-print(f'{assgined_cabins_assignment_sum} allocations to cabins have been identified. Still allocation of {unknown_cabins_assignment_sum} cabins is unknown.')
+print(f'{known_cabins_assignment_sum} allocations to cabins have been identified. Still allocation of {unknown_cabins_assignment_sum} cabins is unknown.')
 print()
 
 print()
@@ -164,16 +164,16 @@ non_survivors_queenstown = ((df['embarked'] == 'Q') & (df['survived'] == 0)).sum
 print(f'From among of those who embarked in Queenstown {survivors_queenstown} survived while {non_survivors_queenstown} died.')
 
 #new data frame for chart purposes
-embarkement_survived_df = pd.DataFrame({
+embarkment_survived_df = pd.DataFrame({
     'embarked' : ['Cherbourg', 'Southampton', 'Queenstown'],
     'survived' : [survivors_cherbourg, survivors_southampton, survivors_queenstown],
     'not-survived' : [non_survivors_cherbourg, non_survivors_southampton, non_survivors_queenstown]
 })
 
-embarkement_survived_df.set_index('embarked', inplace=True)
-embarkement_survived_df.plot(kind='bar', stacked=True)
-plt.title('Survived/not-survived per embarkement port')
-plt.xlabel('Embarkement port')
+embarkment_survived_df.set_index('embarked', inplace=True)
+embarkment_survived_df.plot(kind='bar', stacked=True)
+plt.title('Survived/not-survived per embarkment port')
+plt.xlabel('Embarkment port')
 plt.ylabel('Number of passengers')
 plt.legend(['Survived', 'Not survived'])
 plt.tight_layout()
@@ -195,9 +195,9 @@ print(f'{not_in_boat} persons did not get their boat.')
 print()
 
 print()
-print('################################################')
-print('# Check if not shitty data regarding survivors #')
-print('################################################')
+print('###############################################')
+print('# Check if no shitty data regarding survivors #')
+print('###############################################')
 bodies_from_boats = ((df['boat_no'].notnull()) & (df['body_no'].notnull())).sum()
 print(f'Dead from boats: {bodies_from_boats}.')
 bodies_despite_survived = ((df['survived'] == 1) & (df['body_no'].notnull())).sum()
@@ -239,6 +239,10 @@ plt.legend()
 plt.grid(True)
 plt.show()
 
+class_count = df['class'].count()
+print(f'Class count: {class_count}')
+class_sum = df['class'].sum()
+print(f'Class sum:{class_sum}')
 
 print()
 print('Data types:')
