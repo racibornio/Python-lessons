@@ -64,6 +64,7 @@ df[["age", "salary"]].corr()
 df.duplicated() -> tabela true/false dla duplikatów w data frame
 df.duplicated(subset=["Name", "Age", "City"]) -> true/false duplikaty dla wybranych kolumn
 print(df[df.duplicated()]) -> wyświetl zduplikowane wiersze
+print(df[df.duplicated(keep=False)]) -> wyświetl zduplikowane wiersze wraz z pierwotnymi
 df.drop_duplicates() -> usuń wiersze zaw. jakiekolwiek duplikaty
 df.drop_duplicates(subset=["Name", "Age", "City"]) -> usuń duplikaty tylko z wybranych wierszy
 df.drop_duplicates(subset=["Name", "Age", "City"], keep="last") -> usuń duplikaty, zachowaj ostatnie
