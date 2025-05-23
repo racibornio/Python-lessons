@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Konfiguracja: wyświetlaj wszystko
+# Configuration: display all
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 
@@ -57,11 +57,11 @@ print(df[['Age', 'Address', 'Height', 'Weight', 'Imię', 'Nazwisko']].isnull().s
 df = df.fillna(
     {
         'Age' : df['Age'].median(),
-        'Address' : 'Somehere in the universe...',
+        'Address' : 'unknown',
         'Height' : df['Height'].mean(),
         'Weight' : df['Weight'].mean(),
-        'Imię' : 'Ktoś',
-        'Nazwisko' : 'Jakiś'
+        'Imię' : 'unknown',
+        'Nazwisko' : 'unknown'
     }
 )
 print()
@@ -105,7 +105,8 @@ print()
 # Posortuj DataFrame po kolumnie 'BMI’ malejąco
 print('All the data frame sorted by BMI descending:')
 print()
-print(df.sort_values(by='BMI', ascending=False).to_string())
+df = df.sort_values(by='BMI', ascending=False)
+print(df.to_string())
 
 
 
