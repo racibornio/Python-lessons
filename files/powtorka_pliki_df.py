@@ -107,4 +107,4 @@ for column in df.columns:
     column_count = df[column].count()
     null_count = df[column].isnull().sum()
     not_null_count = df[column].notnull().sum()
-    print(f'Kolumna {column} zawiera {column_count} wartości niepustych i {null_count} null i {not_null_count} not null.')
+    print(f'Kolumna {column} zawiera {column_count} wartości niepustych i {null_count} wartości null i {not_null_count} wartości not null.')
