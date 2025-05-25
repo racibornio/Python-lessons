@@ -25,12 +25,20 @@ Method name: fillMissingData()
 Method argument: data frame.
 """
 
+
+"""
+Read your .csv file here
+"""
 #df = pd.read_csv('25__iris.csv')
 df = pd.read_csv('26__titanic.csv')
 
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 
+
+"""
+Explore the data set - summarize values in each numeric column.
+"""
 def sumNumbersOfEachColumn(df):
     print(f'Summarizing each column procedure is starting...')
     for column in df.columns:
@@ -52,6 +60,9 @@ def sumNumbersOfEachColumn(df):
     print()
 
 
+"""
+Explore the data set - count not empty values, null and notnull.
+"""
 def sumNotEmptyAndNullAndNotNull(df):
     print(f'Verifying empty values procedure is starting...')
     for column in df.columns:
@@ -66,6 +77,10 @@ def sumNotEmptyAndNullAndNotNull(df):
     print()
 
 
+"""
+Get rid of all rows containing no data - this method may result in an empty data set.
+Get the .csv file as the outcome.
+"""
 def dropAllNas(df):
     print(f'Getting rid of missing data procedure is starting...')
     intial_df_length = len(df)
@@ -81,6 +96,9 @@ def dropAllNas(df):
     print()
 
 
+"""
+Replace missing information with fake generic information. Get the .csv file as the outcome. 
+"""
 def fillMissingData(df):
     print(f'Filling up missing data with dummy data procedure is starting...')
     df_copy = df.copy()
@@ -109,6 +127,10 @@ def fillMissingData(df):
     print(f'The program has ended.')
     print()
 
+
+"""
+Run them all
+"""
 sumNumbersOfEachColumn(df)
 sumNotEmptyAndNullAndNotNull(df)
 dropAllNas(df)
