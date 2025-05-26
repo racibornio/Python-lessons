@@ -1,4 +1,6 @@
+import matplotlib.pyplot as plt
 import pandas as pd
+
 
 """ Clean my data frame - custom module by Patryk Ostrowski
 The purpose of this module is for you to conduct initial data frame analysis by:
@@ -131,7 +133,169 @@ def fillMissingData(df):
 """
 Run them all
 """
-sumNumbersOfEachColumn(df)
-sumNotEmptyAndNullAndNotNull(df)
-dropAllNas(df)
-fillMissingData(df)
+# sumNumbersOfEachColumn(df)
+# sumNotEmptyAndNullAndNotNull(df)
+# dropAllNas(df)
+# fillMissingData(df)
+
+
+# histogram
+# df.hist()
+# plt.show()
+#
+# df['pclass'].hist(bins=3)
+# plt.title('Class histogram')
+# plt.xlabel('Class number')
+# plt.ylabel('Sum of')
+# plt.show()
+#
+# df['survived'].hist(bins=2)
+# plt.title('Survived/not survived histogram')
+# plt.xlabel('Survived or not')
+# plt.ylabel('Sum of')
+# plt.show()
+#
+# df['age'].hist(bins=20)
+# plt.title('Age histogram')
+# plt.xlabel('Age value')
+# plt.ylabel('Sum of')
+# plt.show()
+#
+# df['sibsp'].hist(bins=10)
+# plt.title('Siblings/spouse histogram')
+# plt.xlabel('Siblings or spouse')
+# plt.ylabel('Sum of')
+# plt.show()
+#
+# df['parch'].hist(bins=10)
+# plt.title('Parents/children histogram')
+# plt.xlabel('Parents or children')
+# plt.ylabel('Sum of')
+# plt.show()
+#
+# df['ticket'].hist(bins=100)
+# plt.title('Ticket no. histogram')
+# plt.xlabel('Ticket no.')
+# plt.ylabel('Sum of')
+# plt.show()
+#
+# df['fare'].hist(bins=100)
+# plt.title('Fare price histogram')
+# plt.xlabel('Price')
+# plt.ylabel('Sum of')
+# plt.show()
+#
+# df['cabin'].hist(bins=100)
+# plt.title('Cabin no. histogram')
+# plt.xlabel('Cabin no.')
+# plt.ylabel('Sum of')
+# plt.show()
+#
+# df['embarked'].hist(bins=3)
+# plt.title('Embarkment port histogram')
+# plt.xlabel('Port')
+# plt.ylabel('Sum of')
+# plt.show()
+#
+# df['boat'].hist(bins=100)
+# plt.title('Boat no. histogram')
+# plt.xlabel('Boat no.')
+# plt.ylabel('Sum of')
+# plt.show()
+#
+# df['body'].hist(bins=50)
+# plt.title('Body no. histogram')
+# plt.xlabel('Body no.')
+# plt.ylabel('Sum of')
+# plt.show()
+
+
+# pie chart
+df['pclass'].value_counts().sort_index().plot(
+    kind='pie',
+    autopct='%1.1f%%',
+    labels=['1st class', '2nd class', '3rd class'],
+    legend=False
+)
+plt.title('Classes')
+plt.ylabel('')
+plt.show()
+
+df['survived'].value_counts().sort_index().plot(
+    kind='pie',
+    autopct='%1.1f%%',
+    labels=['Did not survive', 'Survived'],
+    legend=False
+)
+plt.title('Survivors vs. non-survivors')
+plt.ylabel('')
+plt.show()
+
+df['age'].value_counts().sort_index().plot(
+    kind='pie',
+    autopct='%1.1f%%',
+    label='Age',
+    legend=False
+)
+plt.title('Age distribution')
+plt.ylabel('')
+plt.show()
+
+
+# line plot
+df.plot(kind='line', y='survived', x='age')
+plt.title('Age of survivors')
+plt.ylabel('Sum of')
+plt.xlabel('Age')
+plt.grid()
+plt.show()
+
+
+# bar plot
+df.plot(kind='bar', y='survived', x='age')
+plt.title('Age of survivors')
+plt.ylabel('Sum of')
+plt.xlabel('Age')
+plt.grid()
+plt.show()
+
+
+# scatter plot
+df.plot(kind='scatter', y='survived', x='age')
+plt.title('Age of survivors')
+plt.ylabel('Sum of')
+plt.xlabel('Age')
+plt.grid()
+plt.show()
+
+# 3d scatter plot
+df['sex_num'] = df['sex'].map({'male' : 0, 'female' : 1})
+df.plot(
+    kind='scatter',
+    x='age',
+    y='survived',
+    c='sex_num',
+    cmap='bwr',
+    alpha=0.6,
+    title='Survived gender'
+)
+plt.ylabel('Survived or no')
+plt.xlabel('Age')
+plt.grid()
+plt.show()
+
+# 3d scatter plot
+df['sex_num'] = df['sex'].map({'male' : 0, 'female' : 1})
+df.plot(
+    kind='scatter',
+    x='age',
+    y='fare',
+    c='sex_num',
+    cmap='bwr',
+    alpha=0.6,
+    title='Cost per gender in numbers'
+)
+plt.ylabel('Cost')
+plt.xlabel('Age')
+plt.grid()
+plt.show()

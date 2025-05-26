@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 
-df = pd.read_csv('25__iris.csv')
+df = pd.read_csv('../../../../files/25__iris.csv')
 print(df)
 print()
 
