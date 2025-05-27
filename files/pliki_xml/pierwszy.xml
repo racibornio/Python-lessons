@@ -1,0 +1,12 @@
+<clients>
+    <client>
+        <name>John Doe</name>
+        <age>25</age>
+        <city>San Francisco</city>
+    </client>
+    <client>
+        <name>Jane Doe</name>
+        <age>22</age>
+        <city>Los Angeles</city>
+    </client>
+</clients>

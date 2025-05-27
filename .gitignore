@@ -1,1 +1,3 @@
 /pliki_excel/DataBleed.xlsx
+__pycache__/
+*.pyc

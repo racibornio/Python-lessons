@@ -1,0 +1,22 @@
+[
+    {
+        "name" : "John",
+        "age" : 30,
+        "cars" : 0,
+        "car" : {
+            "model" : "Toyota",
+            "year" : 2025
+        },
+        "birthdate" : "2000-01-15T02:44:32"
+    },
+    {
+        "name" : "Jane",
+        "age" : 25,
+        "cars" : 1,
+        "car" : {
+            "model" : "Ford",
+            "year" : 2025
+        },
+        "birthdate" : "2002-02-13T22:54:52"
+    }
+]
