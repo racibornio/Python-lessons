@@ -2,6 +2,8 @@ import pandas as pd
 from pathlib import Path
 import matplotlib.pyplot as plt
 
+pd.set_option('display.float_format', '{:,.2f}'.format)
+
 csv_path = Path(__file__).parent / "used_car_dataset.csv"
 
 initial_df = pd.read_csv(csv_path)
@@ -97,3 +99,15 @@ plt.xlabel='Year'
 plt.ylabel='Price'
 plt.grid()
 plt.show()
+
+print()
+# data frame from columns of interest
+prices_yearly_df = pd.DataFrame({
+    'min_price' : df.groupby(['Year'])['AskPrice'].min(),
+    'max_price' : df.groupby(['Year'])['AskPrice'].max(),
+    'avg_price' : df.groupby(['Year'])['AskPrice'].mean(),
+    'median_price' : df.groupby(['Year'])['AskPrice'].median()
+}).reset_index()
+print()
+print('Nowy data set:')
+print(prices_yearly_df)
