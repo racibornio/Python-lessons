@@ -1,10 +1,12 @@
 from cProfile import label
-
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
+from pathlib import Path
 
-df = pd.read_csv('samochody.csv')
+csv_path = Path(__file__).parent / "samochody.csv"
+
+df = pd.read_csv(csv_path)
 
 print(df)
 
