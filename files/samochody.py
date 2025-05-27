@@ -26,19 +26,22 @@ scatter_plot = df.plot(
     title='Sprzedaż'
 )
 
-char = plt.colorbar(scatter_plot.collections[0], label='Rok')
-char.set_ticks(sorted(df['rok'].unique()))
-char.set_ticklabels(sorted(df['rok'].unique()))
-
-plt.xlabel('Pojemność silnika [L]')
-plt.ylabel('Liczba sprzedanych sztuk')
-plt.grid()
-
-legend_elements = [
-    Line2D([0], [0], marker='o', color='w', label='Aygo', markersize=5),
-    Line2D([0], [0], marker='o', color='w', label='Auris', markersize=10),
-    Line2D([0], [0], marker='o', color='w', label='Corolla', markersize=15)
-]
-
-plt.legend(handles=legend_elements, title='Model (rozmiar punktu)', loc='upper left')
+df.plot(kind='line', x='rok', y='sprzedanych')
 plt.show()
+
+# char = plt.colorbar(scatter_plot.collections[0], label='Rok')
+# char.set_ticks(sorted(df['rok'].unique()))
+# char.set_ticklabels(sorted(df['rok'].unique()))
+#
+# plt.xlabel('Pojemność silnika [L]')
+# plt.ylabel('Liczba sprzedanych sztuk')
+# plt.grid()
+#
+# legend_elements = [
+#     Line2D([0], [0], marker='o', color='w', label='Aygo', markersize=5),
+#     Line2D([0], [0], marker='o', color='w', label='Auris', markersize=10),
+#     Line2D([0], [0], marker='o', color='w', label='Corolla', markersize=15)
+# ]
+#
+# plt.legend(handles=legend_elements, title='Model (rozmiar punktu)', loc='upper left')
+# plt.show()
