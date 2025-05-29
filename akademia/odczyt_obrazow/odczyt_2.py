@@ -10,7 +10,7 @@ from openai import OpenAI
 import pandas as pd
 import os
 from PIL import Image as PILImage
-import matplotlib
+import matplotlib.pyplot as plt
 
 class gasBillInfo(BaseModel):
     okres_rozliczeniowy_od: date
@@ -120,3 +120,4 @@ df = pd.DataFrame(data)
 print('The outcome data frame:')
 print(df)
 df.sort_values("termin_platnosci").plot(x="termin_platnosci", y="do_zaplaty", kind="bar")
+plt.show()
