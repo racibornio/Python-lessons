@@ -1,0 +1,9 @@
+json
+{
+    "razem_sprzedaz_okres_rozliczeniowy_data_od": "01.03.2023",
+    "razem_sprzedaz_okres_rozliczeniowy_data_do": "29.02.2024",
+    "zuzycie_m3": 130,
+    "zuzycie_kWh": 1505,
+    "do_zaplaty": 463.55,
+    "termin_platnosci": "18.12.2023"
+}

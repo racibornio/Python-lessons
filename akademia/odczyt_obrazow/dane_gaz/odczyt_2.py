@@ -10,6 +10,28 @@ from openai import OpenAI
 import pandas as pd
 import os
 from PIL import Image as PILImage
+import matplotlib
+
+class gasBillInfo(BaseModel):
+    okres_rozliczeniowy_od: date
+    okres_rozliczeniowy_do: date
+    zuzycie_m3: float
+    zuzycie_kWh: float
+    do_zaplaty: float
+    termin_platnosci: date
+
+
+
+bill = gasBillInfo(
+    okres_rozliczeniowy_od=date(2025, 1, 1),
+    okres_rozliczeniowy_do=date(2025, 1, 31),
+    zuzycie_m3=100.0,
+    zuzycie_kWh=1000.0,
+    do_zaplaty=1000.0,
+    termin_platnosci=date(2025, 2, 15)
+)
+
+print(bill)
 
 
 
@@ -52,32 +74,21 @@ def prepare_image_for_open_ai(image_path):
 prepare_image_for_open_ai(image_path)
 
 
-for image_path in RAW_DATA_PATH.glob("*.png"):
+instructor_open_ai_client = instructor.from_openai(OpenAI(api_key=openai_key))
+
+for image_path in RAW_DATA_PATH.glob('*.png'):
     print(f'Processing {image_path}')
 
-    response = openai_client.chat.completions.create(
+    gas_bill = instructor_open_ai_client.chat.completions.create(
         model="gpt-4o-mini",
-        temperature=0,
+        response_model=gasBillInfo,
         messages=[
             {
                 "role" : "user",
                 "content" : [
                     {
                         "type" : "text",
-                        "text" : """
-wyciągnij wszystkie informacje zawarte na fakturze.
-Dane przedstaw w formacie JSON.
-Oczekuję następujących informacji:
-{
-    "razem_sprzedaz_okres_rozliczeniowy_data_od" : ...,
-    "razem_sprzedaz_okres_rozliczeniowy_data_do" : ...,
-    "zuzycie_m3": ...,
-    "zuzycie_kWh": ...,
-    "do_zaplaty": ...,
-    "termin_platnosci" : ...
-}
-tylko dane jako JSON, bez żadnych komentarzy.
-"""
+                        "text" : "Pobierz szczegóły rachunku za gaz"
                     },
                     {
                         "type" : "image_url",
@@ -90,11 +101,22 @@ tylko dane jako JSON, bez żadnych komentarzy.
             }
         ]
     )
-
-    
-result = response.choices[0].message.content.replace("```jwon", "").replace("```", "").strip()
-with open(PROCESSED_DATA_PATH / f"{image_path.stem}__simple.json", "w") as f:
-    f.write(result)
+    with open(PROCESSED_DATA_PATH / f"{image_path.stem}.json", "w") as f:
+        f.write(gas_bill.model_dump_json())
 
 
-print(response.choices[0].message.content)
+
+# outcome to data frame
+data = []
+for json_path in PROCESSED_DATA_PATH.glob('*.json'):
+    if "simple" in json_path.name:
+        continue
+
+    with open(json_path) as f:
+        data.append(json.loads(f.read()))
+
+
+df = pd.DataFrame(data)
+print('The outcome data frame:')
+print(df)
+df.sort_values("termin_platnosci").plot(x="termin_platnosci", y="do_zaplaty", kind="bar")
