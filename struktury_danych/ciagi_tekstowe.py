@@ -63,3 +63,7 @@ tekst_do_podzialu_metoda_partition = "to jest do podziału tekst"
 krotka_po_wyodrebnieniu = tekst_do_podzialu_metoda_partition.partition('do')
 print(krotka_po_wyodrebnieniu)
 print('Wynik działania krotki:', krotka_po_wyodrebnieniu[0], 'separator:', krotka_po_wyodrebnieniu[1], 'reszta:', krotka_po_wyodrebnieniu[2])
+
+# wywalenie białych znaków sprzed i zza wpisu
+wpis = '  1234  '
+wpis.strip() # → '1234'
