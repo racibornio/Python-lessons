@@ -1,0 +1,79 @@
+def new_line_remover(text):
+    
+    strings_to_remove = ["\n", "\t"]
+
+    for s in strings_to_remove:
+        text = text.replace(s, "")
+    return text
+
+
+outcome = new_line_remover("""
+
+Our IT teams are one of the strategic factors for Hapag-Lloyd's global success. Our core system "FIS" (Freight Information System) is one of the most advanced software solutions in the field of ERP software for container lines. We are looking for talented, technology-driven people to help us grow and prepare for the future challenges in our industry.
+
+ 
+
+With a particular focus on the “IT Commercial Products”, we are looking for Requirement Engineers for our cluster Quotation and Booking Engine.
+
+The Quotation and Booking Engine (QBE) cluster was launched with the aim of significantly rethinking our customers' quotation and booking experience with maximum automation. This includes all processes from getting a quotation to placing a booking.
+
+Therefore, you will have the opportunity to shape a core product of the Hapag-Lloyd value chain as requirement engineer.
+ 
+Responsibilities
+
+    Together with your colleagues from our business departments, you will be analyzing complex business processes and find creative solutions to existing and new challenges
+    You determine requirements for new and existing IT products in an agile environment
+    Your support is needed to create a modern architecture and to migrate our products into a cloud environment
+    As part of the team, you take over responsibilities for the team’s product and its success
+    You will be collaborating with colleagues and teams from around the globe on a daily basis
+
+Qualifications
+
+    Bachelor’s degree in Computer Science or comparable
+    Proven experience in requirements engineering in an agile context
+    Proven experience in analysis and modeling of use cases and business processes
+    Good knowledge in specification and documentation as well as methods (UML, Epics, User Stories, Product Backlogs) and tools (we use Confluence and Jira)
+    Good knowledge in agile development for industrial software
+    Proven analytical skills and willingness to learn every day
+    Genuine interest for technology and architecture – we really like to discuss the different technologies and solutions that we’re using
+    Good communication skills, independent working style and ability to be a team player
+    Very good command of written and spoken English
+
+ 
+
+What you'll need to succeed:
+
+    You have proven experience from similar positions and substantial knowledge within the area of requirements engineering
+    Your working style is goal-oriented and you are great at motivating your stakeholders
+    You have distinctive knowledge of agile development processes for standalone software
+    You communicate well and thrive in a diverse, international environment – fluent written and spoken English language skills are a must
+
+Nice if you have:
+
+    Understanding of container shipping business is an advantage
+    Experience in Cloud Environments (AWS/ Any other Hyperscaler, Terraform)
+    Experience in DevOps (Jenkin, Artifactory, Maven, Gitlab/ Github)
+
+About Us
+With a fleet of 287 modern container ships and a Vessel Capacity 2.2 million TEU, as well as a Container Capacity 3.2 million TEU including one of the world’s largest and most modern reefer container fleets, Hapag-Lloyd is one of the world’s leading liner shipping companies. In the Liner Shipping segment, the Company has around 13.500 employees and 400 offices in 139 countries. Hapag-Lloyd has a container capacity of 11.9 million TEU – including one of the largest and most modern fleets of reefer containers. A total of 114 liner services worldwide ensure fast and reliable connections between more than 600 ports across the world. In the Terminal & Infrastructure segment, Hapag-Lloyd has stakes in 20 terminals in Europe, Latin America, the United States, India, and North Africa. The roughly 2.600 employees assigned to the Terminal & Infrastructure segment deal with terminal-related activities and provide complementary logistics services at selected locations.
+Knowledge Center in Gdansk
+
+One of the goals of Hapag-Lloyd strategy, is to become more agile in the way we work and to create an environment in which we can make faster and innovative decisions. Knowledge Center in Gdansk enables the further accelerated growth, especially in the area of developing innovative digital solutions, agility and business centricity. To learn more, please check our website - https://knowledgecenter.pl/ 
+
+We offer:
+
+    Private medical care (Medicover)
+    Gym card (Multisport)
+    Attractive annual bonus up to 22,5% (depending on company performance results)
+    Group life insurance and employee capital plan (PPK)
+    Cafeteria benefit system (cinema tickets, vouchers etc.)
+    Focus on healthy lifestyle (fruit days, bike competitions, football training)
+    Charity and volunteer initiatives
+    Modern and well-connected office (Alchemia complex in Gdańsk Oliwa)
+    Relocation support (financial support, covering immigration process and polish-language lessons for non-Polish citizens)
+    Internal learning management system
+    Development budget (sharing the costs of certifications and conferences/ IT events)
+    Flexible working hours and home office possibility (hybrid work model)""")
+
+
+print(outcome)
