@@ -32,3 +32,13 @@ do_math_calculations(12)
 tuple_to_list = list(do_math_calculations(44))
 print('Tuple to list:', tuple_to_list, 'and its id is:', id(tuple_to_list))
 
+
+print("Dict of tuples:")
+tuple_to_key_in_dict = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+values_to_dict = (0, 1, 2, 3, 5, 8, 13, 21, 34, 55)
+
+dict_with_tuples_as_keys = {}
+
+for i in range(len(tuple_to_key_in_dict)):
+    dict_with_tuples_as_keys[tuple_to_key_in_dict[i]] = values_to_dict[i]
+    print(dict_with_tuples_as_keys[tuple_to_key_in_dict[i]])
