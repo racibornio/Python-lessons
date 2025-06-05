@@ -3,6 +3,8 @@ import pandas as pd
 from getpass import getpass
 from openai import OpenAI
 from pathlib import Path
+import ast
+import re
 
 openai_key = getpass("Wprowadź swój klucz OpenAI:")
 
@@ -12,6 +14,30 @@ current_location = Path.cwd()
 print(f'Jesteśmy w: {current_location}')
 
 df = pd.read_csv(current_location / 'akademia' / 'LLM_czyszczenie' / 'welcome_survey.csv')
+
+
+def ASK(prompt: str) -> str:
+    ASK_SENIOR_DATA_SCIENTIST_PROMPT = """
+    - jeteś senior data scientist w dużym przedsiębiorstwie
+    - Twoim zadaniem jest pomoc i mentorowanie młodszych pracowników - takich jak ja
+    - będę Cię prosił o różne rady i wskazówki, które pomogą mi w mojej pracy
+    - odpowiadaj zwięźle i jeżeli się da, to przesyłąj mi kod w Pythonie
+    """
+
+    response = openai_client.chat.completions.create(
+        model="gpt-4o-mini",
+        temperature=0,
+        messages=[
+            {"role" : "system", "content" : ASK_SENIOR_DATA_SCIENTIST_PROMPT},
+            {"role" : "user", "content" : prompt}
+        ]
+    )
+
+    print(response.choices[0].message.content)
+
+    #return Markdown(response.choices[0].message.content)
+    return response.choices[0].message.content
+
 
 print("Pięć pierwszych wierszy:")
 print(df.head())
@@ -44,6 +70,8 @@ print('Unikaty:')
 print(df.nunique())
 print()
 
+
+########################################### WIEK ###########################################
 print('Zliczenie wieku:')
 print(df['age'].value_counts())
 df['age_cleaned'] = df['age'].map({
@@ -62,6 +90,9 @@ print('Zliczenie wieku po oczyszczeniu i do stringa:')
 print(df['age_cleaned'].value_counts())
 print()
 
+
+
+########################################### PŁEĆ ###########################################
 print('Zliczenie płci:')
 print(df['gender'].value_counts())
 print()
@@ -73,6 +104,9 @@ print("Zliczenie płci po oczyszczeniu:")
 print(df['gender_cleaned'].value_counts())
 print()
 
+
+
+########################################### DOŚWIADCZENIE ###########################################
 print("Zliczenie lat doświadczenia:")
 print(df['years_of_experience'].value_counts())
 print()
@@ -87,6 +121,9 @@ print("Zliczenie lat doświadczenia po oczyszczeniu:")
 print(df['years_of_experience_cleaned'].value_counts())
 print()
 
+
+
+########################################### HOBBY ###########################################
 print("Zliczenie wolnego czasu:")
 print(df['hobbies'].value_counts())
 print()
@@ -130,6 +167,9 @@ df = pd.concat([df, hobbies_df], axis=1)
 print(df)
 print()
 
+
+
+########################################### SMAKI ###########################################
 print("Przysmaki - zliczenie:")
 print(df['sweet_or_salty'].value_counts())
 df['sweet_or_salty_cleaned'] = df['sweet_or_salty'].map({
@@ -141,33 +181,13 @@ print("Przysmaki po czyszczeniu - zliczenie:")
 print(df['sweet_or_salty_cleaned'].value_counts())
 print()
 
+
+
+########################################### ULUBIONE MIEJSCA ###########################################
 print("Ulubione miejsce:")
 print(df['fav_place'].value_counts())
 print()
 print(", ".join(df['fav_place'].dropna().unique().tolist()))
-
-def ASK(prompt: str):
-    ASK_SENIOR_DATA_SCIENTIST_PROMPT = """
-    - jeteś senior data scientist w dużym przedsiębiorstwie
-    - Twoim zadaniem jest pomoc i mentorowanie młodszych pracowników - takich jak ja
-    - będę Cię prosił o różne rady i wskazówki, które pomogą mi w mojej pracy
-    - odpowiadaj zwięźle i jeżeli się da, to przesyłąj mi kod w Pythonie
-    """
-
-    response = openai_client.chat.completions.create(
-        model="gpt-4o-mini",
-        temperature=0,
-        messages=[
-            {"role" : "system", "content" : ASK_SENIOR_DATA_SCIENTIST_PROMPT},
-            {"role" : "user", "content" : prompt}
-        ]
-    )
-
-    print(response.choices[0].message.content)
-
-    return Markdown(response.choices[0].message.content)
-
-
 
 print()
 print("Funkcja - START:")
@@ -183,6 +203,9 @@ print()
 print("Funkcja - END")
 print()
 
+
+
+########################################### WYKSZTAŁCENIE ###########################################
 print("Poziom wykształcenia - zliczenie:")
 print(df['edu_level'].value_counts())
 print()
@@ -204,6 +227,9 @@ print()
 print("Funkcja - END")
 print()
 
+
+
+########################################### BRANŻA ###########################################
 print("Zlicz Obecna branża:")
 print(df['industry'].value_counts())
 print()
@@ -223,6 +249,9 @@ print()
 print("Funkcja - END")
 print()
 
+
+
+########################################### ZWIERZĘ ########################################### 
 print("Ulubione zwierzęta:")
 print(df['fav_animals'].value_counts())
 print()
@@ -254,6 +283,9 @@ print("Zliczenie po oczyszczeniu:")
 print(df['fav_animals_cleaned'].value_counts())
 print()
 
+
+
+########################################### UCZENIE SIĘ ###########################################
 print("Zlicz dane nt. jak się uczysz:")
 print(df['learning_preferences'].value_counts())
 
@@ -272,3 +304,106 @@ df = pd.concat([df, learning_pref_df], axis=1)
 print()
 print("Dane po oczyszczeniu:")
 print(df.head())
+print()
+
+
+
+########################################### MOTYWACJA ###########################################
+print('Co Cię motywuje:')
+print(df['motivation'].str.get_dummies(sep=", ").columns.tolist())
+values = df['motivation'].str.get_dummies(sep=", ").columns.tolist()
+print(",".join(values))
+
+response_text = ASK("""
+W kolumnie 'Co najbardziej motywuje Cię do nauki data science i AI' ma różne wartości. Niektóre można by zgrupować w jedną kategorię.
+    Oto wartości w tej kolumnie:
+    'Chęć zmiany zawodu', 'Dodanie kompetencji Data Science do obecnego profilu IT', 'Fascynacja możliwościami jakie daje nam AI', 'Pasja do analizy danych', 'Pomoc w realizacji swoich pomysłów', 'Rozwiązywanie rzeczywistych problemów', 'Rozwój kariery', 'Swoboda pracy', 'Wynagrodzenie', 'Wyzwania intelektualne', 'Zagadnienia w doktoracie', 'jako dźwigni zwiększającej mój projektowy zasięg (getting out of the box).', 'możliwośc tworzenia narzędzi AI', 'możliwość pracy zdalnej', 'odnalezieniesię na rynku pracy  ', 'pasja do AI', 'poznawanie nowych rzeczy', 'praca z AI', 'praca zdalna', 'rozwój osobisty', 'tworzenie aplikacji AI', 'własny projekt', 'zdobycie nowych umiejętności', 'znalezienie właściwej dla siebie drogi dla zmiany sytuacji zawodowej'
+    Jak zgrupować te wartości w mniej kategorii? Stwórz słownik Pythona, gdzie kluczem jest podana przeze mnie nazwa, a wartością przypisana motywacja.
+""")
+
+
+# wyciągnięce danych ze słownika
+match = re.search(r"\{[\s\S]+\}", response_text)
+
+if match:
+    motywacje = ast.literal_eval(match.group())
+else:
+    raise ValueError("Nie znaleziono słownika motywacji w odpowiedzi.")
+
+
+
+# poniższa funkcja nie zadziała - w programie nie jest zapisywany słownik wynikowy
+def categorize_motivation(motivation):
+    if not isinstance(motivation, str):
+        return[]
+    
+    cleaned_motivation = []
+    for key, value in motywacje.items():
+        for value in values:
+            if value in motivation:
+                cleaned_motivation.append(key)
+
+    return ", ".join(cleaned_motivation)
+
+
+df['motivation_cleaned'] = df['motivation'].apply(categorize_motivation)
+motivations_df = df['motivation_cleaned'].str.get_dummies(sep=", ")
+motivations_df = motivations_df.drop(columns=["[]"])
+print()
+print("Początek tabeli po oczyszczeniu:")
+print(motivations_df.head())
+print()
+df = pd.concat([df, motivations_df], axis=1)
+print('Po złączeniu w pierwotnym data framem:')
+print(df)
+print()
+print("Kolumny z nowego:")
+print(df.columns)
+
+
+# dynamicznie pobierz kolumny z motywacji
+motivation_columns = list(motywacje.keys())
+
+cleaned_df = df[[
+    'age',
+    'gender',
+    'edu_level',
+    'years_of_experience',
+    'industry',
+    'learning_preferences',
+    'weekly_study_hours',
+    'motivation',
+    'fav_animals',
+    'sweet_or_salty',
+    'fav_place',
+    'hobbies',
+    'age_cleaned',
+    'gender_cleaned',
+    'years_of_experience_cleaned',
+    'hobbies_cleaned',
+    'hobby_art',
+    'hobby_books',
+    'hobby_movies',
+    'hobby_other',
+    'hobby_sport',
+    'hobby_video_games',
+    'sweet_or_salty_cleaned',
+    'fav_animals_cleaned',
+    'learning_pref_books',
+    'learning_pref_online_courses',
+    'learning_pref_offline_courses',
+    'learning_pref_chatgpt',
+    'learning_pref_teamwork',
+    'learning_pref_personal_projects',
+    'Uczenie innych osób.',
+    'learning_pref_workshops',
+    'motivation_cleaned',
+] + motivation_columns].copy()
+
+
+print()
+print('Ostateczny data frame: - pierwszych pięć wierszy:')
+print(cleaned_df.head())
+
+# zrzut to pliku csv
+cleaned_df.to_csv(current_location / 'akademia' / 'LLM_czyszczenie' /  'Welcome_survey_cleaner_2025_06_05.csv', index=False, sep=";")
