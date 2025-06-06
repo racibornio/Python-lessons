@@ -12,6 +12,8 @@ df = pd.DataFrame([
 ],
     index = ['1st', '2nd', '3rd'] # dodawane dla lepszej czytelności
 )
+print("Cały data frame z listy słownikó:")
+print(df)
 print()
 
 # wyświetlenie wartości po uprzednio przypisanym indeksie
@@ -19,9 +21,6 @@ print('Wyświetlenie wartości po uprzednio przypisanym indeksie:')
 tylko_1_st = df.loc['1st']
 print(tylko_1_st)
 print()
-
-print('Wyświetlenie całej struktury:')
-print(df)
 
 # wyświetl kolumny
 print('Kolumny:')
