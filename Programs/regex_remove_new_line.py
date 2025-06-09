@@ -8,86 +8,44 @@ def new_line_remover(text):
 
 
 outcome = new_line_remover("""
+Location: Wrocław (will not consider relocation or remote locations)
 
-About the job
+Are you ready to push the boundaries of what's possible with AI and shape the Future of AI-human interactions? Opera is seeking a driven Data Scientist to join our AI Development Hub and help us build the next generation of AI-powered browsers.
 
-Company Overview
+This is a unique opportunity to work on cutting-edge AI technologies while developing products used by millions of people worldwide. You'll be at the forefront of innovation, applying your expertise to create groundbreaking solutions that delight our users.
 
-At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. Our critical communications, video security and command center technologies support public safety agencies and enterprises alike, enabling the coordination that’s critical for safer communities, safer schools, safer hospitals and safer businesses. Connect with a career that matters, and help us build a safer future.
+As part of our AI team, you'll play a key role in researching, building, and optimizing AI-powered features, integrating AI solutions into our products, and continuously improving the browsing experience.
 
-Department Overview
+Role & Responsibilities:
 
-Motorola Solutions (MSI) is seeking a Senior Software Quality Engineer with expertise in data analytics and software development life cycles (SDLC) to drive quality improvements across Motorola video products, land mobile devices, and infrastructure systems. The ideal candidate will have a strong understanding of software quality processes, process, leading and lagging metrics, and the ability to support defect prediction initiatives. This role requires a proactive leader who excels at identifying critical data, ensuring data integrity, and communicating insights that enhance software quality and development processes.
+    Research and develop AI-driven products and features to create smarter, more intuitive browsing experiences.
+    Enhance and optimize existing AI-based solutions, ensuring continuous improvement and scalability.
+    Prototype and test AI systems, ensuring performance, reliability and robustness.
+    Collaborate with cross-functional teams to integrate AI into Opera’s products and services.
+    Stay up-to-date on the latest advancements in AI and explore new technologies to drive innovation.
+    Contribute to a culture of knowledge sharing, creativity, and experimentation.
 
-Job Description
+Job Requirements:
 
-    Software Quality and Process Improvement:
-        Collaborate with software engineering teams to integrate quality best practices throughout the SDLC. 
-        Define and monitor leading and lagging metrics that measure software process performance and product quality. 
-        Identify gaps in the software development process and drive initiatives to mitigate quality escapes. 
-    Data Analytics and Defect Prediction:
-        Develop data models and reports that provide insights into software defect trends, severity, and risk areas. 
-        Support defect prediction efforts by identifying key historical and real-time data points to forecast potential quality risks. 
-        Ensure quality data collection processes align with software development milestones and deliverables. 
-    Data Integrity and Warehousing:
-        Work with data warehousing teams to ensure seamless integration of software quality data from multiple sources. 
-        Ensure that data pipelines are accurate, reliable, and aligned with business needs. 
-        Build and maintain dashboards using tools such as Power BI, Tableau, SQL, Python, or Excel to support decision-making. 
-    Leadership and Cross-Functional Collaboration:
-        Lead root cause analysis (RCA) for software defects and quality issues, ensuring lessons learned are fed back into the SDLC. 
-        Partner with cross-functional teams, including R&D, testing, and operations, to align quality goals with product roadmaps. 
-        Mentor and support junior engineers to strengthen the organization's overall software quality capabilities. 
+    Strong programming skills in Python
+    Familiarity with data science libraries (e.g., Pandas, NumPy, scikit-learn).
+    Hands-on experience with machine learning frameworks such as TensorFlow, PyTorch, or similar.
+    Solid understanding of statistics and data modeling
+    Familiarity with LLMs, and AI Agents
 
-In return for your expertise, we’ll support you in this new challenge with coaching & development every step of the way. Also, to reward your work you’ll get the following:
+An Ideal Candidate’s Profile:
 
-    Contract of Employment (UoP)
-    Private medical coverage, Multisport
-    Life insurance (two annual incomes), 
-    Employee Stock Purchase Plan – 15% discount for buying Motorola’s Stock units, 
-    Employee Pension Plan – 3,5 % of the month’s salary gross, which goes to the retirement account
-    Yearly salary increase (depends on individual performance)
-    Yearly bonus (depends on company performance)
-    Flexible working hours (usually day starts between 7-10), 
-    8 hours working day (30 minutes lunch break included). 
-    Hybrid work
+    Analytical mindset with strong problem-solving skills.
+    Comfortable working cross-functionally with engineers, researchers,, and product managers.
+    Curious, collaborative, and committed to delivering high-impact solutions.
+    Passionate about new technology, especially AI agentic systems.
 
-Basic Requirements
+What’s on Offer:
 
-    Bachelor’s degree in Software Engineering, Computer Science, or related field (Master's preferred). 
-    Lean Six Sigma Green Belt or Black Belt certification (or equivalent experience). 
-    8+ years of experience in software quality engineering or data analytics roles. 
-    Proficiency in data analysis and visualization tools such as SQL, Python, Power BI, Tableau, or Excel. 
-    Strong understanding of data warehousing, ETL processes, and data pipelines. 
-    Expertise in software quality processes and metrics (e.g., defect density, MTTR, code coverage, and escape rates). 
-    Experience with defect tracking and software lifecycle tools (e.g., JIRA, Azure DevOps, or Rally). 
-    Experience with data analytics tools (e.g., powerBI, easyBI, Tableau). 
-
-Travel Requirements
-
-Under 10%
-
-Relocation Provided
-
-Domestic
-
-Position Type
-
-Experienced
-
-Referral Payment Plan
-
-Yes
-
-Company
-
-Motorola Solutions Systems Polska Sp.z.o.o
-
-EEO Statement
-
-Motorola Solutions is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion or belief, sex, sexual orientation, gender identity, national origin, disability, veteran status or any other legally-protected characteristic.
-
-We are proud of our people-first and community-focused culture, empowering every Motorolan to be their most authentic self and to do their best work to deliver on the promise of a safer world. If you’d like to join our team but feel that you don’t quite meet all of the preferred skills, we’d still love to hear why you think you’d be a great addition to our team.
-
+    Work on AI-powered features used by tens of millions of users globally.
+    Collaborate with a diverse and innovative AI team.
+    Access to cutting-edge tools and infrastructure in data science and machine learning.
+    Continuous learning and professional growth in a dynamic, forward-thinking environment.
 
 """)
 
