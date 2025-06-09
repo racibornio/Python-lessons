@@ -3,7 +3,7 @@ import pandas as pd
 from getpass import getpass
 from openai import OpenAI
 
-openai_key = getpass("Entery key:")
+openai_key = getpass("Enter your openai key:")
 
 openai_client = OpenAI(api_key=openai_key)
 

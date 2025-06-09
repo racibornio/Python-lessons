@@ -77,4 +77,4 @@ print(df)
 print()
 
 print('Korelacja "age" do "salary":')
-print(df[["age", "salary"]].corr())
+print(df[["age", "salary"]].corr()) 
