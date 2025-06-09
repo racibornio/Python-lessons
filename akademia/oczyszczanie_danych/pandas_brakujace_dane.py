@@ -24,11 +24,14 @@ print('Suma braków w każdej kolumnie:')
 print(df.isnull().sum())
 print()
 
-# usuń wiersze z brakującymi danymi
+# usuń wiersze/kolumny z brakującymi danymi
 print('Usuń wiersze z brakującymi danymi:')
 print(df.dropna())
 print()
-print('Usuń wiersze z brakującymi danymi z axis=1:')
+print('Usuń wiersze z brakującymi danymi z axis=0:')
+print(df.dropna(axis=0))
+print()
+print('Usuń kolumny z brakującymi danymi z axis=1:')
 print(df.dropna(axis=1))
 print()
 
@@ -54,7 +57,7 @@ df2 = df.copy()
 df2["age"] = df2["age"].fillna(df2["age"].mean())
 df2["salary"] = df2["salary"].fillna(df2["salary"].median())
 
-# lub
+# lub  
 #df2.fillna({"age": df2["age"].mean(), "salary": df2["salary"].median()}, inplace=True)
 
 print(df2)

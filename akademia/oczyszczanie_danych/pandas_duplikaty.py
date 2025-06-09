@@ -29,6 +29,11 @@ print('Wyświetl zduplikowane wiersze:')
 print(df[df.duplicated()])
 print()
 
+# wyświetl wiersze zduplikowane podzbioru
+print('Wyświetl zduplikowane wiersze podzbioru:')
+print(df[df.duplicated(subset=["Age"])])
+print()
+
 # usuwanie duplikatów - żeby nie wliczały się podwójnie do średniej itp. - usuwa tylko wtedy gdy dokładnie każda kolumna ma takie same wartości
 print('Usuń duplikaty, żeby nie zaburzały wyników średniej itp.:')
 print(df.drop_duplicates())
