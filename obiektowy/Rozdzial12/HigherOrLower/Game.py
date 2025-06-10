@@ -1,0 +1,108 @@
+# Klasa Game.
+
+import pygwidgets
+from Constants import *
+from Deck import *
+from Card import *
+
+class Game():
+    CARD_OFFSET = 110
+    CARDS_TOP = 300
+    CARDS_LEFT = 75
+    NCARDS = 8
+    POINTS_CORRECT = 15
+    POINTS_INCORRECT = 10
+
+    def __init__(self, window):
+        self.window = window
+        self.oDeck = Deck(self.window)
+        self.score = 100
+        self.scoreText = pygwidgets.DisplayText(window, (450, 164),
+                                   'Wynik: ' + str(self.score),
+                                    fontSize=36, textColor=WHITE,
+                                    justified='right')
+
+        self.messageText = pygwidgets.DisplayText(window, (50, 460),
+                                    '', width=900, justified='center',
+                                    fontSize=36, textColor=WHITE)
+
+        self.loserSound = pygame.mixer.Sound("sounds/loser.wav")
+        self.winnerSound = pygame.mixer.Sound("sounds/ding.wav")
+        self.cardShuffleSound = pygame.mixer.Sound("sounds/cardShuffle.wav")
+
+        self.cardXPositionsList = []
+        thisLeft = Game.CARDS_LEFT
+        # Obliczenie położenia jednocześnie wszystkich kart na osi x.
+        for cardNum in range(Game.NCARDS):
+            self.cardXPositionsList.append(thisLeft)
+            thisLeft = thisLeft + Game.CARD_OFFSET
+
+        self.reset()  # Początek rundy gry.
+
+    def reset(self):  # Ta metoda jest wywoływana na początku każdej rundy.
+        self.cardShuffleSound.play()
+        self.cardList = []
+        self.oDeck.shuffle()
+        for cardIndex in range(0, Game.NCARDS):  # Rozdanie kart.
+            oCard = self.oDeck.getCard()
+            self.cardList.append(oCard)
+            thisXPosition = self.cardXPositionsList[cardIndex]
+            oCard.setLoc((thisXPosition, Game.CARDS_TOP))
+
+        self.showCard(0)
+        self.cardNumber = 0
+        self.currentCardName, self.currentCardValue = \
+                                         self.getCardNameAndValue(self.cardNumber)
+
+        self.messageText.setValue('Pierwsza karta to ' + self.currentCardName +
+                                                '. Jaka będzie kolejna: większa czy mniejsza?')
+
+    def getCardNameAndValue(self, index):
+        oCard = self.cardList[index]
+        theName = oCard.getName()
+        theValue = oCard.getValue()
+        return theName, theValue
+
+    def showCard(self, index):
+        oCard = self.cardList[index]
+        oCard.reveal()
+
+    def hitHigherOrLower(self, higherOrLower):
+        self.cardNumber = self.cardNumber + 1
+        self.showCard(self.cardNumber)
+        nextCardName, nextCardValue = self.getCardNameAndValue(self.cardNumber)
+
+        if higherOrLower == HIGHER:
+            if nextCardValue > self.currentCardValue:
+                self.score = self.score + Game.POINTS_CORRECT
+                self.messageText.setValue('Tak, karta ' + nextCardName + ' była większa.')
+                self.winnerSound.play()
+            else:
+                self.score = self.score - Game.POINTS_INCORRECT
+                self.messageText.setValue('Nie, karta ' + nextCardName + ' nie była większa.')
+                self.loserSound.play()
+
+        else:  # Gracz kliknął przycisk Mniejsza.
+            if nextCardValue < self.currentCardValue:
+                self.score = self.score + Game.POINTS_CORRECT
+                self.messageText.setValue('Tak, karta ' + nextCardName + ' była mniejsza.')
+                self.winnerSound.play()
+            else:
+                self.score = self.score - Game.POINTS_INCORRECT
+                self.messageText.setValue('Nie, karta ' + nextCardName + ' nie była mniejsza.')
+                self.loserSound.play()
+
+        self.scoreText.setValue('Wynik: ' + str(self.score))
+
+        self.currentCardValue = nextCardValue  # Przygotowanie do obsługi następnej karty.
+
+        done = (self.cardNumber == (Game.NCARDS - 1))  # Czy zostały wykorzystane wszystkie karty z talii?
+        return done
+
+    def draw(self):
+        # Wyświetlenie wszystkich kart.
+        for oCard in self.cardList:
+            oCard.draw()
+
+        self.scoreText.draw()
+        self.messageText.draw()

@@ -53,3 +53,7 @@ df = pd.DataFrame(contracts)
 
 with sqlite3.connect('learning_select.db') as conn:
      df.to_sql('contracts', conn, if_exists='replace', index=False)
+
+
+with sqlite3.connect('learning_select.db') as conn:
+     df = pd.read_sql('SELECT * FROM employees', conn)
