@@ -23,6 +23,10 @@ df = pd.DataFrame(employees)
 
 with sqlite3.connect('learning_select.db') as conn:
         df.to_sql('employees', conn, if_exists='replace', index=False)
+        print("Table 'employees' reading:")
+        
+        print("Data in 'employees' data frame:")
+        print(df)
 
 
 
