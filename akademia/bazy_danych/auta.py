@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS PERSONS (
 )
 """)
 
-# displaying the tablemetadata - SQLite-style
+# displaying the table metadata - SQLite-style
 print('Table "persons" created - PRAGMA:')
 print()
 cur.execute("PRAGMA table_info(PERSONS)")
