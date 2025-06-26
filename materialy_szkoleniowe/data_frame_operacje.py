@@ -10,4 +10,4 @@ df = pd.DataFrame(
 )
 
 print("Zastany data frame:")
-print(df) 
+print(df)
