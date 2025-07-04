@@ -34,3 +34,10 @@ print("Czy plik istnieje?", duplikaty_path.exists())
 print()
 print("Ścieżka do pliku duplikaty:")
 print(duplikaty_path.resolve())
+print()
+
+print("Same pliki .odt:")
+katalog_wyslane = Path("C:/Users/Patryk/Documents/CV/wysłane")
+for plik in katalog_wyslane.rglob("*.odt"):
+    print(plik.name)
+    print(plik.resolve())
