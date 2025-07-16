@@ -83,3 +83,15 @@ plt.title('Average kids weight in age')
 plt.legend()
 plt.grid(True)
 plt.show()
+
+
+fig, axs = plt.subplots(2)
+axs[0].plot([1, 8, 5, 2])
+axs[1].plot([4, 11, 12, 9])
+plt.show()
+
+
+labels = ['A', 'B', 'C', 'D']
+values = [8, 5, 12, 30]
+plt.bar(labels, values)
+plt.show()

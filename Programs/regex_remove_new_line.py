@@ -8,52 +8,66 @@ def new_line_remover(text):
 
 
 outcome = new_line_remover("""
+Who we are looking for
 
+We are looking for a passionate Junior Business System Analyst (BSA) with a technical background to join Deloitte's Cloud Integration practice, where you will contribute to delivering state-of-the-art integration solutions for our clients.
 
-Buduj z nami bank przyszłości oparty na danych!
+To be successful in the interview you must have at least: 
 
+computer science studies or at least 1 year of experience on similar position
+business requirements gathering
+documentation preparation
+test cases preparation (scenarios, data quality)
+test plans and test cases execution
+ETL/ELT reverse engineering, including SQL code
+data structures and data analysis
+at least basinc understanding of data modelling concepts and ETL/ELT processes
+at least medium knowledge of SQL
+analytical thinking, detail oriented, problem solving mindset
+EU Work Permit
 
-Szukamy specjalistów, którzy chcą współtworzyć transformację Banku Pekao S.A. w kierunku organizacji opartej na danych (data- driven- bank). Będziemy wspólnie rozwijać nowoczesne platformy danych i narzędzia analityczne oraz pracować projektowo i interdyscyplinarnie – z biznesem, IT, finansami i ryzykiem.
+Your future role
 
+Gathering and analyzing business and technical requirements 
+Assisting in system design and writing technical documentation 
+Collaborating with developers, QA engineers, DevOps, and product owners 
+Supporting system logic validation and reviewing data/integration flows 
+Creating diagrams (process, data flow, architecture) to visualize system behavior. 
 
-Poszukujemy osób na stanowiska: Analityk Danych / Inżynier Danych / BI Developer. Ofertę dopasujemy do Twoich kompetencji.
+What we offer
 
+Flexible working hours,
+Permanent employment or contract,
+Medical and health insurance,
+Multisport and other lifestyle benefits,
+Language courses,
+Friendly coworkers & team spirit,
+Multiple geographies and clients,
+Work for well-known brands,
+Exposure to trailblazing business and technology projects,
+A place in the first line of a digital transformation,
+Everyday opportunities to influence how and where we do our business,
+A development path to fit your needs.
 
-W naszym zespole będziesz odpowiadać za:
+Selection process
 
+We kindly ask you to upload your CV in English.
 
-    Udział w strategicznym projekcie transformacyjnym „DATA”.
-    Rozwój i utrzymanie platform danych (Data Lake, DWH) oraz systemów analityczno- raportowych (BI, MIS).
-    Przygotowanie raportów i DataMartów na potrzeby biznesowe, zarządcze, regulacyjne.
-    Współpracę z zespołami IT, finansów, ryzyka i innych domen banku.
+Shortlisted candidates will be contacted for the interviewing process.
 
+If your CV would be interesting for us there will be a few steps:
 
-Ta praca jest dla Ciebie, jeśli:
+ Quick HR call or meeting;
+ One or two HR and technical interviews with our colleagues from the respective team;
+ Final decision.
 
+About Deloitte
 
-    Posiadasz doświadczenie w analizie danych, raportowaniu, przetwarzaniu dużych zbiorów na bazach danych (SQL, NoSQL).
-    Znasz języki do przetwarzania i programowania danych (SQL, Python, SAS4GL, Scala/Spark/PySpark, LLM/NLP).
-    Masz doświadczenie w pracy z narzędziami klasy DWH, BI, MIS, CRM, ETL/ELT.
-    Interesujesz się przetwarzaniem dużych zbiorów danych, zarządzaniem informacją, controllingiem lub finansami w nowoczesnym wydaniu.
-    Interesujesz się technologiami AI / ML / LLM.
-    Łączysz kompetencje techniczne związane z przetwarzaniem danych z pracą na bazach danych i wiedzą biznesową.
-    Posiadasz lub zamierzasz rozwinąć doświadczenie w modelowaniu baz danych.
-    Znasz język angielski na poziomie co najmniej B2.
+Deloitte is a variety of people, experience, industries and services we deliver in 150 countries of the world. It is an intellectual challenge, a good starting point for your career, and an excellent opportunity for continuous development and gaining valuable life experiences. What you only must do is to take the first step - press the apply button and send us your CV, go through all the stages of the recruitment process and sign a contract with us. Deloitte is simply your best choice.
 
+About the team
 
-Oferujemy Ci:
-
-
-    Zatrudnienie w ramach umowy o pracę.
-    Atrakcyjne wynagrodzenie oraz premie uwzględniające indywidualne wyniki i zaangażowanie.
-    Możliwość pracy hybrydowej.
-    Prywatną opiekę medyczną dla Ciebie i Twojej rodziny na preferencyjnych warunkach.
-    Kartę MultiSport i Ubezpieczenie Grupowe na korzystnych warunkach.
-    Udział w nowatorskich i zróżnicowanych projektach o skali spotykanej wyłącznie w największych organizacjach.
-    System szkoleń i programów rozwojowych, w tym dostęp do LinkedIn Learning.
-    Udział w wyjątkowych inicjatywach realizowanych w Banku (wolontariat pracowniczy, letnie i zimowe mistrzostwa sportowe banku, akcje ekologiczne i prozdrowotne).
-
-
+Our Cloud Engineering teams design and deliver interesting cloud projects for clients in Poland and abroad in areas of cloud development, DevOps, integration, migration, data management, infrastructure and others. We help our clients to strategize, design and implement and migrate solutions with use of modern cloud technologies.
 """)
 
 
