@@ -8,66 +8,76 @@ def new_line_remover(text):
 
 
 outcome = new_line_remover("""
-Who we are looking for
+About the job
+Location: 100% remote or hybrid - you choose. You are always more than welcome to work from our offices located in Warsaw or Krakow
+Salary: B2B, 14.000 - 24.000 PLN net + VAT
+Expected start date: as soon as possible
 
-We are looking for a passionate Junior Business System Analyst (BSA) with a technical background to join Deloitte's Cloud Integration practice, where you will contribute to delivering state-of-the-art integration solutions for our clients.
 
-To be successful in the interview you must have at least: 
 
-computer science studies or at least 1 year of experience on similar position
-business requirements gathering
-documentation preparation
-test cases preparation (scenarios, data quality)
-test plans and test cases execution
-ETL/ELT reverse engineering, including SQL code
-data structures and data analysis
-at least basinc understanding of data modelling concepts and ETL/ELT processes
-at least medium knowledge of SQL
-analytical thinking, detail oriented, problem solving mindset
-EU Work Permit
 
-Your future role
+Join our Team as Business System Analyst !
+We are looking for a person who understands business needs very well and will cooperate closely with Business Users to define business requirements and with delivery team to design optimal solution and ensure that project will deliver business value.
+Experience, partnership, and desire for continuous development - it's our DNA.
 
-Gathering and analyzing business and technical requirements 
-Assisting in system design and writing technical documentation 
-Collaborating with developers, QA engineers, DevOps, and product owners 
-Supporting system logic validation and reviewing data/integration flows 
-Creating diagrams (process, data flow, architecture) to visualize system behavior. 
 
-What we offer
 
-Flexible working hours,
-Permanent employment or contract,
-Medical and health insurance,
-Multisport and other lifestyle benefits,
-Language courses,
-Friendly coworkers & team spirit,
-Multiple geographies and clients,
-Work for well-known brands,
-Exposure to trailblazing business and technology projects,
-A place in the first line of a digital transformation,
-Everyday opportunities to influence how and where we do our business,
-A development path to fit your needs.
+What makes you a great fit?
 
-Selection process
+5+ years of experience in Business and System analysis in Data/AI
+Experience with gathering and documenting requirements and designing & documenting final solution
+Experience in Data Analysis & Data Modeling
+Ability to cooperate effectively with Stakeholders from different levels of the organizational structure: from TOP management to operational level
+Ability to understand different solution architecture models and diagrams
+Can-do and problem-solving attitude to advise customer in the best possible way
+Goal-oriented attitude and proactiveness
+Customer focus approach to work
+Fluent English
 
-We kindly ask you to upload your CV in English.
 
-Shortlisted candidates will be contacted for the interviewing process.
+Nice to have
 
-If your CV would be interesting for us there will be a few steps:
+SQL
+Power BI
+Tools for designing business processes, mockups and data models
+Awareness of business area specific such as: Finance & Controlling, Sales & Marketing, Supply chain, Production
 
- Quick HR call or meeting;
- One or two HR and technical interviews with our colleagues from the respective team;
- Final decision.
 
-About Deloitte
+What will you do?
 
-Deloitte is a variety of people, experience, industries and services we deliver in 150 countries of the world. It is an intellectual challenge, a good starting point for your career, and an excellent opportunity for continuous development and gaining valuable life experiences. What you only must do is to take the first step - press the apply button and send us your CV, go through all the stages of the recruitment process and sign a contract with us. Deloitte is simply your best choice.
+--> Project Delivery Area
 
-About the team
+Analyzing data sources and designing optimal data models
+Creating and proposing a final solution to the Client, e.g. in the form of ready-made Power BI report mockups
+Identifying business needs and business goals to define project scope/product Roadmap
+Preparing and conducting presentations targeted to the different groups of the audience
+Collecting functional and non-functional requirements
+Verifying existing business processes and identifying potential improvements and enhancements
+Building Project Backlogs, especially defining Epics and User Stories
+Preparing Tests Plans and testing developed solutions
+Analytical documentation management
+--> Business Development
 
-Our Cloud Engineering teams design and deliver interesting cloud projects for clients in Poland and abroad in areas of cloud development, DevOps, integration, migration, data management, infrastructure and others. We help our clients to strategize, design and implement and migrate solutions with use of modern cloud technologies.
+Direct cooperation with the client in creating Business Intelligence solutions and business apps.
+Close cooperation with the architects in the design phase
+Close cooperation with the developers in the implementation of the project
+Supporting Project Owner in project management or the possibility of project coordination in the SCRUM / AGILE method
+
+
+Our benefits:
+
+Knowledge Sharing: Collaborate with top industry professionals, exchange innovative ideas, and make your voice heard. Your insights matter here.
+Development Budget: Invest in your growth with us. Choose the conferences, training sessions, or certifications that best suit your career path.
+Hardware of Your Choice: Work with the best tools. Choose the equipment that helps you perform at your peak.
+Flexible Hours: Whether you’re an early bird or a night owl, we offer flexible hours to fit your lifestyle and maximize your productivity.
+Remote Work: Enjoy the freedom to work from home or any location that suits you, while maintaining a healthy work-life balance.
+Leader’s Support: Our leaders are here to support you. Just ask for guidance or feedback whenever you need it.
+Project Bonuses: Celebrate your successes with us. Receive bonuses for outstanding project achievements.
+Social Events: Join in the fun! Participate in various social events and sports activities with your colleagues.
+Health Insurance: Your well-being is our priority. Benefit from comprehensive health insurance coverage.
+Comfy Office in a Great Locations: Work in a comfortable, ergonomic office located in the heart of the city, designed to inspire creativity and collaboration.
+Relaxed Atmosphere: Experience a flat organizational structure with no dress code. Join a team of talented, down-to-earth professionals.
+Up to 6000 PLN for Employee Recommendations: Help us grow our team and earn up to 6000 PLN for successful employee referrals.
 """)
 
 

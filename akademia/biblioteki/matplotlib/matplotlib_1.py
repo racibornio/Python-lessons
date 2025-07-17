@@ -6,21 +6,23 @@ import numpy as np
 
 fake = Faker()
 
+# the simplest line chart based on a list of direct values
 plt.plot([0, 1, 2, 3, 4, 5])
 plt.ylabel("Numbers")
 plt.show()
 
-
+# the simplest line chart based on a list of direct values with arguments
 plt.plot([1, 2, 3], [4.5, 9, 13.5])
 plt.ylabel("Numbers")
 plt.show()
 
-
+# the simplest line chart based on a list of direct values and color/shape definition and ranges definition
 plt.plot([1, 2, 3], [4.5, 9, 13.5], 'ro')
 plt.axis((1, 3, 1, 15))
 plt.show()
 
 
+# mix of shapes and colors
 xs, xs2, xs3 = [], [], []
 
 for i in range(0, 25):
@@ -33,7 +35,10 @@ for i in range(0, 25):
 plt.plot(xs, xs, 'r--', xs, xs2, 'bo', xs, xs3, 'g^')
 plt.show()
 
+# shapes: trangle - ^, square - s, star - *, plus - +, dot - .
 
+
+# scatter combining the dictionary filled up with random data
 data = {
     "x" : [],
     "y" : [],
