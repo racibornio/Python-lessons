@@ -3,6 +3,7 @@ import pandas as pd
 from pathlib import Path
 import matplotlib.pyplot as plt
 import seaborn as sns
+import plotly.express as px
 
 cwd = Path.cwd()
 print(f'Current path: {cwd}')
@@ -13,6 +14,8 @@ temperatura_df = pd.read_csv( file_path / 'temperatura.csv')
 print('Data frame:')
 print(temperatura_df)
 
+
+# matplotlib
 
 plt.plot(temperatura_df['Godzina'], temperatura_df['Temperatura'])
 plt.xlabel('Hour')
@@ -45,6 +48,8 @@ plt.title('Temperature during the day')
 plt.grid(True)
 plt.show()
 
+
+# seaborn
 
 sns.relplot(
     data=temperatura_df,
@@ -113,3 +118,11 @@ sns.pairplot(
     hue='Temperatura'
 )
 plt.show()
+
+
+# plotly
+
+fig = px.histogram(
+    temperatura_df
+)
+fig.show()
