@@ -8,59 +8,106 @@ def new_line_remover(text):
 
 
 outcome = new_line_remover("""
-The client is an American multinational association that is involved in the design, development, manufacturing, worldwide marketing, and sales of apparel, footwear, accessories, equipment, and services. The company is a proven leader in its industry and is constantly working to create innovative products and services.
+Posted on: 7/21/2025 - Application Deadline: 8/26/2025
+Back to Search
 
-The project is about using a full price sales performance to predict value marketplace behaviour. There is a team of Data and Machine Learning engineers who develop the product using different ML models and data from different sources for tranings.
+Business & Operations Analyst
 
-Requirements
+Location: Europe
 
-You are an experienced Product / Data Analyst. You enjoy working at the intersection of data and business, gathering and refining requirements from stakeholders, and collaborating with engineering teams to ensure successful project delivery. You have a proven ability to translate business needs into actionable data solutions and to ensure these solutions have real business impact. You thrive in dynamic environments, are curious, and enjoy working in cross-functional teams.
+Country: Europe
 
+Application due date: 8/25/2025 23:59:59 UTC
 
-5+ years of experience in data analysis, business analysis, or a related role.
-A bachelor’s or master’s degree in a relevant field such as Computer Science, Data Science, Engineering, or Business Analytics.
-Strong SQL skills (must have).
-Proficiency in Python for data analysis (must have) to explore, prepare, and analyze data.
-Understanding of AI/ML concepts and ability to collaborate with ML teams on data requirements.
-Understanding of data quality, data integrity, and data governance principles.
-Excellent verbal and written English communication skills.
-Experience with project management methodologies and tools.
-Ability to interpret business requirements and translate them into clear data needs and actionable insights.
-Strong problem-solving skills and the ability to work through data-related challenges.
-Collaboration and communication skills to work effectively with data scientists, ML engineers, and other stakeholders.
-Ability to create clear documentation and deliver engaging presentations for both technical and non-technical audiences.
+Are you passionate about driving process improvements and eager to help shape the future of sustainable steel production? At SSAB, we’re on a mission to lead the global steel industry into a sustainable future. We’re now looking for a highly skilled Business Operations Analyst to join our team and our exciting journey. At SSAB we thrive on innovation and progress. Join a dynamic and innovative team at SSAB where we are committed to excellence and continuous improvement. We’re looking for passionate and driven individual to join our team and help us make a difference. 
 
+Becoming part of the SSAB family means joining a journey. A journey that we believe is essential for the sustainability of this planet. Steel has been one of the most important materials for developing our society and it will continue to be so. In the roofs over our heads, in the bridges connecting our cities and in the cars of tomorrow. At SSAB we are proud of our history and leadership in high-strength steel. But we are also aware that the production of steel is one of the largest emitters of greenhouse gases in the world. That has to change. That is why we have developed the world’s ﬁrst fossil free steel production and has committed to becoming largely fossil-free. As part of SSAB you will be instrumental in realizing this goal and push for the green transformation of the whole steel industry.
+About the position
 
-Job responsibilities
+Are you a curious and driven individual with a passion for combining process expertise and technology? Do you thrive in project-based environments and enjoy sharing your knowledge? If so, this is the perfect opportunity for you!
 
+We are seeking a highly skilled and motivated Business Operations Analyst to join our newly established team ERP Operations Management Organization – Subsidiaries Special Steels. In this role, you will analyse existing business processes, identify areas for improvement, gathering and documenting requirements, contributing to ERP implementation projects and work closely with stakeholders to implement effective solutions. Your work will ensure that our projects align with strategic business objectives and deliver maximum value. Your skills will play a key role in optimizing our ERP system to effectively support and improve core business operations. 
+Checklist
+Main responsibilities
 
-Work closely with business stakeholders to understand their needs, pain points, and goals, and translate these into clear data requirements.
-Collaborate with data engineers and ML teams to identify and secure the required data for analysis and model development.
-Conduct data exploration, profiling, and preparation to ensure data quality and relevance.
-Document data flows, requirements, and data-related business processes.
-Translate business requirements into clear technical specifications and ensure alignment with project goals.
-Help identify potential challenges and limitations in the proposed data solutions and collaborate to resolve them.
-Act as a bridge between business and technical teams by clearly explaining how data can be used to support business decisions.
-Provide insights and recommendations based on data analysis to improve business outcomes.
-Create user guides or documentation to help non-technical stakeholders understand data usage and AI/ML outputs.
-Present findings and insights in a clear and accessible manner.
+    Collaborate with functional teams to gather requirements, document business needs and optimize business processes within the ERP system.
 
+    Develop detailed business process maps and workflows.
+    Analyse data to identify trends, insights, and areas for improvement.
+    Create and maintain comprehensive documentation of business processes and requirements.
+    Facilitate communication between business units and technical teams.
+    Provide ongoing support and guidance to stakeholders throughout the project lifecycle.
+    Analyse current ERP system processes and identify areas for improvement.
+    Create detailed documentation of processes, configurations, and changes.
+    Support daily operations and resolve system issues in coordination with IT.
+    Take part in ERP improvement initiatives, rollouts, and projects.
+    Conduct end-user training and ensure consistent ERP practices and documentation.
 
-What we offer
+Id Card
+About You
 
-Culture of caring. At GlobalLogic, we prioritize a culture of caring. Across every region and department, at every level, we consistently put people first. From day one, you’ll experience an inclusive culture of acceptance and belonging, where you’ll have the chance to build meaningful connections with collaborative teammates, supportive managers, and compassionate leaders.
+    Bachelor’s degree in Business Administration, Information Technology, or other related field or serval year experience in a similar role.
+    Proven experience as a Business Analyst or in a similar role.
+    Strong understanding of ERP systems and their applications in a business environment.
+    Strong analytical and problem-solving skills.
+    Excellent communication and interpersonal skills.
+    Ability to work independently, manage priorities, and communicate effectively with both technical and non-technical stakeholders.
+    Ability to work effectively with cross-functional teams.
+    Proficiency in ERP software (e.g., SAP, Oracle, Microsoft Dynamics).
+    Language Skills: Fluency in English is required (additional languages are a plus).
+    Preferred Qualifications:
+                 •Experience in global ERP rollouts or upgrades.
+                 •SAP Business One experience.
+                 •Background in change management or process harmonization.
+                 •Experience working in multicultural environments.
 
-Learning and development. We are committed to your continuous learning and development. You’ll learn and grow daily in an environment with many opportunities to try new things, sharpen your skills, and advance your career at GlobalLogic. With our Career Navigator tool as just one example, GlobalLogic offers a rich array of programs, training curricula, and hands-on opportunities to grow personally and professionally.
+Our offer
 
-Interesting & meaningful work. GlobalLogic is known for engineering impact for and with clients around the world. As part of our team, you’ll have the chance to work on projects that matter. Each is a unique opportunity to engage your curiosity and creative problem-solving skills as you help clients reimagine what’s possible and bring new solutions to market. In the process, you’ll have the privilege of working on some of the most cutting-edge and impactful solutions shaping the world today.
+At SSAB we strive for a diverse and inclusive environment. We use our values – driven, true and ahead – in making everyday decisions, keeping the customer at the heart of what we do. This makes us all team players, each with the drive to improve. When joining SSAB you will become part of an organization of passionate problem solvers working together on important challenges. We will support your growth by providing a safe and friendly workplace that contributes to work-life balance. If you set out to achieve it, at SSAB you will have the possibility of broadening your skills and grow within your field or beyond.
 
-Balance and flexibility. We believe in the importance of balance and flexibility. With many functional career areas, roles, and work arrangements, you can explore ways of achieving the perfect balance between your work and life. Your life extends beyond the office, and we always do our best to help you integrate and balance the best of work and life, having fun along the way!
+We offer a wide range of appreciated benefits to our employees. Some examples of these are listed here:
+Check
 
-High-trust organization. We are a high-trust organization where integrity is key. By joining GlobalLogic, you’re placing your trust in a safe, reliable, and ethical global company. Integrity and trust are a cornerstone of our value proposition to our employees and clients. You will find truthfulness, candor, and integrity in everything we do.
+Profit sharing
+Recruitment process
+Envelope
 
-About GlobalLogic
+1. Apply
+Computer
 
-GlobalLogic, a Hitachi Group Company, is a trusted digital engineering partner to the world’s largest and most forward-thinking companies. Since 2000, we’ve been at the forefront of the digital revolution – helping create some of the most innovative and widely used digital products and experiences. Today we continue to collaborate with clients in transforming businesses and redefining industries through intelligent products, platforms, and services.
+2. Pre-recorded Video Interview
+Test
+
+3. Interview
+Interview
+
+4. Assessments
+Contract
+
+5. Reference Check
+Contract
+
+6. Come and meet us 
+Contract
+
+7. Sign
+
+Background check may be a part of the recruitment process.
+Got questions about this position?
+
+Please contact Bettina Murray, Department Manager, ERP Operations     
+Contact Bettina via e-mail - bettina.murray@ssab.com
+
+We decline contacts from recruitment agencies and ad sellers regarding this advertisement.
+
+Trade union information is provided by Akademikerföreningen, Unionen and Ledarna, which can be reached via our switchboard on phone  +46 155 254 000.
+Word from your future manager
+
+"My name is Bettina Murray, and I’m excited and proud to be leading the newly formed ERP Operations Management Team within Special Steels.
+We’re building a small, agile, and dedicated team with a global focus on supporting and improving our ERP systems within Special Steels.
+This is a unique opportunity to be part of something from the start and building the foundation — shaping not only how we work, but also the culture and direction of the team. You’ll have the chance to make a real impact, helping to develop our ways of working while collaborating with colleagues across regions to drive our business forward. We’re looking for team members who are eager to collaborate, solve complex problems, and make a real impact from day one. As a leader, I believe in trust, transparency, and open communication. I’m here to support you and ensure we grow together as a strong connected team. I’m committed to creating a positive, inclusive team culture where everyone’s voice is heard.
+If you enjoy working in a diverse, multicultural environment and want to be part of something new and meaningful — then this might be your next role. I’m looking forward to hearing from you — let’s build something great together!” 
+
 """)
 
 
