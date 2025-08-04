@@ -29,3 +29,11 @@ class Klasa_trzecia:
         # self.suma = self.a + self.b
         iloczyn = suma * mnoznik
         return iloczyn
+    
+
+class klasa_czwarta:
+    atrybut_klasy_a = 90
+    atrybut_klasy_b = 100
+
+    def __init__(self):
+        print("__init__ z 'klasa_czwarta' załadowany")

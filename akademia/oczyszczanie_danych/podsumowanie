@@ -13,7 +13,7 @@ df.sample(7) -> losowych 7
 df.info() -> informacje o kolumnach
 df.describe() -> opis data frame
 df.unique() -> policz unikaty
-df['age'].unique() -> pokaż duplikaty wybranej kolumny
+df['age'].unique() -> pokaż unikaty wybranej kolumny
 df['age'].value_counts() -> pokaż wartości unikatów i ilość ich wystąpień
 df["height [m]"] = df["height [cm]"] / 100 -> nowa kolumna z kalkulacji innej
 df["bmi category"] = df["bmi"].apply(bmi_category) -> nowa kolumna z wynikiem działania funkcji
