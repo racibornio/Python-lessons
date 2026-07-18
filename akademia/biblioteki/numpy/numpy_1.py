@@ -50,3 +50,19 @@ random_10_normal = np.random.normal(0, 1, 10)
 print("Random 10 values from normal distribution:")
 print(random_10_normal)
 print()
+
+lista_pythonowa_1 = [1, 2, 3, 4, 5]
+lista_pythonowa_2 = [5, 4, 3, 2, 1]
+
+suma_list = lista_pythonowa_1 + lista_pythonowa_2
+print("Displaying sum of two python lists:")
+print(suma_list)
+print()
+
+lista_numpy_1 = np.array(lista_pythonowa_1)
+lista_numpy_2 = np.array(lista_pythonowa_2)
+
+suma_numpy = lista_numpy_1 + lista_numpy_2
+print("Displaying sum of two numpy arrays:")
+print(suma_numpy)
+print()
