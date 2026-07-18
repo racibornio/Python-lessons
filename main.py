@@ -14,7 +14,7 @@ def typeAndDisplay():
     print("Wpisz frazę i naciśnij Enter")
     przechowajWpis = input()
     dlugoscWpisu = len(przechowajWpis)
-    print("Wpisany ciąg ma ", dlugoscWpisu, " znaków.")
+    print("Wpisany ciąg ma", dlugoscWpisu, "znaków.")
     print(przechowajWpis)
     print("Process terminated.")
 
