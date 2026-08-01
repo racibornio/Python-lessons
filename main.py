@@ -86,3 +86,10 @@ print(fileContent)
 #print(int(wpis))
 #print(float(wpis))
 # 5 Rzutowanie - END ######################################################
+
+# zmienne - BEGIN ######################################################
+pierwsza_zmienna = 1
+print(f'Pierwsza zmienna: {pierwsza_zmienna}')
+pierwsza_zmienna = 2
+print(f'Pierwsza zmienna: {pierwsza_zmienna}')
+# zmienne - END ######################################################
