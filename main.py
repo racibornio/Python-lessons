@@ -93,3 +93,7 @@ print(f'Pierwsza zmienna: {pierwsza_zmienna}')
 pierwsza_zmienna = 2
 print(f'Pierwsza zmienna: {pierwsza_zmienna}')
 # zmienne - END ######################################################
+
+temperatura = 9
+if temperatura < 0:
+    print("Jest zimno")

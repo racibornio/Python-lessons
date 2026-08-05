@@ -16,27 +16,31 @@ print(f'Adres szesnastkowy: {hex(id(lista_1))}\n')
 print("Dodajemy element 6 do listy\n")
 lista_1.append(6)
 print(f'Lista 1 po dodaniu elementu: {lista_1}\n')
+print(f'Adres: {hex(id(lista_1))}\n')
 print(f'Długość listy: {len(lista_1)}\n')
 
 # wartości w liście można nadpisać
 print("Nadpisujemy pierwszy element listy wartością 10\n")
 lista_1[0] = 10
 print(f'Lista 1 po nadpisaniu: {lista_1}\n')
+print(f'Adres: {hex(id(lista_1))}\n')
 
 # wartości w liście można usuwać
 print("Usuwamy ostatni element listy\n")
 lista_1.pop()
 print(f'Lista 1 po usunięciu: {lista_1}\n')
-
+print(f'Adres: {hex(id(lista_1))}\n')
 # wartości w liście można usuwać po indeksie
 print("Usuwamy pierwszy element listy\n") 
 lista_1.pop(0)
 print(f'Lista 1 po usunięciu: {lista_1}\n')
+print(f'Adres: {hex(id(lista_1))}\n')
 
 # wartości w liście mogą być różnych typów
 print("Dodajemy element 'Hello' do listy\n")
 lista_1.append("Hello")
 print(f'Lista 1 po dodaniu elementu: {lista_1}\n')
+print(f'Adres: {hex(id(lista_1))}\n')
 
 ########### LISTY end ###########
 
@@ -69,10 +73,42 @@ dni_tygodnia = {
     7: 'Niedziela'
 }
 
-print(f'Pracujemy w dniach: {dni_tygodnia[1]}, {dni_tygodnia[2]}, {dni_tygodnia[3]}, {dni_tygodnia[4]} i {dni_tygodnia[5]}\n')  # Poniedziałek, Wtorek, Środa, Czwartek, Piąte
-print(f'Odpoczywamy w dniach: {dni_tygodnia[6]} i {dni_tygodnia[7]}\n')  # Sobota, Niedziela
+print(f'Pracujemy w dniach: {dni_tygodnia[1]}, {dni_tygodnia[2]}, {dni_tygodnia[3]}, {dni_tygodnia[4]} i {dni_tygodnia[5]}\n')
+print(f'Odpoczywamy w dniach: {dni_tygodnia[6]} i {dni_tygodnia[7]}\n')
+
+# metoda .get()
+
+#print(f'Pracujemy w dniach: {dni_tygodnia[0]}\n')
+print(f'Pracujemy w dniach: {dni_tygodnia.get(0)}\n')
+print(f'Pracujemy w dniach: {dni_tygodnia.get(0, "Nie ma takiego dnia")}\n')
+
+# dowód na mutowalność słownika
+adres_przed_updatem_slownika =  hex(id(dni_tygodnia))
+print("Zmieniamy nazwę poniedziałku na angielskie 'Monday'\n")
+dni_tygodnia[1] = 'Monday'
+print(f'Zmieniona lista dni: {dni_tygodnia}\n')
+adres_po_updacie_slownika =  hex(id(dni_tygodnia))
+print(f'Porównujemy adresy - przed: {adres_przed_updatem_slownika}, po: {adres_po_updacie_slownika}\n')
+print(f'Czy adresy są takie same? {adres_przed_updatem_slownika == adres_po_updacie_slownika}\n')
 
 ########### SŁOWNIKI end ###########
+
+
+########### KROTKI begin ###########
+# krotka / tuple
+krotka_1 = (1, 2, 3, 4, 5)
+print(f'Krotka 1: {krotka_1}\n')
+adres_przed_zmiana = hex(id(krotka_1))
+krotka_1 = (1, 1, 2, 2, 3)
+print(f'Krotka 1 po zmianie: {krotka_1}\n')
+adres_po_zmianie = hex(id(krotka_1))
+print(f'Adres krotki po zmianie: {adres_po_zmianie}\n')
+print(f'Czy adresy są takie same? {adres_przed_zmiana == adres_po_zmianie}\n')
+# Próbujemy zmienić pierwszy element z 1 na 99:
+#krotka_1[0] = 99
+
+
+########### KROTKI end ###########
 
 # zbiór / set
 zbior_1 = {1, 2, 3, 4, 5}
@@ -81,10 +117,13 @@ print(f'Zbiór 1: {zbior_1}\n')
 zbior_2 = {1, 1, 2, 2, 3}
 print(f"Zbiór z duplikatami: {zbior_2}")  # Wyświetli: {1, 2, 3}
 
+# Operacje na zbiorach (bardzo szybkie w RAM):
+zbor_a = {1, 2, 3, 4}
+zbor_b = {3, 4, 5, 6}
 
-# krotka / tuple
-krotka_1 = (1, 2, 3, 4, 5)
-print(f'Krotka 1: {krotka_1}\n')
-krotka_1 = (1, 1, 2, 2, 3)
-# Próbujemy zmienić pierwszy element z 1 na 99:
-#krotka_1[0] = 99
+# Różnica - co jest w A, czego nie ma w B?
+print(f"Różnica: {zbor_a - zbor_b}")  # Wyświetli: {1, 2}
+
+# Część wspólna
+print(f"Część wspólna: {zbor_a & zbor_b}")  # Wyświetli: {3, 4}
+
