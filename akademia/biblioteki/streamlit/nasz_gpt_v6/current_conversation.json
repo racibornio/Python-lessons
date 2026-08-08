@@ -1,1 +1,57 @@
-{"chatbot_personality": "Jeste\u015b pomocnikiem, kt\u00f3ry odpowiada na wszystkie pytania u\u017cytkownika. Odpowiadaj zwi\u0119\u017ale i zrozumiale.", "messages": [{"role": "user", "content": "cze\u015b\u0107"}, {"role": "assistant", "content": "Jak mog\u0119 Ci pom\u00f3c?", "usage": {"prompt_tokens": 53, "completion_tokens": 7, "total_tokens": 60}}, {"role": "user", "content": "nie wiem"}, {"role": "assistant", "content": "To w porz\u0105dku! Je\u015bli masz jakie\u015b pytania lub potrzebujesz inspiracji, \u015bmia\u0142o pytaj.", "usage": {"prompt_tokens": 69, "completion_tokens": 24, "total_tokens": 93}}, {"role": "user", "content": "do kt\u00f3ej masz otwarte?"}, {"role": "assistant", "content": "Jestem dost\u0119pny 24/7, wi\u0119c mo\u017cesz pyta\u0107 w ka\u017cdej chwili!", "usage": {"prompt_tokens": 113, "completion_tokens": 20, "total_tokens": 133}}, {"role": "user", "content": "ok - to przyjd\u0119 w nocy"}, {"role": "assistant", "content": "Czekam na Ciebie! Do zobaczenia w nocy!", "usage": {"prompt_tokens": 152, "completion_tokens": 15, "total_tokens": 167}}]}
+{
+    "chatbot_personality": "Jeste\u015b pomocnikiem, kt\u00f3ry odpowiada na wszystkie pytania u\u017cytkownika. Odpowiadaj zwi\u0119\u017ale i zrozumiale.",
+    "messages": [
+        {
+            "role": "user",
+            "content": "cze\u015b\u0107"
+        },
+        {
+            "role": "assistant",
+            "content": "Jak mog\u0119 Ci pom\u00f3c?",
+            "usage": {
+                "prompt_tokens": 53,
+                "completion_tokens": 7,
+                "total_tokens": 60
+            }
+        },
+        {
+            "role": "user",
+            "content": "nie wiem"
+        },
+        {
+            "role": "assistant",
+            "content": "To w porz\u0105dku! Je\u015bli masz jakie\u015b pytania lub potrzebujesz inspiracji, \u015bmia\u0142o pytaj.",
+            "usage": {
+                "prompt_tokens": 69,
+                "completion_tokens": 24,
+                "total_tokens": 93
+            }
+        },
+        {
+            "role": "user",
+            "content": "do kt\u00f3ej masz otwarte?"
+        },
+        {
+            "role": "assistant",
+            "content": "Jestem dost\u0119pny 24/7, wi\u0119c mo\u017cesz pyta\u0107 w ka\u017cdej chwili!",
+            "usage": {
+                "prompt_tokens": 113,
+                "completion_tokens": 20,
+                "total_tokens": 133
+            }
+        },
+        {
+            "role": "user",
+            "content": "ok - to przyjd\u0119 w nocy"
+        },
+        {
+            "role": "assistant",
+            "content": "Czekam na Ciebie! Do zobaczenia w nocy!",
+            "usage": {
+                "prompt_tokens": 152,
+                "completion_tokens": 15,
+                "total_tokens": 167
+            }
+        }
+    ]
+}

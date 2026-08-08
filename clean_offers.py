@@ -2,41 +2,30 @@ import re
 
 # Wklej tutaj wieloliniowy tekst ogłoszenia w potrójnym cudzysłowie:
 raw_job_description = """
- Hi, I hope you’re doing well! I wanted to check whether the following opportunity for a Senior Product Manager / Senior Product Owner might be interesting for you.
+Hi Patryk,
+I hope you’re doing well.
+We currently have an opportunity for a Senior Business Analyst with the following details:
+Position Type: Contract
+Location: Warsaw, Poland - Hybrid
 
-Offer details:
- Rate: 130–150 PLN/h B2B
- Project for a UK-based client from the Media & Advertising industry
+If you’re interested, please share your updated CV at tushar.s@i-q.co
 
-Role description:
- We are looking for an experienced Product Manager / Product Owner to join an existing project and support product development in an Agile environment. The role involves close cooperation with business and technical teams, process analysis and translating business needs into clear product requirements.
+Position Summary
+ We are seeking an experienced Senior Business Analyst to join our product development
+ organization responsible for delivering enterprise software solutions hosted on Microsoft
+ Azure This role serves as the critical bridge between business stakeholders product
+ management architecture engineering and operations teams to ensure business needs are
+ translated into high quality scalable and secure software solutions
+ The Senior Business Analyst works closely with Product Managers Product Owners
+ Engineering Leads Solution Architects UX Designers and development teams to define
+ product capabilities document requirements improve business processes and drive
+ successful delivery outcomes
+ The ideal candidate combines strong business analysis expertise experience working within
+ Agile software delivery teams a solid understanding of cloud based applications and working
+ knowledge of Artificial Intelligence AI technologies and AIenabled business solutions
 
-Responsibilities:
- • Ownership of product-related topics in an existing project
- • Working closely with stakeholders, business and engineering teams
- • Analyzing business processes and translating needs into product requirements
- • Managing and prioritizing product backlog
- • Supporting Agile delivery and Scrum ceremonies
- • Ensuring clear communication between business and technical teams
- • Supporting decision-making with structured analysis and product insight
-
-Requirements:
- • Experience as a Product Manager / Product Owner
- • Strong knowledge of Agile / Scrum
- • Experience with business process analysis
- • Ability to work closely with technical and business stakeholders
- • Strong communication skills
- • Ownership, proactivity and ability to drive topics forward
-
-Interested?
- Please send your CV using the application link:
-https://hrk.traffit.com/public/form/a/926f69f7ae1cfe85fdf71620585ef8745338736a3745413d
-
-If the role is not a perfect fit for you, feel free to share it with someone from your network — I’ll be happy to connect.
-
-Best regards,
-Aleksandra Jaczyńska
-
+Tushar Sam
+Technical Recruiter | Hiring Engineers & Product Talent | Scaling High-Impact Tech Teams FOR Poland - Europe AND UK
 """
 
 
