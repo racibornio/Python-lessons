@@ -2,7 +2,8 @@ import re
 
 # Wklej tutaj wieloliniowy tekst ogłoszenia w potrójnym cudzysłowie:
 raw_job_description = """
-
+ 21 840 – 30 240 PLN
++ VAT (B2B) per month  
 """
 
 
