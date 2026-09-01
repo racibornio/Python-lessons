@@ -2,40 +2,29 @@ import re
 
 # Wklej tutaj wieloliniowy tekst ogłoszenia w potrójnym cudzysłowie:
 raw_job_description = """
-Opportunity for Product Owner in Krakow, Poland (Hybrid) - 3 Days WFO mandatory
-Hi Patryk ,
-Hope you are doing well.
+Product Owner poszukiwany 🕵🏻‍♀️
+Cześć!😊
 
-I recently came across your profile and was impressed by your expertise. We are currently seeking Product Owner to join our team in Krakow, Poland (Hybrid)- 3 Days WFO mandatory and it's a Contract role. 
+Jestem Rekruterką w firmie NATEK i szukam obecnie Product Ownera do projektu w bankowości, związanego z wdrożeniem nowego modułu aplikacji mobilnej do obsługi produktów inwestycyjnych.
 
-We are seeking a highly experienced and strategic Product Owner to lead product development initiatives across multiple teams and functions. The ideal candidate will bring deep expertise in Artificial Intelligence, Financial Products, and Agile methodologies, with a strong focus on user-centric design, innovation, and continuous improvement & STAKEHOLDER MANAGEMENT
+Kluczowe wymagania:
+• 8 lat doświadczenia na stanowisku Product Owner / Product Manager
+• Doświadczenie w rozwoju aplikacji mobilnych
+• Znajomość produktów inwestycyjnych lub rynku finansowego
+• Doświadczenie w tworzeniu i realizacji roadmapy produktowej
+• Umiejętność zarządzania backlogiem i priorytetyzacją
+• Silne umiejętności analityczne i biznesowe
+• Bardzo dobra znajomość języka angielskiego (C1+)
 
-Key Responsibilities: 
-Own the full product lifecycle: discovery, idea evaluation, roadmap creation, implementation, and feedback gathering. 
-Collaborate across cross-functional teams to ensure alignment and delivery of product goals. 
-Define long-term product vision and translate it into actionable roadmaps. 
-Prioritize features and functionalities based on user needs, business value, and technical feasibility. 
-Manage and refine product backlogs, ensuring clarity and alignment with business objectives. 
-Interpret business requirements and translate them into detailed technical specifications. 
-Identify commonalities across platform tenants and define appropriate customizations. 
-Engage with stakeholders at all levels to gather feedback and drive product decisions. 
+praca hybrydowa 2x w tygodniu (lub rzadziej - 1x na 2 tygodnie) z biura w Warszawie / Wrocławiu / Poznaniu 
 
-Required Skills & Qualifications:
-10+ years of experience in product ownership or product management. 
-Proven experience managing complex project backlogs. 
-Deep understanding of Agile methodology and software development lifecycle. 
-Proficiency in Microsoft Office tools and Copilot. 
-Working knowledge of GitLab and SQL. 
-Experience with AI technologies and financial product development (preferred). 
+stawka: b2b 1100 - 1250 zł netto / dzień
+UoP: 17-18.500 zł brutto / miesiąc 
 
-If you're interested please share me a copy of your updated resume.
+Jeśli projekt brzmi interesująco, proszę o wysłanie CV i chętnie umówię się na rozmowę o szczegółach 😊
 
-Thanks and Regards,
-Deeksha
-Engineering Recruiter
-📞 +44 2080 950 384
-✉️ deeksha@ixceed-solutions.com
-🌐 www.ixceed-solutions.com
+Zuzanna Klatt
+Junior IT Recruite
 """
 
 
