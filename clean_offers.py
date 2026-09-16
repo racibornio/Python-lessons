@@ -6,45 +6,65 @@ raw_job_description = """
 
 
 
-B2B | Zdalnie | QA Lead z WMS Manhattan
-Cześć Patryk,
+Job description
 
-Tu Eliza z emagine. 
-Chciałam zapytać, czy rozważasz obecnie nowe możliwości zawodowe.
+Clurgo to firma stworzona przez developerów dla developerów. Nasze zespoły łączą pełne spektrum kompetencji - od rozwoju oprogramowania i infrastruktury, przez analizę oraz testy, aż po strategiczne zarządzanie produktem i procesami. Realizujemy różnorodne projekty IT dla klientów z wielu branż, dbając o dobre praktyki programistyczne i zachowanie work-life balance. Tworzymy rozwiązania, które mają znaczenie - dla firm w Polsce i na całym świecie.
 
-Jeden z naszych klientów poszukuje Test Managera / QA Leada z doświadczeniem w Manhattan Active WMS. To dość niszowy profil, dlatego szukamy osoby, która dobrze odnajdzie się w roli o charakterze bardziej liderskim i koordynacyjnym niż hands-on.
+✅ Dołączysz do strategicznego programu transformacji cyfrowej dużej organizacji z sektora ubezpieczeniowego. Projekt koncentruje się na rozwoju i transformacji środowiska danych oraz raportowania.
 
-Poniżej przesyłam szczegóły:
-Kontrakt: B2B, pierwsza umowa na 12 miesięcy z możliwością przedłużenia.
-Stawka: Jesteśmy otwarci na Twoje oczekiwania finansowe.
-Model pracy: Pełny etat, 100% zdalnie.
+Będziesz współpracować z biznesem oraz zespołami technicznymi, analizując wymagania, duże wolumeny danych i wspierając projektowanie nowych rozwiązań.
 
-Na czym polega rola?
-Osoba na tym stanowisku będzie odpowiedzialna za zarządzanie testami w ramach trójstronnej integracji pomiędzy Foot Locker, Manhattan Associates oraz systemem CiCT.
-Zakres obejmuje definiowanie strategii testów, przygotowanie planów testowych i kryteriów wejścia/wyjścia, prowadzenie SIT, UAT, regression, cutover i hypercare, koordynację działań pomiędzy biznesem, IT i dostawcami, prowadzenie defect triage oraz raportowanie statusu testów do kierownictwa projektu.
+✅Technologie i narzędzia: SQL, SAS, Enterprise Guide, 4GL
 
-Główne obowiązki:
-Definiowanie i wdrażanie strategii testów dla integracji Manhattan WMS. 
-Przygotowanie planów testowych z jasno określonymi kryteriami wejścia i wyjścia. 
-Koordynacja faz SIT, UAT, regression i hypercare. 
-Prowadzenie procesu defect triage oraz raportowanie statusu testów do liderów projektu. 
-Nadzór nad współpracą interesariuszy i governance jakości. 
+Szukamy Ciebie, jeśli:
 
-Kluczowe wymagania:
-Duże doświadczenie w testowaniu Manhattan WMS. 
-Szersze doświadczenie w testach integracyjnych WMS / supply chain. 
-Umiejętność zarządzania governance i współpracy z interesariuszami. 
-Doświadczenie w testach funkcjonalnych i wydajnościowych. 
+    masz 4+ lata doświadczenia na podobnym stanowisku
 
-Czy taka rola mogłaby Cię zainteresować?
+    masz minimum 2 lata doświadczenia w analizie biznesowej lub systemowej w obszarze danych, hurtowni danych lub BI
 
-Jeśli tak, chętnie porozmawiam o szczegółach. Możesz przesłać mi CV w odpowiedzi na tę wiadomość.
+    bardzo dobrze znasz SQL i potrafisz samodzielnie analizować duże wolumeny danych
 
-Pozdrawiam!
+    masz doświadczenie w przygotowywaniu dokumentacji analitycznej i specyfikacji wymagań
 
-Eliza Danda
-IT Recruiter @ emagine | Looking for a job? I’m hiring!
+    potrafisz modelować procesy biznesowe
 
+    masz doświadczenie w tworzeniu scenariuszy i przypadków testowych
+
+    potrafisz współpracować bezpośrednio z użytkownikami biznesowymi i zespołami technicznymi
+
+    masz analityczne podejście i potrafisz przekładać potrzeby biznesowe na rozwiązania IT
+
+Mile widziane:
+
+    doświadczenie w branży ubezpieczeniowej
+
+    znajomość SAS, Enterprise Guide lub 4GL
+
+    doświadczenie w projektach hurtowni danych, migracji danych lub przebudowy architektury danych
+
+Zadania:
+
+    analiza wymagań i procesów biznesowych
+
+    przygotowywanie analiz, specyfikacji funkcjonalnych i dokumentacji projektowej
+
+    analiza dużych wolumenów danych
+
+    współpraca z biznesem przy definiowaniu wymagań dla rozwiązań danych i raportowych
+
+    przygotowywanie scenariuszy i przypadków testowych
+
+    współpraca z zespołami developerskimi przy projektowaniu i wdrażaniu rozwiązań
+
+    udział w projektach związanych z rozwojem i transformacją środowiska danych oraz raportowania
+
+Czego możesz się spodziewać:
+
+    współpracy w oparciu o kontrakt B2B
+
+    profesjonalnego procesu rekrutacyjnego – zawsze otrzymasz od nas feedback niezależnie od decyzji
+
+ Poznaj nas lepiej👉 https://www.facebook.com/clurgo/
 
 """
 

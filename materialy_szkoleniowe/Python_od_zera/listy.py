@@ -100,3 +100,17 @@ while True:
     print(f'Posortowana lista programu: {sorted(lista_programu)}\n')
 
 print(f'Lista programu: {lista_programu}\n')
+
+# Odwrotne sortowanie listy
+lista_do_odwrotnego_sortowania = [5, 2, 1, 4, 3]
+print(f'Lista do odwrotnego sortowania: {lista_do_odwrotnego_sortowania}')
+print(f'Poniższy efekt uzyskano kodem: "sorted(lista_do_odwrotnego_sortowania, reverse=True)"')
+print(f'Lista do odwrotnego sortowania: {sorted(lista_do_odwrotnego_sortowania, reverse=True)}')
+print(f'Następnie lista jest ponownie nieposortowana:')
+print(f'Lista do odwrotnego sortowania: {lista_do_odwrotnego_sortowania}\n')
+
+# Odwrócenie listy - bez sortowania rosnąco po drodze!
+print(f'Listę można też odwrócić/zawrócić bez jej uprzedniego sortowania: "lista_do_odwrotnego_sortowania.reverse()"')
+lista_do_odwrotnego_sortowania.reverse()
+print(f'Lista po odwróceniu: {lista_do_odwrotnego_sortowania}')
+print(f'Lista po odwróceniu: {lista_do_odwrotnego_sortowania}')
