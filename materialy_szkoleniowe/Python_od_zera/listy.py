@@ -114,3 +114,38 @@ print(f'Listę można też odwrócić/zawrócić bez jej uprzedniego sortowania:
 lista_do_odwrotnego_sortowania.reverse()
 print(f'Lista po odwróceniu: {lista_do_odwrotnego_sortowania}')
 print(f'Lista po odwróceniu: {lista_do_odwrotnego_sortowania}')
+
+# Iteracja po liście - wyświetlenie elementów listy w pętli for
+print(f'Iteracja po liście - wyświetlenie elementów listy w pętli for:')
+for element in lista_do_odwrotnego_sortowania:
+    print(f'Element listy: {element}')
+
+# Utworzenie nowej listy
+print(f'### Utworzenie nowej listy ###')
+
+elementy = []
+for value in range(6, 11):
+    elementy.append(value)
+    print(f'Dodano {value}.')
+
+print(f'Nowa lista: {elementy}')
+
+liczby_parzyste = list(range(0, 11, 2))
+liczby_nieparzyste = list(range(1, 11, 2))
+print(f'Lista liczb parzystych: {liczby_parzyste}')
+print(f'Lista liczb nieparzystych: {liczby_nieparzyste}\n')
+
+lista_kwadratow = []
+for item in range(1, 11):
+    lista_kwadratow.append(item ** 2)
+    print(f'Kwadrat liczty {item} to {item ** 2}.')
+
+print(f'Lista kwadratów: {lista_kwadratow}')
+print(f'Najmniejszy element listy kwadratów: {min(lista_kwadratow)}')
+print(f'Największy element listy kwadratów: {max(lista_kwadratow)}')
+print(f'Suma elementów listy kwadratów: {sum(lista_kwadratow)}\n')
+
+# Lista składana
+print(f'### Lista składana ###')
+lista_skladana = [item*item for item in range(1, 11)]
+print(f'Lista składana: {lista_skladana}\n')

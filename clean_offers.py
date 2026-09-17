@@ -6,65 +6,39 @@ raw_job_description = """
 
 
 
-Job description
 
-Clurgo to firma stworzona przez developerów dla developerów. Nasze zespoły łączą pełne spektrum kompetencji - od rozwoju oprogramowania i infrastruktury, przez analizę oraz testy, aż po strategiczne zarządzanie produktem i procesami. Realizujemy różnorodne projekty IT dla klientów z wielu branż, dbając o dobre praktyki programistyczne i zachowanie work-life balance. Tworzymy rozwiązania, które mają znaczenie - dla firm w Polsce i na całym świecie.
 
-✅ Dołączysz do strategicznego programu transformacji cyfrowej dużej organizacji z sektora ubezpieczeniowego. Projekt koncentruje się na rozwoju i transformacji środowiska danych oraz raportowania.
+Szukam Business Analityka (4–6 lat doświadczenia, EN/FR, do 410 EUR MD) dla producenta dóbr luksusowych!
+Dzień dobry Patryk, 
 
-Będziesz współpracować z biznesem oraz zespołami technicznymi, analizując wymagania, duże wolumeny danych i wspierając projektowanie nowych rozwiązań.
+pozwoliłem sobie na kontakt, ponieważ szukam Business Analityka dla jednego z największych producentów dóbr luksusowych na świecie (fashion/jewelry/watches), do programu Retail Transformation (IT / Digital). Stawka do 410 EUR dziennie.
 
-✅Technologie i narzędzia: SQL, SAS, Enterprise Guide, 4GL
+To stanowisko jest przeznaczone dla osoby z konkretnym doświadczeniem w branży dóbr luksusowych / retail oraz kilkuletnią praktyką w analizie biznesowej – klient oczekuje realnego backgroundu w pracy z markami luksusowymi lub dużym retail. 
 
-Szukamy Ciebie, jeśli:
+Zakres roli / projekt:
+• wsparcie Retail Transformation Program – analiza procesów sprzedaży, retail operations, omnichannel
+• zbieranie i doprecyzowywanie wymagań biznesowych (workshopy, wywiady, dokumentacja)
+• przygotowywanie user stories, use cases, specyfikacji funkcjonalnych dla zespołów IT / Digital
+• współpraca z interesariuszami biznesowymi (Maisons, retail, e‑commerce) oraz zespołami technicznymi
+• udział w projektowaniu i optymalizacji procesów retail / store / clienteling / omnichannel
+• wsparcie w testach biznesowych (UAT), walidacja rozwiązań względem potrzeb biznesu 
+Kluczowe oczekiwania:
+• min. 4–6 lat doświadczenia jako Business Analyst w obszarze retail / dóbr luksusowych / e‑commerce
+• praktyka w business analysis: zbieranie wymagań, mapowanie procesów (AS‑IS/TO‑BE), gap analysis
+• bardzo dobre umiejętności komunikacji i pracy z interesariuszami (warsztaty, prezentacje, dokumentacja)
+• doświadczenie w pracy w środowisku Agile (Scrum / Kanban)
+• biegła znajomość języka angielskiego i francuskiego 
 
-    masz 4+ lata doświadczenia na podobnym stanowisku
+W przypadku zainteresowania proszę o aktualne CV lub numer telefonu do krótkiej rozmowy.
+Będę też wdzięczny za polecenia Koleżanek i Kolegów z podobnym profilem.
 
-    masz minimum 2 lata doświadczenia w analizie biznesowej lub systemowej w obszarze danych, hurtowni danych lub BI
+Pozdrawiam/Best regards 
+Dominik Buśkiewicz
+Technical Recruiter
+Phone: +48 795 670 470
+dbuskiewicz@amaris.com
 
-    bardzo dobrze znasz SQL i potrafisz samodzielnie analizować duże wolumeny danych
 
-    masz doświadczenie w przygotowywaniu dokumentacji analitycznej i specyfikacji wymagań
-
-    potrafisz modelować procesy biznesowe
-
-    masz doświadczenie w tworzeniu scenariuszy i przypadków testowych
-
-    potrafisz współpracować bezpośrednio z użytkownikami biznesowymi i zespołami technicznymi
-
-    masz analityczne podejście i potrafisz przekładać potrzeby biznesowe na rozwiązania IT
-
-Mile widziane:
-
-    doświadczenie w branży ubezpieczeniowej
-
-    znajomość SAS, Enterprise Guide lub 4GL
-
-    doświadczenie w projektach hurtowni danych, migracji danych lub przebudowy architektury danych
-
-Zadania:
-
-    analiza wymagań i procesów biznesowych
-
-    przygotowywanie analiz, specyfikacji funkcjonalnych i dokumentacji projektowej
-
-    analiza dużych wolumenów danych
-
-    współpraca z biznesem przy definiowaniu wymagań dla rozwiązań danych i raportowych
-
-    przygotowywanie scenariuszy i przypadków testowych
-
-    współpraca z zespołami developerskimi przy projektowaniu i wdrażaniu rozwiązań
-
-    udział w projektach związanych z rozwojem i transformacją środowiska danych oraz raportowania
-
-Czego możesz się spodziewać:
-
-    współpracy w oparciu o kontrakt B2B
-
-    profesjonalnego procesu rekrutacyjnego – zawsze otrzymasz od nas feedback niezależnie od decyzji
-
- Poznaj nas lepiej👉 https://www.facebook.com/clurgo/
 
 """
 
