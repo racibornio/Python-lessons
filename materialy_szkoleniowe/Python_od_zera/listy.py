@@ -149,3 +149,51 @@ print(f'Suma elementów listy kwadratów: {sum(lista_kwadratow)}\n')
 print(f'### Lista składana ###')
 lista_skladana = [item*item for item in range(1, 11)]
 print(f'Lista składana: {lista_skladana}\n')
+
+lista_probna = []
+for item in range(10):
+    if item % 2 == 0:
+        lista_probna.append(item*item)
+    else:
+        0
+
+print(f'Lista próbna: {lista_probna}.')
+
+
+nowa_lista = []
+[nowa_lista.append(item*item) if item % 2 == 0 else 0 for item in range(10)]
+print(f'Nowa lista: {nowa_lista}.')
+
+taka_lista = [item*item if item % 2 == 0 else 0 for item in range(10)]
+print(f'Lista z wyrażenia złożonego: {taka_lista}.\n')
+
+lista_do_wyboru = ['P', 'W', 'Ś', 'C', 'P', 'S', 'N']
+print(f'Lista: {lista_do_wyboru}')
+print(f'Wybrane: {lista_do_wyboru[0:2]}')
+print(f'Wybrane: {lista_do_wyboru[2:4]}')
+print(f'Wybrane: {lista_do_wyboru[:3]}')
+print(f'Wybrane: {lista_do_wyboru[4:]}\n')
+
+print(f'Indeks dnia "wtorek": {lista_do_wyboru.index(('W'))}\n')
+print(f'Ile razy dzień na "P"? -> {lista_do_wyboru.count(('P'))}\n')
+
+print(f'Dni roboce to: {[lista_do_wyboru[i] for i in range(5)]}')
+print(f'Dni wolne to {[lista_do_wyboru[i] for i in range(5, 7, 1)]}\n')
+print(f'Co 2-gi dzień: {lista_do_wyboru[::2]}')
+print(f'Tydzień od końca: {lista_do_wyboru[::-1]}\n')
+print(f'dir: {dir(lista_do_wyboru)}')
+print(f'help: {help(lista_do_wyboru)}\n')
+
+# Kopiowanie listy
+lista_1 = [1, 2, 3]
+lista_2 = lista_1
+
+lista_2.append(4)
+print(f'lista_1 jest taka sama jak lista_2, choć to do lista_2 dodany został element: {lista_1}\n')
+
+print(f'Poprawnym sposobem kopiowania list nie jest przyrównywanie do siebie zmiennych, tylko dawanie całego wycinka: lista_3 = lista_4[:].')
+lista_3 = [0, 9, 8]
+lista_4 = lista_3[:]
+lista_4.append(-1)
+print(f'lista_3: {lista_3}')
+print(f'lista_4: {lista_4} - lista_3 nie została zmieniona.\n')

@@ -6,37 +6,103 @@ raw_job_description = """
 
 
 
+Warszawa Kontrakt B2B PLN120 - PLN160 per hour praca zdalna
+
+Updated on 04/09/2026
+
+    Praca w 100% zdalna
+    Umowa B2B via Michael Page
+
+O naszym kliencie
+
+Projekt realizowany jest dla międzynarodowej organizacji będącej dostawcą zaawansowanej infrastruktury i usług B2B dla instytucji finansowych, która rozwija globalne kompetencje w obszarze ServiceNow oraz transformacji procesów biznesowych.
+Opis stanowiska
+
+    Zbieranie, analiza oraz dokumentowanie wymagań biznesowych, funkcjonalnych i niefunkcjonalnych dla inicjatyw związanych z platformą ServiceNow.
+    Prowadzenie warsztatów, sesji discovery oraz analiz procesów biznesowych.
+    Wspieranie definiowania rozwiązań, zarządzania backlogiem oraz priorytetyzacji wymagań.
+    Przekładanie potrzeb biznesowych na skalowalne rozwiązania i usprawnienia w platformie ServiceNow.
+    Współpraca z architektami, deweloperami oraz właścicielami platformy przy projektowaniu i wdrażaniu rozwiązań.
+    Przygotowywanie uzasadnień biznesowych, analiz wartości oraz oczekiwanych korzyści z realizowanych inicjatyw.
+    Wspieranie rozwoju modelu operacyjnego ServiceNow oraz procesów governance.
+    Udział w tworzeniu standardów, polityk, procedur i praktyk związanych z funkcjonowaniem platformy.
+    Analiza i optymalizacja procesów IT oraz procesów biznesowych zgodnie z dobrymi praktykami ServiceNow.
+    Identyfikowanie możliwości automatyzacji oraz inicjatyw zwiększających efektywność procesów.
+    Wspieranie harmonizacji procesów pomiędzy różnymi jednostkami biznesowymi.
+    Budowanie i utrzymywanie relacji z interesariuszami biznesowymi, zespołami technologicznymi oraz funkcjami wspierającymi.
+    Facylitowanie procesu podejmowania decyzji i osiągania konsensusu pomiędzy zaangażowanymi stronami.
+    Wsparcie działań związanych z gotowością operacyjną, przejęciem usług oraz przygotowaniem modelu wsparcia.
+    Definiowanie wymagań dotyczących wsparcia biznesowego, KPI, SLA i procesów operacyjnych.
+    Udział w testach, walidacji rozwiązań oraz odbiorach użytkowników biznesowych.
+    Analiza wpływu biznesowego integracji pomiędzy ServiceNow a systemami wewnętrznymi i zewnętrznymi.
+    Koordynacja zależności pomiędzy zespołami realizującymi inicjatywy integracyjne.
+    Zapewnienie zgodności rozwiązań z wymaganiami architektonicznymi, bezpieczeństwa, ryzyka i compliance.
+    Identyfikowanie oraz analiza przypadków użycia dla rozwiązań AI i inteligentnej automatyzacji procesów.
+    Współtworzenie przyszłych procesów biznesowych wykorzystujących możliwości sztucznej inteligencji.
 
 
-Szukam Business Analityka (4–6 lat doświadczenia, EN/FR, do 410 EUR MD) dla producenta dóbr luksusowych!
-Dzień dobry Patryk, 
 
-pozwoliłem sobie na kontakt, ponieważ szukam Business Analityka dla jednego z największych producentów dóbr luksusowych na świecie (fashion/jewelry/watches), do programu Retail Transformation (IT / Digital). Stawka do 410 EUR dziennie.
+Profil kandydata
 
-To stanowisko jest przeznaczone dla osoby z konkretnym doświadczeniem w branży dóbr luksusowych / retail oraz kilkuletnią praktyką w analizie biznesowej – klient oczekuje realnego backgroundu w pracy z markami luksusowymi lub dużym retail. 
+    Doświadczenie na stanowisku Business Analysta lub Business Solutions Analysta w środowisku ServiceNow.
+    Znajomość języka angielskiego umożliwiająca swobodną konwersację (min. poziom C1)
+    Praktyczna znajomość analizy biznesowej, zarządzania wymaganiami i modelowania procesów.
+    Doświadczenie w prowadzeniu warsztatów oraz współpracy z interesariuszami biznesowymi i technicznymi.
+    Umiejętność przekładania potrzeb biznesowych na rozwiązania systemowe i procesowe.
+    Znajomość funkcjonowania platformy ServiceNow oraz projektów jej wdrażania i rozwoju.
+    Doświadczenie w obszarze governance, zarządzania usługami lub transformacji procesów.
+    Umiejętność pracy w złożonym środowisku organizacyjnym obejmującym wiele zespołów i obszarów biznesowych.
+    Doświadczenie we współpracy z architektami, zespołami technicznymi oraz właścicielami procesów.
+    Wysoko rozwinięte umiejętności komunikacyjne, analityczne i organizacyjne.
+    Znajomość zagadnień związanych z integracjami systemowymi oraz zależnościami międzyplatformowymi.
 
-Zakres roli / projekt:
-• wsparcie Retail Transformation Program – analiza procesów sprzedaży, retail operations, omnichannel
-• zbieranie i doprecyzowywanie wymagań biznesowych (workshopy, wywiady, dokumentacja)
-• przygotowywanie user stories, use cases, specyfikacji funkcjonalnych dla zespołów IT / Digital
-• współpraca z interesariuszami biznesowymi (Maisons, retail, e‑commerce) oraz zespołami technicznymi
-• udział w projektowaniu i optymalizacji procesów retail / store / clienteling / omnichannel
-• wsparcie w testach biznesowych (UAT), walidacja rozwiązań względem potrzeb biznesu 
-Kluczowe oczekiwania:
-• min. 4–6 lat doświadczenia jako Business Analyst w obszarze retail / dóbr luksusowych / e‑commerce
-• praktyka w business analysis: zbieranie wymagań, mapowanie procesów (AS‑IS/TO‑BE), gap analysis
-• bardzo dobre umiejętności komunikacji i pracy z interesariuszami (warsztaty, prezentacje, dokumentacja)
-• doświadczenie w pracy w środowisku Agile (Scrum / Kanban)
-• biegła znajomość języka angielskiego i francuskiego 
 
-W przypadku zainteresowania proszę o aktualne CV lub numer telefonu do krótkiej rozmowy.
-Będę też wdzięczny za polecenia Koleżanek i Kolegów z podobnym profilem.
 
-Pozdrawiam/Best regards 
-Dominik Buśkiewicz
-Technical Recruiter
-Phone: +48 795 670 470
-dbuskiewicz@amaris.com
+Mile widziane
+
+    Doświadczenie w budowie lub rozwijaniu modelu operacyjnego ServiceNow.
+    Znajomość zagadnień związanych z architekturą korporacyjną, bezpieczeństwem i compliance.
+    Udział w programach transformacyjnych realizowanych w dużych organizacjach.
+    Doświadczenie związane z automatyzacją procesów oraz inicjatywami AI.
+    Znajomość frameworków zarządzania usługami i procesami IT.
+
+Oferujemy
+
+    Stawka: 120 - 160 PLN netto/h B2B
+    Start współpracy: 15.10.2026.
+    Praca w 100% zdalna (jedynie pierwsze kilka dni pracy to warsztaty stacjonarne z całym zespołem w Warszawie)
+    Kluczowa rola w strategicznym rozwoju platformy ServiceNow w międzynarodowym środowisku.
+    Umowa B2B via Michael Page.
+
+Kontakt
+Olga Lefelbajn
+Numer referencyjny
+JN-092026-7095324
+Szczegóły oferty
+
+Sektor
+    Informatyka
+
+Obszar
+    Analizy biznesowe
+
+Branża
+    Technology & Telecoms
+
+Lokalizacja
+    Warszawa
+
+Rodzaj umowy
+    Kontrakt B2B
+
+Twoja aplikacja trafi do
+    Olga Lefelbajn
+
+Numer referencyjny
+    JN-092026-7095324
+
+System pracy
+    praca zdalna
 
 
 
