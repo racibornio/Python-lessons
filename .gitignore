@@ -1,0 +1,19 @@
+.venv/
+files/pliki_xlsx/DataBleed.xlsx
+obiektowy
+export_szkolenia.xlsx
+akademia/bazy_danych/szkolenia_eksport.py
+katalog_szkolen.csv
+osoby.csv
+uczestnicy_szkolen.csv
+szkolenia.csv
+
+# Sekrety i konfiguracje środowiskowe
+.env
+*.env
+*openai-key.txt
+akademia/openai-key.txt
+
+# Pliki tymczasowe i bazy sesji
+current_conversation.json
+*.json

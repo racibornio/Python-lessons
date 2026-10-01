@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title>Kalkulator wartości</title>
+
+    <script>
+        function addField() {
+            const container = document.getElementById("fields");
+
+            // liczba pól = liczba inputów, nie divów
+            const index = container.querySelectorAll("input[name='numbers']").length + 1;
+
+            const div = document.createElement("div");
+            div.id = "field_" + index;
+
+            div.innerHTML = `
+                <label>Liczba ${index}</label>
+                <input type="text" name="numbers" value=""><br/>
+                <button type="button" onclick="removeField(${index})">-</button>
+            `;
+
+            container.appendChild(div);
+        }
+
+        function removeField(id) {
+            if (id <= 2) return;
+
+            const element = document.getElementById("field_" + id);
+            if (element) {
+                element.remove();
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form method="POST" action="/calculate">
+
+        <div id="fields">
+            {% for val in numbers %}
+                <div id="field_{{ loop.index }}">
+                    <label>Liczba {{ loop.index }}</label>
+                    <input type="text" name="numbers" value="{{ val }}"><br/>
+
+                    {% if loop.index == 2 %}
+                        <button type="button" onclick="addField()">+</button>
+                    {% elif loop.index > 2 %}
+                        <button type="button" onclick="removeField({{ loop.index }})">-</button>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+
+        <br/>
+
+        <button type="submit" name="action" value="add">Dodaj</button>
+        <button type="submit" name="action" value="sub">Odejmij</button>
+        <button type="submit" name="action" value="mul">Pomnóż</button>
+        <button type="submit" name="action" value="div">Podziel</button>
+
+        <br/><br/>
+        
+        <button type="submit" name="action" value="reset">Reset</button>
+
+        {% if result is not none %}
+            <h1>Wynik: {{ result }}</h1>
+        {% endif %}
+
+    </form>
+</body>
+</html>

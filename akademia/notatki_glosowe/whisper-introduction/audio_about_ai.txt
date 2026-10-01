@@ -1,0 +1,12 @@
+
+Sztuczna inteligencja to dziedzina technologii,
+która umożliwia maszynom naśladowanie ludzkiego myślenia i podejmowania decyzji.
+
+Dzięki zaawansowanym algorytmom i uczeniu maszynowemu, AI potrafi analizować ogromne ilości danych,
+rozpoznawać wzorce i przewidywać przyszłe zdarzenia.
+
+Współcześnie AI znajduje zastosowanie w wielu dziedzinach, takich jak medycyna, finanse,
+transport czy edukacja, rewolucjonizując sposób, w jaki funkcjonują społeczeństwa.
+
+Choć niesie ze sobą ogromny potencjał, rozwój AI rodzi także pytania o etykę,
+prywatność i przyszłość rynku pracy.

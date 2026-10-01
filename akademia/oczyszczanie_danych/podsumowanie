@@ -1,0 +1,103 @@
+df = pd.DataFrame( { [] } )
+
+##############################################
+##########    eksploracja zbioru    ##########
+##############################################
+
+df.head() -> pierwsze 5
+df.head(9) -> pierwsze 9
+df.tail() -> ostatnie 5
+df.tail(11) -> ostatnie 11
+df.sample() -> losowych 5
+df.sample(7) -> losowych 7
+df.info() -> informacje o kolumnach
+df.describe() -> opis data frame
+df.unique() -> policz unikaty
+df['age'].unique() -> pokaż unikaty wybranej kolumny
+df['age'].value_counts() -> pokaż wartości unikatów i ilość ich wystąpień
+df["height [m]"] = df["height [cm]"] / 100 -> nowa kolumna z kalkulacji innej
+df["bmi category"] = df["bmi"].apply(bmi_category) -> nowa kolumna z wynikiem działania funkcji
+df.drop(columns="height [m]", inplace=True) -> usunięcie kolumny
+df = df.drop('Klasyfikacja', axis=1) -> trwałe usunięcie kolumny
+df["age"] += 1 -> nadpisanie wartości w kolumnie
+df = df.rename(columns={"name" : "Imię"}) -> zmiana nazwy kolumny
+df.columns = ['Imię', 'Wiek', 'Waga', 'Wzrost', 'Kraj', 'BMI', 'Klasyfikacja'] -> zmiana nazw kolumn w kolejności występowania
+df.sort_values(by="Wzrost") -> sortowanie po kolumnie - rosnąco
+df.sort_values(by="Wzrost", ascending=False) -> sortowanie po kolumnie - malejąco
+
+
+
+##############################################
+##########      puste wartości      ##########
+##############################################
+
+df.isnull() -> tabela true/false dla pustych/niepustych komórek data frame
+df.isnull().sum() -> każda kolumna i suma jej nulli
+
+usuń wiersze z pustymi
+df.dropna() -> usuń N/A, czyli null z całego data frame
+df.dropna(axis=1) -> j.w.
+df.dropna(subset="nazwa_kolumny") -> usunięcie nulli tylko z konkretnej kolumny
+
+wypełnij puste miejsca wskazanymi danymi
+df.fillna({"age" : 30, "city" : "Unknown", "salary" : 5882}) -> wypełnienie pustych konkretnymi wartościami
+df2 = df.copy() -> skopiowanie data frame do innego
+df2["age"] = df2["age"].fillna(df2["age"].mean()) -> wypełnienie pustych średnią z istniejących
+df2["salary"] = df2["salary"].fillna(df2["salary"].median()) -> wypełnienie pustych medianą z istniejących
+df2.fillna({"age": df2["age"].mean(), "salary": df2["salary"].median()}, inplace=True) -> wypełnienie w locie
+df.fillna(
+    {"age" : df["age"].mean(),
+     "city" : "Unknown",
+     "salary" : df["salary"].median()
+     }, inplace=True
+)
+
+określenie współczynnika korelacji
+df[["age", "salary"]].corr()
+
+
+
+##############################################
+##########         duplikaty        ##########
+##############################################
+
+df.duplicated() -> tabela true/false dla duplikatów w data frame
+df.duplicated(subset=["Name", "Age", "City"]) -> true/false duplikaty dla wybranych kolumn
+print(df[df.duplicated()]) -> wyświetl zduplikowane wiersze
+print(df[df.duplicated(keep=False)]) -> wyświetl zduplikowane wiersze wraz z pierwotnymi
+df.drop_duplicates() -> usuń wiersze zaw. jakiekolwiek duplikaty
+df.drop_duplicates(subset=["Name", "Age", "City"]) -> usuń duplikaty tylko z wybranych wierszy
+df.drop_duplicates(subset=["Name", "Age", "City"], keep="last") -> usuń duplikaty, zachowaj ostatnie
+
+
+
+##############################################
+##########      naprawa błędów      ##########
+##############################################
+
+df["Age"] = df["Age"].replace({"thirty-five" : 35, "Twenty-five" : 25}) -> naprawa poprzez podmianę wartości
+df["Age"] = pd.to_numeric(df["Age"], errors='coerce') -> zmiana typu kolumny, coerce zwraca NaN w razie błędów
+                                        errors="raise" -> domyślne, rzuca wyjatek w razie błędów
+                                        errors="ignore" -> zostawia bez zmian nawet jeśli wartości są nienumeryczne
+
+df2.loc[(df2["Age"] < 0) | (df2["Age"] > 120), "Age"] = None -> naprawa błędu walidacyjnego
+
+
+##############################################
+##########       filtrowanie        ##########
+##############################################
+
+data_in_dictionary = df.to_dict(orient='records') -> zapis danych do słownika
+df[["name", "age"]] -> wyświetlenie tylko wybranych kolumn
+name_and_age_df = df[["name", "age"]].copy() -> stworzenie nowego data frame tylko z wybranymi kolumnami
+df["age"] > 40 -> tylko pozycje spełniające warunek
+(df["age"] > 40) & (df["height"] > 150) -> tylko pozycje spełniające warunki
+(df["age"] > 40) | (df["height"] > 150) -> tylko pozycje spełniające warunki
+df.iloc[1] -> tylko rekord o podanym id
+df.iloc[0:3] -> tylko rekordy po id z zakresu
+df.loc["pracownik IT 0"] -> tylko rekordy o przypisanym uprzednio indeksie: index=["pracownik HR 0", "pracownik HR 1", "pracownik IT 0", "pracownik IT 1"]
+df[~df["name"].isin(['Adam', 'Celina'])] -> tylko wartrości niespełniające warunku
+df[df["name"].isin(['Adam', 'Celina'])] -> tylko wartości spełniające warunek
+
+daty_df["date"] = pd.to_datetime(daty_df["date"]) -> zmiana typu kolumny liczbowej na datę do filtrowania
+daty_df[daty_df["date"] > "2021-01-15"] -> tylko wartości z określoną datą

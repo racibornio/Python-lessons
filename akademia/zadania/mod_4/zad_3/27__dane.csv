@@ -1,0 +1,2075 @@
+Age;Name;Address;Height;Weight
+23.0;Shawn Levine;"463 Lewis Lake
+Hernandezfurt, WV 74504";174.0;61.0
+100.0;Jeffery Davis;;168.0;62.0
+28.0;Angela Potter;;;60.0
+30.0;Jacob Daugherty;"91528 Ballard Falls Apt. 779
+East Gregory, SD 83020";170.0;81.0
+99.0;Zachary Watson;"3582 Tracy Lakes
+New Shelly, WY 32429";179.0;85.0
+25.0;Megan Hayes;"9862 Bond Wells Apt. 076
+North Lisa, MH 88482";198.0;83.0
+66.0;Brittney Nelson;"Unit 8606 Box 6609
+DPO AA 33370";;47.0
+;Amy Fisher;"02180 Keith Point Apt. 709
+Ronaldbury, FM 14749";163.0;106.0
+51.0;Alicia Macias;"86965 Nunez Locks
+Jessicatown, IN 23405";158.0;54.0
+;Douglas White;"94248 Gonzalez Row
+Port Scott, NE 08333";155.0;90.0
+44.0;David Pierce;"158 Gonzales Squares
+East Phyllis, ND 66537";;65.0
+48.0;Kayla Welch;"0421 Lee Hollow Apt. 855
+Danielport, AZ 31993";;66.0
+;Amy Zimmerman;"5814 Brewer River Suite 192
+Murphyberg, MT 38717";166.0;103.0
+46.0;;"7774 Brooks Street
+Lake Haleybury, RI 94093";189.0;44.0
+41.0;Stephanie Lawrence;;;50.0
+37.0;Emily Taylor;"767 Anthony Rapid
+North Taylorland, VT 62023";180.0;76.0
+80.0;;;164.0;64.0
+;;"720 Dawson Mews
+New Candacemouth, ND 86079";183.0;
+47.0;Thomas Snyder;"783 Morgan Key Suite 651
+Burkefurt, HI 77868";175.0;52.0
+64.0;David Price;"6012 Melissa Mall Suite 966
+Hodgesburgh, ME 54946";200.0;80.0
+32.0;;"324 Michael Row Suite 341
+Dianemouth, CT 52791";;110.0
+80.0;Ryan Ramirez;"963 Allen Flats Suite 290
+North Alexandraview, MT 40302";169.0;57.0
+66.0;Christopher Neal;"06112 Baldwin Wells Suite 324
+Torresbury, DC 92073";177.0;55.0
+74.0;Shane Velez;"USCGC Delgado
+FPO AP 28667";170.0;65.0
+61.0;;"67165 Ellis Turnpike
+Oconnellborough, NY 28606";173.0;93.0
+33.0;Amy Black;"22595 Alicia Fork
+Mcculloughtown, TX 87678";168.0;58.0
+56.0;Kevin Rodriguez;"6597 Amy Forest
+Lindsaymouth, OK 46130";188.0;51.0
+21.0;David Caldwell;"593 Reed Junction
+Kimberlyberg, DC 43555";162.0;50.0
+30.0;Nicole Kim;"2251 Rebekah Street Apt. 458
+South Catherineport, HI 16715";200.0;62.0
+69.0;Christine Branch;"USCGC Phillips
+FPO AA 31128";191.0;75.0
+;Larry Sheppard;"68580 Thomas Club Apt. 834
+Ashleymouth, NM 89064";178.0;58.0
+66.0;Nathan Hooper;"3607 Barbara Ridges
+Rachelstad, RI 66193";199.0;78.0
+63.0;Latasha Flynn;"73927 Shaw Flats Apt. 978
+West Samantha, NV 48873";191.0;49.0
+31.0;Charles Good;"2499 Jones Plains
+New Lisamouth, WA 87854";178.0;97.0
+53.0;David Rowe;"4382 Ryan Well Suite 969
+Matthewmouth, NC 03795";173.0;60.0
+31.0;Robert Jenkins;"735 Sheppard Turnpike Apt. 176
+West Justinborough, WY 73484";191.0;87.0
+87.0;Ruben Duncan;"89656 Natalie Lodge Suite 832
+Port Destiny, WA 83260";190.0;85.0
+20.0;Shannon Brown;;156.0;59.0
+36.0;Darius Boone;"USS Russo
+FPO AP 51274";194.0;67.0
+48.0;Colleen West;"3478 Jennifer Vista Suite 662
+North Joanna, WI 98605";197.0;81.0
+34.0;Jessica King;"143 Jennifer Ranch
+Chelseaberg, AK 12000";179.0;56.0
+76.0;Kristina Clark;"93657 Allen Flat
+Sanchezfurt, NV 46419";160.0;51.0
+99.0;David Holmes;"560 Clark Harbors Apt. 953
+Nashmouth, GA 84950";172.0;84.0
+76.0;Kristina Clark;"93657 Allen Flat
+Sanchezfurt, NV 46419";160.0;51.0
+91.0;Emily Martinez;"2833 Ashley Cape
+East Charles, PW 34783";189.0;88.0
+56.0;Collin Martinez;"7409 Hardin Orchard
+Murphyland, DC 91745";177.0;
+80.0;Stacie Davenport;"234 Henry Inlet
+South Jordantown, WY 09702";169.0;70.0
+;Kurt Miller;"1399 Jeremy Locks Suite 677
+West Peter, NH 93065";151.0;71.0
+39.0;Brandi Swanson;"793 Brown Trail Apt. 534
+Shaneview, WA 65009";166.0;91.0
+57.0;Melissa Rodriguez;"125 Michael Ways
+North Jessicaton, MI 83177";153.0;71.0
+54.0;Julie Villanueva;"4749 Amanda Port Suite 410
+East Briannaburgh, NE 80716";162.0;41.0
+89.0;Cynthia King;"166 Perez Dale
+North Kaitlintown, DE 17193";156.0;
+;Ashley West;"444 Rhonda Lake Suite 312
+Lake Anthonyberg, IL 61617";;85.0
+66.0;William Baker;"545 Jodi Mission Apt. 630
+West Joeborough, AR 67004";166.0;61.0
+32.0;Katherine Davis;"112 Johnson Port
+Lake Nathan, KY 73639";162.0;61.0
+81.0;John Salazar;"8903 Bolton Heights Suite 361
+Williamsbury, IN 93988";159.0;68.0
+68.0;Thomas Pham;"4701 James Land
+Hamiltonport, CO 70367";193.0;
+67.0;Kathryn Carter;"4704 Young Junctions Suite 918
+New Sarahside, NV 69126";170.0;98.0
+46.0;Justin Jenkins;"3177 Dawson Lock
+Reedtown, CT 18502";176.0;
+92.0;Michael Martinez;"USS Berry
+FPO AE 99396";162.0;56.0
+83.0;Joe Miller;"50017 Robbins Burgs Suite 970
+Kellyborough, AZ 66364";;79.0
+42.0;Charles Doyle;"58724 Jacqueline Forest Suite 994
+West Erikachester, FM 95215";184.0;65.0
+29.0;Barbara Thompson;"175 Nolan Terrace Apt. 721
+West Scott, FL 36596";157.0;94.0
+30.0;;"92765 Buckley Stream
+New Timothyton, AR 84690";152.0;89.0
+51.0;Diana Craig;"92764 Oscar Path
+Alexandrafort, VT 27917";164.0;106.0
+94.0;Christopher Thompson;"803 Susan Harbor
+South Amanda, FL 27473";190.0;86.0
+58.0;Lynn Freeman;"Unit 9777 Box 6548
+DPO AE 68604";151.0;70.0
+40.0;;"936 Bell Islands Suite 051
+North Marissaborough, WA 88367";180.0;
+30.0;Kenneth Lee;"98364 Lambert Courts Apt. 366
+Figueroaborough, IN 26994";198.0;40.0
+28.0;Patrick Roberts;"061 Robert Turnpike Suite 977
+Hillmouth, CA 54801";181.0;56.0
+;Nicholas Garcia;"64734 Melton Brook
+South Marcchester, FL 52104";156.0;
+46.0;David Walker;"7768 Simpson Mountains
+New Ryan, NM 18312";;108.0
+97.0;Alexandra Jones;"9346 Martinez Island
+Richardhaven, SC 48646";179.0;98.0
+83.0;;;153.0;60.0
+40.0;;"0036 Kevin Loaf
+Phillipberg, FM 21016";190.0;43.0
+91.0;Maria Lewis;"0295 Barker Centers
+Jefferybury, PW 58024";199.0;75.0
+68.0;;"1411 Stephanie Coves
+Hamptonshire, MP 81863";159.0;61.0
+83.0;Ronald Hogan;"409 Fisher Mountains
+New Gregory, SD 90646";196.0;103.0
+49.0;Amanda Anthony;"291 Lee Rapids Apt. 471
+North Josephfurt, WA 63115";;88.0
+89.0;Brandon Warren;"5040 Scott Manors Suite 626
+South Jeffrey, NC 60409";155.0;110.0
+66.0;Troy Lamb;"94468 Turner Point Apt. 699
+Brownborough, NV 03541";156.0;73.0
+;Antonio Reyes;"8950 Gray Lakes Apt. 020
+Craigmouth, UT 65667";198.0;105.0
+76.0;Amanda Chapman;"46117 Walker Motorway Apt. 874
+South Cody, TN 20574";;95.0
+29.0;Renee Romero;"2105 Rivera Isle
+Lake Josephberg, OK 15872";199.0;44.0
+31.0;Jesse Johnson;"01407 Schroeder Village Suite 667
+North Christopher, RI 32759";180.0;62.0
+76.0;Nicholas Reed;"2321 Grant Light Apt. 324
+South Lisaburgh, WI 07187";174.0;91.0
+100.0;;"852 Norton Forks Suite 731
+Paulmouth, OH 64119";184.0;110.0
+84.0;Kristina Stevens;;196.0;53.0
+82.0;Rebecca Pham;"458 Breanna Estate
+North Jessicabury, FL 98503";;107.0
+45.0;Stephen Campbell;"772 Patterson Island
+Alanchester, GU 37734";190.0;88.0
+61.0;Stacy Bradford;"991 Frost Junction
+New Kellymouth, ME 89238";158.0;51.0
+28.0;Jennifer Watkins;"53662 Cassandra Prairie Apt. 442
+East Jeffrey, PR 06199";;101.0
+78.0;Karen Knight;"68717 Jennifer Ford
+Douglastown, AS 08800";;106.0
+76.0;;"0669 Mitchell Prairie Apt. 361
+Rachelbury, PW 99059";156.0;47.0
+53.0;John Bowen;"7031 Christopher Islands
+South Jessica, DC 69991";164.0;58.0
+86.0;;"80214 Haley Field Suite 114
+Bakermouth, MP 32462";191.0;46.0
+84.0;Leah Robinson;"018 Courtney Lock
+West Steve, WA 30387";167.0;99.0
+97.0;;"792 Hammond Glen Apt. 177
+Stuartshire, GU 19540";179.0;49.0
+61.0;Maria Johnson;"2509 Wilson Wells
+Smithfurt, UT 58170";182.0;69.0
+100.0;;"52964 Jared Views Suite 870
+Austinhaven, ID 26450";155.0;45.0
+48.0;Alexandria Choi;"53379 Adams Centers
+Charlesville, WV 59064";150.0;102.0
+;Janet Yang;"186 Lopez Junctions
+Jayhaven, NJ 37216";;77.0
+;Lisa Scott;"594 Michele Forges Apt. 615
+East Timothyville, NM 77157";171.0;57.0
+78.0;Alejandra Smith;"6951 Harrington Union Suite 995
+Port Teresa, FL 70207";150.0;
+69.0;Amy Rosales;"31406 Thompson Islands Suite 198
+Port Gabrielamouth, AL 46876";158.0;95.0
+46.0;;"057 Luke Hollow Apt. 044
+Danielsfort, KS 40636";170.0;97.0
+23.0;;"7804 Hendricks Neck Suite 987
+Jenniferhaven, ME 75034";183.0;47.0
+75.0;Jamie Gibson;"9544 Susan Islands Apt. 254
+South Tonyafort, MI 68895";158.0;
+80.0;;"367 Wesley Plaza
+North Joshuafurt, OH 13131";177.0;94.0
+83.0;Angela Booker;;195.0;49.0
+57.0;David Alvarez;"3539 Wilson Center
+Tinafort, TN 73752";171.0;68.0
+73.0;Kayla Wells;"96963 Adam Plains
+Leonhaven, AS 33414";168.0;47.0
+;Sandra Leblanc;"033 Sarah Grove Suite 685
+Port Kenneth, AL 74882";177.0;97.0
+73.0;James Guerrero;"86103 Barbara Ferry
+Benjaminburgh, TX 05295";177.0;109.0
+;Kelly Owens;"59122 Ashley Burg Apt. 016
+East Jerrystad, WV 75970";164.0;72.0
+;Meghan Brown;"55585 Amy Fall Suite 027
+Lake Jennifer, MH 78550";196.0;
+64.0;Karina Dodson;"0313 Miller Fork
+Glenntown, HI 63960";186.0;100.0
+55.0;James Garcia;"09900 Melanie Station
+East Chaseshire, IL 18354";174.0;55.0
+91.0;Grant Shea;"2915 Brown Ridges
+Angelamouth, CO 04409";178.0;67.0
+26.0;Joseph Gonzalez;;178.0;105.0
+27.0;;"0744 John Viaduct Suite 244
+Jeffreyfurt, NY 21219";175.0;95.0
+53.0;Glenda Mcdonald;;155.0;
+89.0;John Higgins;"Unit 2690 Box 3039
+DPO AP 81991";153.0;71.0
+51.0;Aaron Casey;"15621 Scott Pass
+South Robertfurt, NY 78478";155.0;59.0
+39.0;;"PSC 9381, Box 6012
+APO AA 75470";150.0;78.0
+;Michael Erickson;"627 Sheila Prairie Suite 363
+Laceychester, FL 23319";158.0;60.0
+26.0;Catherine Lee;"3683 Brian Mountains Apt. 951
+Alexanderfurt, LA 94660";189.0;97.0
+78.0;;;156.0;40.0
+42.0;Amber Jones;"49876 Campbell Plaza Apt. 920
+West Debrahaven, FM 25303";200.0;80.0
+30.0;Donald Warren;"596 Elliott Spurs
+Wilsonton, DE 88667";186.0;
+90.0;Rhonda Johnson;"64862 King Ford
+Lake Alyssa, VI 47044";169.0;56.0
+94.0;Christopher Henson;"40740 Butler Oval
+Shermanberg, FL 67882";192.0;108.0
+26.0;Shirley Carroll;"USNS Moore
+FPO AE 83857";167.0;
+84.0;Joshua Parker;"46908 Jordan Causeway
+Andradeport, MP 71674";190.0;69.0
+40.0;Cheyenne Watson;;157.0;79.0
+38.0;Eddie Murphy;;188.0;97.0
+95.0;Kelly Benson;;165.0;72.0
+98.0;;"78000 Lewis Gateway Apt. 871
+South Marystad, CT 42196";175.0;60.0
+40.0;Cheyenne Watson;;157.0;79.0
+43.0;Darren Goodwin;"40009 Nelson Tunnel
+Gilbertville, NE 50239";152.0;
+82.0;;;;
+69.0;Joshua Sampson;"7805 Wells Cliffs Apt. 270
+Phillipshire, MD 83200";191.0;105.0
+94.0;David Bowman;"PSC 8594, Box 5302
+APO AE 62887";195.0;65.0
+63.0;Christina Espinoza;"1547 Jennifer Points
+West Anne, IA 05641";179.0;55.0
+40.0;Robin Pacheco;"43713 Billy Land
+Port Thomas, CO 28245";185.0;96.0
+71.0;Valerie Garcia;"8089 William Mountain
+New Jill, TX 53998";192.0;40.0
+42.0;Lisa Chambers;"8308 Cruz Roads
+Donnatown, DC 82897";195.0;70.0
+23.0;Robert Rodriguez;"1509 Moran Ridge Apt. 805
+East Connorton, WY 33412";163.0;41.0
+72.0;Karen Rhodes;"162 Perkins Plains
+Coxville, VI 05794";;
+56.0;Angela Gray;;174.0;84.0
+26.0;Erin Martin;"531 Henry Flat Suite 570
+Heathertown, PA 79861";151.0;94.0
+;Paul Morgan;"8469 John Points
+New Lisa, MN 65267";157.0;102.0
+97.0;Mary Thornton;"655 Richard Way Apt. 749
+Lake Ashleyville, DC 72492";183.0;63.0
+23.0;Laura Martin;;179.0;50.0
+70.0;William Miller;"9335 Evan Ramp Suite 801
+Lake Lauraburgh, MN 23195";165.0;95.0
+30.0;John French;"469 Morrison Lane
+Ryanmouth, HI 71553";170.0;89.0
+29.0;James Hill;"815 Mark Villages Suite 141
+Markton, AK 61857";171.0;51.0
+66.0;;"USNV Davila
+FPO AA 44989";159.0;79.0
+54.0;Megan Wallace;"649 Christine Brooks
+South Wandastad, IL 85891";183.0;92.0
+76.0;Mike Dennis;;167.0;100.0
+;Kathryn Williams;"43806 John Plaza Suite 236
+South Donald, NH 81861";165.0;102.0
+70.0;Veronica Johnson;"43779 Joan Turnpike Apt. 850
+New Tracey, IL 63104";174.0;40.0
+32.0;Kimberly Sanchez;"371 Peterson Place Suite 495
+South Kenneth, WA 85470";172.0;40.0
+29.0;Michael Scott;"95692 Lozano Drive
+Port Alexandermouth, IL 42375";155.0;62.0
+82.0;Cody Turner;"214 Brett Inlet Apt. 022
+Lake Katherine, CT 28556";196.0;
+51.0;Aaron Casey;"15621 Scott Pass
+South Robertfurt, NY 78478";155.0;59.0
+27.0;Thomas Perry;"20493 Robert Creek Apt. 527
+Lake Debbie, ND 00648";183.0;42.0
+81.0;Brian Hill;"301 Stephanie Shore
+Tonymouth, PR 31977";160.0;50.0
+66.0;Richard Warner;"97827 Joan Coves
+Port Danielmouth, MT 88555";155.0;71.0
+80.0;Larry Haas;"26412 Collins Rue Suite 957
+South Ryan, NC 18708";;82.0
+94.0;;"949 Obrien Locks
+Lake James, PR 89510";151.0;67.0
+48.0;Amy Livingston;"28072 Dennis Circles
+Dennisshire, NV 61473";198.0;79.0
+26.0;Joseph Russell;"9048 Kimberly Orchard Apt. 300
+North Ryan, SC 10331";197.0;60.0
+92.0;Debbie Parsons;"607 Cody Rue
+Bowerschester, WY 98524";152.0;72.0
+53.0;Oscar Martin;"USNS Keller
+FPO AA 76398";169.0;85.0
+66.0;Thomas Morrison;"955 William Point
+Scotthaven, MI 80710";173.0;95.0
+90.0;Erin Sexton;"673 Francisco Crescent Suite 792
+Edwardstad, WI 95516";186.0;87.0
+66.0;Tony Reyes;"90173 Theresa Ranch Suite 989
+Christopherview, NM 09181";188.0;57.0
+61.0;James Foster;"4192 Baker Lane Suite 668
+Lawrencefort, GA 11535";186.0;91.0
+77.0;Thomas Shaw;"PSC 0742, Box 3602
+APO AP 03837";;90.0
+64.0;Lisa Shannon;"75559 Anderson Dale Suite 729
+Carolfurt, WY 80785";180.0;49.0
+76.0;Sharon Taylor;"05518 Anderson Fork
+New Tylermouth, CA 09008";177.0;57.0
+86.0;Julia Moore;"430 Jennifer Key
+Alisonberg, AR 45841";161.0;
+100.0;Jonathan Singleton;"9827 Hess Parkway Suite 320
+Brownborough, AS 47784";192.0;91.0
+32.0;;"145 Barrett Isle
+Karenton, DE 83972";153.0;
+28.0;Mary Powell;"8616 Bryan Dale Suite 813
+Lake James, NC 50071";151.0;49.0
+91.0;Patricia Fuller;"39411 Terrell Squares
+Lake Michael, KY 38321";164.0;41.0
+30.0;;;158.0;76.0
+;Douglas Davis;"81010 Grant Course Suite 843
+Lake Patrick, NV 93347";153.0;107.0
+;Elizabeth Russo;"945 Connie Loaf
+Mosleychester, AS 54618";178.0;53.0
+81.0;Cheryl Hughes;"448 Stephanie Groves Suite 168
+New Rogerbury, PA 92944";161.0;76.0
+72.0;Aaron Singleton;"4126 Patrick Canyon
+Smithside, SD 59399";161.0;82.0
+90.0;Tiffany Wagner;"PSC 4085, Box 7735
+APO AA 22568";189.0;60.0
+;Christopher Rodriguez;;154.0;76.0
+54.0;Julie Marshall;"309 Brandi Curve
+Cowanfort, TX 63215";181.0;42.0
+66.0;Teresa Key;"958 Adams Heights Apt. 715
+Johnstonland, NM 65762";176.0;67.0
+85.0;Cory Bauer;"0836 Michelle Hill Apt. 457
+South Cynthiafurt, AZ 92826";194.0;61.0
+47.0;Jack Norris;"653 Kyle Oval
+Davidchester, FL 21126";;99.0
+52.0;Leah Singh;"409 Medina Centers Suite 833
+North Jessica, WA 76133";154.0;50.0
+65.0;Lindsay Wilson;;163.0;89.0
+54.0;Emily Clark;"589 Morrison Locks Suite 663
+New Laurenfort, VI 76364";163.0;46.0
+76.0;Adrienne Mcdonald;"PSC 4438, Box 7348
+APO AP 25776";158.0;88.0
+53.0;Victoria Riley;"6111 Tran Shore Suite 758
+Barryberg, ME 41399";166.0;60.0
+76.0;Laura Erickson;"21986 Martinez Bypass Apt. 127
+North Douglasbury, NM 71369";197.0;42.0
+63.0;Monica Armstrong;"36754 Timothy Port
+South Kyletown, PR 21789";180.0;63.0
+54.0;Amy Singleton;"63993 Cassandra Branch
+West Bernardport, WI 32956";173.0;56.0
+;Walter Thomas;;160.0;54.0
+;Jose Hill;"612 Joann Locks Suite 911
+South Seth, VI 54712";173.0;106.0
+70.0;Austin Spencer;;158.0;
+78.0;Joseph Walters;"6457 Harris Manors
+Angelaville, WI 67688";157.0;71.0
+55.0;Timothy Cortez;"46965 Reid Gardens Apt. 848
+Pughside, AZ 97924";185.0;69.0
+52.0;Valerie Sanford;"34608 Joseph Courts
+New Richard, WA 91181";187.0;80.0
+43.0;;"612 Alvarez Burg
+Coleborough, MP 52627";172.0;83.0
+37.0;Michelle Morris;"2401 Shannon Stravenue Apt. 411
+Theresatown, AL 05921";186.0;49.0
+49.0;Zachary Pruitt;"20574 Clark Gardens
+Hernandezland, VT 35968";199.0;103.0
+20.0;Carla York;"1416 Taylor Courts
+New Stephen, IL 76860";157.0;52.0
+32.0;Autumn Harrison;"0936 Duane Road
+Rodgershaven, IN 60631";166.0;95.0
+60.0;Morgan Eaton;"7083 Alex Roads Apt. 462
+Elizabethborough, PR 97390";197.0;63.0
+;Hunter Barajas;"5095 Ryan Pass
+Port Mary, CO 21511";175.0;41.0
+46.0;Todd Young;"63001 Wang Locks
+Kellyport, OK 03514";;104.0
+21.0;Kathryn Shea;"928 Hudson Crescent
+Michaelberg, TX 73106";188.0;91.0
+71.0;;"984 Roberts Squares
+East Heathermouth, VT 99088";173.0;105.0
+70.0;Jacqueline Robinson;"3044 Angela Roads Apt. 830
+Charlesborough, WV 70044";;
+;Cody Todd;"4324 Sonia Light
+Lindabury, WY 13704";191.0;102.0
+54.0;Jay Garrett;"PSC 4296, Box 9593
+APO AP 99914";162.0;84.0
+38.0;Elizabeth Wilson;"48751 Tara Forks Suite 786
+Donaldsonport, WA 93425";154.0;40.0
+80.0;Timothy Joseph;;155.0;47.0
+;Martha Johnson;"84536 Mario Field
+Deborahbury, ND 71049";190.0;79.0
+75.0;Chad Walker;"717 Danny Port Apt. 459
+South Jason, MN 81019";170.0;63.0
+38.0;Tonya Stewart;"899 Price Ports
+Ianchester, KS 07909";162.0;
+49.0;Leslie Hanson;"58316 Stone Lane
+Port William, KY 29476";199.0;72.0
+96.0;Cynthia Brown;"94374 Patterson Summit
+Heatherhaven, MO 49340";182.0;48.0
+96.0;Samantha Buckley;"581 Daniel Street
+New Brandy, PW 77246";178.0;62.0
+89.0;Jorge Castaneda;"36880 Villegas Stream Apt. 129
+Davidview, RI 70282";155.0;51.0
+46.0;;"4020 Bethany Ports Suite 015
+Nancytown, ND 30958";168.0;99.0
+80.0;Anna Morris;"224 Theresa Lights
+South Codyside, WY 89689";166.0;96.0
+42.0;Dawn Cardenas;"448 Ryan Courts
+Lake Ryanton, AZ 66346";196.0;41.0
+63.0;Catherine Daniel;"269 Morris Vista Apt. 853
+Harveymouth, ID 55242";150.0;44.0
+;Steven Lee;"555 Fletcher Station Apt. 470
+Port Lindafort, NV 92462";165.0;97.0
+83.0;Gilbert Morrison;"52282 Peterson Camp
+Foxmouth, PR 19256";165.0;59.0
+98.0;Ryan Smith;"112 Amy Creek
+East Mark, TX 61559";167.0;94.0
+;Brenda Nguyen;"PSC 1224, Box 5213
+APO AP 45932";198.0;
+;John Allen;"398 Matthew Flat Suite 617
+Daviston, FM 79156";197.0;66.0
+70.0;;"56569 Ryan Summit Apt. 641
+East Linda, MD 33072";183.0;74.0
+56.0;Whitney Shepard;"936 Victoria Hill Suite 791
+Lake Erin, KY 80857";153.0;86.0
+73.0;Shawn Gonzales;"6819 Christensen Drive
+Henryville, CA 77892";187.0;102.0
+;Steven Holmes;"PSC 8538, Box 0079
+APO AA 85404";180.0;63.0
+24.0;Brent Soto;"8058 Moore Harbor Apt. 713
+Brendaborough, MI 08328";164.0;47.0
+38.0;William Cisneros;"2935 Linda Trail
+Maldonadomouth, DC 76942";187.0;107.0
+53.0;Christina Campbell;"USNV Rodgers
+FPO AP 34043";151.0;110.0
+77.0;Carol Lane;"0817 Raymond Locks
+New Jennifer, TN 63490";189.0;73.0
+62.0;Amy Vaughn;"4258 Margaret Rest Suite 510
+Gilbertmouth, UT 74074";159.0;47.0
+70.0;Sara Roberts;"29106 Edward Forges Apt. 987
+North Jerrymouth, MT 66549";181.0;79.0
+82.0;Samantha Bradley;"008 Adam Trafficway
+Bradleyburgh, CO 41388";159.0;
+69.0;Amy Rosales;"31406 Thompson Islands Suite 198
+Port Gabrielamouth, AL 46876";158.0;95.0
+24.0;Elaine Miller;"6771 Robles Mountain Suite 015
+Sandovalton, WA 90915";150.0;96.0
+85.0;David Huang;"240 Weiss Plaza Suite 407
+Gregorymouth, WA 11208";159.0;87.0
+;Samantha Mccullough;"3775 Travis Cliffs Apt. 742
+Susanbury, LA 82006";153.0;43.0
+99.0;John Lindsey;"948 Cheryl Squares
+Arthurside, ME 61779";171.0;71.0
+;Candace Ramsey;"PSC 9363, Box 1070
+APO AA 22870";159.0;86.0
+21.0;David Caldwell;"593 Reed Junction
+Kimberlyberg, DC 43555";162.0;50.0
+;Martha Johnson;"84536 Mario Field
+Deborahbury, ND 71049";190.0;79.0
+;David Herrera;"07221 Evans Mills
+Port Phillipburgh, NY 61309";160.0;69.0
+73.0;Shawn Harris;"USNS Morales
+FPO AP 29344";155.0;99.0
+;;"35648 Clark Walk Suite 337
+Morastad, AS 72841";169.0;57.0
+;Charles Miller;;189.0;98.0
+65.0;Daniel King;"35313 Hunter Burg
+Heatherberg, AZ 13072";189.0;109.0
+46.0;Martha Porter;"14535 Dennis Island Apt. 455
+New Alyssa, MA 77209";200.0;87.0
+28.0;William Johnson;"31030 Robert Flat Apt. 650
+Greenburgh, CO 33425";176.0;78.0
+58.0;Mark Collins;"339 Bennett Landing
+Brianmouth, VI 70259";165.0;69.0
+25.0;Anthony Schneider;"11845 William Curve Suite 296
+Patrickchester, LA 63413";188.0;77.0
+37.0;Emily Taylor;"767 Anthony Rapid
+North Taylorland, VT 62023";180.0;76.0
+46.0;;;183.0;
+61.0;Andrew Sanders;"555 Paul Causeway
+Port Erikmouth, IL 96243";184.0;88.0
+99.0;Sara Stevens;;190.0;60.0
+51.0;Charles Alvarez;"39921 Craig Crest
+Taylormouth, AS 88355";;56.0
+58.0;Wesley Duke;"1117 Ruth Terrace
+Port Stephaniemouth, AL 03216";180.0;73.0
+85.0;;;181.0;44.0
+37.0;;"8573 Anita Plaza
+Davenportfort, RI 21624";195.0;52.0
+99.0;Clinton Dixon;"4370 Barr Glen Suite 592
+New Tiffanyport, NE 97509";153.0;87.0
+40.0;;"936 Bell Islands Suite 051
+North Marissaborough, WA 88367";180.0;
+29.0;Stephanie Francis;"575 Coleman Grove Suite 596
+Matthewhaven, ME 99883";187.0;
+78.0;Theresa Rice;"9739 Thomas Tunnel Apt. 944
+New Aprilland, MO 37590";156.0;72.0
+60.0;Robert Davis;"27936 Cynthia Track Apt. 804
+Leblancview, DE 08069";163.0;107.0
+100.0;Ryan Nelson;;171.0;71.0
+91.0;Emily Martinez;"2833 Ashley Cape
+East Charles, PW 34783";189.0;88.0
+29.0;Robert Ford;"Unit 7265 Box 7287
+DPO AP 95982";157.0;110.0
+;;"1956 Tina Forks
+West Vincent, ND 85723";169.0;44.0
+29.0;Andrea Ruiz;"90699 Johnson Springs
+Lake Cynthia, VA 75972";179.0;86.0
+89.0;Jose Thomas;;163.0;
+58.0;Corey Rowland;"9478 Patricia Burg Suite 392
+Lake Marc, OH 78674";175.0;105.0
+53.0;Joseph Dillon;"352 Lee Parkway Suite 726
+Amandaburgh, KS 18239";184.0;47.0
+32.0;Laura Tucker;"600 Evans Inlet
+Troytown, MO 80813";153.0;
+52.0;Randy Solis;"2103 Johnson Mission
+East Cynthiabury, PW 36249";173.0;105.0
+48.0;Eric Taylor;;170.0;52.0
+62.0;Ricky Smith;"952 Lindsay Ramp Suite 725
+Caldwellchester, VT 36554";190.0;58.0
+;William Melton;"32966 Gary Unions
+Port Angela, LA 94437";153.0;90.0
+24.0;;"4636 Herrera Mount Apt. 589
+South Pamelamouth, GA 75006";160.0;61.0
+21.0;Gabriela Lane;"36323 Johnson Path
+Lake Claudia, DE 13169";150.0;56.0
+84.0;Mary Garcia;;193.0;64.0
+81.0;Cynthia Love;"967 Nathan Fort
+Helenburgh, ME 20110";162.0;74.0
+47.0;Daniel Dixon;"1074 Carl Isle
+Kellyfort, TX 43249";150.0;89.0
+32.0;Joan Bennett;"815 Soto Viaduct Apt. 406
+East Crystal, IL 55555";198.0;40.0
+29.0;Douglas Guerrero;"32713 Wallace Walk Apt. 088
+Thomasview, LA 35548";192.0;42.0
+32.0;Brian Bailey;"67402 Mark Ways
+South Joshuatown, HI 34769";;60.0
+57.0;Paul Nelson;"016 Thomas Way Suite 403
+Lake Tammy, ME 93142";166.0;73.0
+71.0;Becky Miller;"4573 Kim Fort Apt. 198
+Rodgersfort, FL 79564";184.0;
+83.0;Jennifer Mcbride;"67006 Lindsey Walks Apt. 946
+East Michaelfurt, CT 22728";163.0;88.0
+97.0;;"24431 Sandra Mall Apt. 142
+North Craigchester, ME 72237";160.0;90.0
+63.0;Vincent Cunningham;"2552 Christina Mills
+Port Jeffreyfurt, HI 30514";180.0;56.0
+48.0;Kayla Welch;"0421 Lee Hollow Apt. 855
+Danielport, AZ 31993";;66.0
+31.0;David Buckley;"996 Taylor Neck Suite 109
+Cookton, KS 06287";182.0;42.0
+93.0;Christopher James;"USCGC Thompson
+FPO AE 71427";;45.0
+75.0;Carrie Morgan;"997 Bradford Port
+Sabrinahaven, OR 96701";184.0;110.0
+42.0;Aaron Martinez;"61920 Mcdaniel Springs Suite 524
+East Kellyton, MD 88594";150.0;107.0
+40.0;Jacob Freeman;;164.0;59.0
+64.0;Keith Burton;"Unit 9673 Box 7754
+DPO AE 49999";;59.0
+49.0;Brian Bridges;"370 Stephen Ramp
+Andersonberg, VI 27659";170.0;58.0
+;James Davis;"4049 Bruce Shoals
+Lake Ernest, CA 51833";180.0;73.0
+90.0;;;172.0;54.0
+43.0;Elizabeth Parker;"150 Max Ridge
+Lake Thomas, PR 17251";188.0;102.0
+72.0;;"22065 Matthew Walks Suite 015
+Calvinmouth, AK 50761";197.0;98.0
+24.0;Ian Johnson;"3488 Young Junction
+Anthonyhaven, ID 04615";151.0;86.0
+54.0;Michael Mcconnell;"71274 Lopez Circle
+Meyersside, MI 34496";156.0;87.0
+48.0;Steven Martinez;"76704 Walsh Rapids Apt. 516
+East David, AK 83107";191.0;
+55.0;Zachary Thompson;"PSC 7093, Box 3856
+APO AP 93867";172.0;61.0
+80.0;Mark Schultz;"177 Olsen Village
+Port Patrickland, ME 82169";179.0;109.0
+;Joshua Burns;"2044 Young Brooks Apt. 095
+Lanefort, DC 12588";191.0;93.0
+96.0;Kimberly Smith;"0894 Lynch Branch
+South Laurenhaven, IN 18420";200.0;76.0
+97.0;Wayne Gallegos;"0519 Meghan Freeway Suite 409
+Mckenzieville, AR 66996";196.0;79.0
+30.0;Amy Foster;"Unit 1240 Box 0844
+DPO AA 80820";153.0;66.0
+;William Delacruz;"60190 Atkinson Isle Apt. 015
+South Scotttown, SC 99646";166.0;51.0
+;Jonathan Parker;"12869 Clark Branch
+Christianshire, NH 25340";190.0;87.0
+77.0;;"21683 Brennan Expressway
+Bakerbury, OK 21508";188.0;70.0
+47.0;Heather Hudson;"6072 Douglas Cape
+New Samuel, TN 54618";154.0;
+59.0;Christopher Gonzales;"191 Evans Viaduct
+New Lisaview, ID 33928";186.0;
+29.0;Carolyn Mooney;;164.0;105.0
+36.0;Shannon Jacobs;"609 Nicole Station
+Anashire, AR 93043";192.0;103.0
+;Jason Irwin;"8684 Phillips Curve Apt. 983
+New William, NE 52835";193.0;60.0
+54.0;Julie Marshall;"309 Brandi Curve
+Cowanfort, TX 63215";181.0;42.0
+;Cassandra Mack;"265 Garcia Way
+Lisaview, UT 39186";;
+77.0;Bryan Small;"404 Farrell Way
+East Christopher, MA 63946";;76.0
+50.0;Johnny Christensen;"7658 Brooks Ridges Suite 363
+Sarahport, DE 01258";163.0;
+66.0;James Graham;"881 Weeks Keys
+South Cathychester, DE 41080";184.0;71.0
+55.0;Julie Martin;"649 Knight Stream Apt. 113
+South Sandra, MI 48905";176.0;101.0
+52.0;Michelle Carpenter;"3049 Deborah Cove Apt. 739
+Juliaborough, IA 90894";170.0;82.0
+63.0;George Williams;"720 Katherine Extension
+Port Thomas, ID 47604";184.0;85.0
+63.0;Alexa Alvarez;"897 Emily Shores Apt. 877
+Davidfurt, MI 70668";;95.0
+31.0;Elizabeth Blackwell;"9396 Scott Heights Apt. 170
+North Anthonyport, ND 40822";191.0;75.0
+48.0;James Pierce;"1568 Washington Run
+East Lauren, WI 48109";194.0;85.0
+56.0;Erica Bennett;"252 Lisa Cliff Apt. 106
+West Marietown, MP 36831";192.0;46.0
+90.0;Daniel Gonzales;"5885 Ortiz Neck
+Russellhaven, CA 18581";175.0;76.0
+58.0;John Lee;"3323 Kelly Track
+Michaelmouth, VA 29766";180.0;41.0
+35.0;Shannon Olson;"86325 Hill Drive Suite 994
+Fieldsshire, VT 28520";151.0;76.0
+;Jacqueline Reeves;"11054 Scott Pass
+North Robert, MD 33722";178.0;104.0
+93.0;Sarah Anderson;"14669 Virginia Fords Apt. 591
+North Sarahmouth, AR 22392";170.0;54.0
+64.0;Kristen Davis;;150.0;80.0
+58.0;Jason Clark;"4900 Mcgee Road Apt. 798
+Tylerchester, DC 02797";200.0;96.0
+46.0;Martha Wells;"4364 Matthew Creek Apt. 790
+South Sheilaburgh, MP 86156";173.0;66.0
+82.0;Monica Brooks;"PSC 1385, Box 0878
+APO AE 17057";195.0;47.0
+30.0;Mark Davis;"41736 Joseph Course
+South Johnchester, ND 89937";187.0;44.0
+40.0;Lauren White;;169.0;61.0
+70.0;Lisa Carter;"PSC 4413, Box 2030
+APO AA 33696";172.0;
+85.0;David Tucker;;;65.0
+;Larry Sheppard;"68580 Thomas Club Apt. 834
+Ashleymouth, NM 89064";178.0;58.0
+;Katie Byrd;"874 Leroy Groves
+Jacksonberg, FL 35465";172.0;64.0
+42.0;Ryan Cochran;"0386 Rachel Loaf Apt. 839
+Port Davidside, FM 93430";159.0;82.0
+41.0;Anna Miller;"064 Pitts Centers
+Markview, GA 51998";;41.0
+20.0;Christopher Kelley;"44717 Ralph Wells Suite 180
+Rachelchester, MI 99213";173.0;101.0
+77.0;Craig Harris;"3905 Samuel Skyway Apt. 990
+Mayofurt, OK 85065";168.0;41.0
+;;"8885 Victoria Passage
+Lake Lauraburgh, MD 30361";173.0;60.0
+95.0;Charles Chavez;"USCGC Pena
+FPO AE 01341";172.0;43.0
+21.0;Valerie Bryant;"2534 Harrison Views
+East Kathy, CT 24641";163.0;51.0
+75.0;Michael Thompson;"95903 April Gardens
+Martinchester, FM 51569";197.0;110.0
+56.0;Kristine Brown;"9582 Schroeder Tunnel Apt. 979
+Lake Jake, AZ 46839";180.0;89.0
+71.0;Kristine Garrett;"347 Morris Row
+South Warrenmouth, NH 41813";177.0;100.0
+71.0;Amanda Smith;"52857 Melissa Islands Apt. 018
+East Jennifer, DC 31688";182.0;43.0
+84.0;Tina Chapman;"7191 Michael Rapid
+Burgessland, VA 54057";173.0;51.0
+84.0;;"435 Brandon Coves
+Port Anna, MO 19690";175.0;59.0
+86.0;Dennis Hays;"PSC 8927, Box 5022
+APO AA 08744";168.0;109.0
+99.0;Kathleen Martin;"070 Brittany Spring
+Hillstad, HI 87987";;93.0
+20.0;Michael May;;167.0;49.0
+21.0;Jose Johnson;"6385 Barbara Isle
+Williamland, WA 51761";155.0;
+40.0;Jonathan Tran;"537 Zamora Roads Apt. 258
+Port Mike, HI 44521";176.0;103.0
+;Michael Erickson;"627 Sheila Prairie Suite 363
+Laceychester, FL 23319";158.0;60.0
+25.0;Joshua Jackson;"2998 James Ferry Suite 583
+Barrettton, WV 90633";184.0;40.0
+81.0;Jasmin Ray;"685 Jesse Fall
+East Steven, NE 48312";178.0;109.0
+76.0;Laura Erickson;"21986 Martinez Bypass Apt. 127
+North Douglasbury, NM 71369";197.0;42.0
+28.0;James Scott;"6332 Walls Gardens Suite 494
+Sherryshire, SD 51094";188.0;106.0
+49.0;;"201 Catherine Radial Suite 496
+North Jessica, PR 16964";166.0;
+41.0;Taylor Roberts;"205 Emily Passage Suite 252
+Taylorburgh, TX 36810";200.0;93.0
+28.0;;"236 Riddle Alley
+Rossland, MP 17636";191.0;45.0
+21.0;John Baker;"9497 Parker Mills
+West Tinaberg, NH 08611";175.0;65.0
+59.0;Jason Washington;"Unit 3491 Box 7944
+DPO AP 18074";153.0;85.0
+68.0;;"1411 Stephanie Coves
+Hamptonshire, MP 81863";159.0;61.0
+94.0;;;154.0;83.0
+40.0;Melissa Spencer;"5116 Ellis Circles Apt. 851
+Brittanyport, TN 07446";150.0;89.0
+88.0;Carol Rice;"22370 Austin Roads
+West Alexisfurt, SD 48508";177.0;
+70.0;Teresa Wilson;"42891 Tamara Isle Suite 761
+New Sherritown, IL 13775";165.0;75.0
+26.0;Sarah Hernandez;"43118 Hamilton Hollow
+Davidbury, MP 30934";169.0;60.0
+76.0;Adam Lewis;"486 Whitaker Meadow Suite 937
+Adamsshire, OK 67705";151.0;55.0
+66.0;Charles Christian;"USS Erickson
+FPO AA 54153";;41.0
+72.0;Stephanie Schaefer;;180.0;72.0
+95.0;Eduardo Fields;"935 Kara Run Suite 583
+Port Jessicaville, CT 03607";200.0;
+;Courtney Robinson;"Unit 0292 Box 9723
+DPO AP 17785";176.0;61.0
+48.0;Andrew Ramirez;;151.0;44.0
+77.0;Tracy Ferguson;"00906 William Manors
+New Andrewview, ND 85362";195.0;99.0
+57.0;Patricia Parker;"4463 Wilson Overpass Suite 715
+East Lynnside, ME 93491";;56.0
+60.0;Molly Davidson;"0314 Roberts Trail
+Susantown, NM 66382";174.0;86.0
+59.0;David Thomas;"94685 Morgan Cliffs
+Cherylville, NY 26608";184.0;106.0
+30.0;;"90284 Allen Ports Suite 411
+South Laurenfort, AZ 20788";167.0;
+57.0;Jasmine Robinson;"93270 Ward Overpass Apt. 162
+Brentland, MS 71070";194.0;41.0
+47.0;Jeremy Reese;"517 Braun Valley
+Port Christianchester, VA 34600";197.0;54.0
+89.0;Cynthia King;"166 Perez Dale
+North Kaitlintown, DE 17193";156.0;
+60.0;;"86576 Matthew Meadow Apt. 966
+Douglasshire, NJ 24530";178.0;72.0
+86.0;Adrienne Allen;"931 Choi Ferry
+Daniellemouth, OR 72238";;99.0
+87.0;Emily Allen;;163.0;65.0
+25.0;Sheryl Dunn;"37300 Johnson Harbor
+Mckeebury, CT 51458";152.0;62.0
+47.0;;"0663 Brittany Rapid Suite 916
+Lake Miranda, FM 55156";195.0;86.0
+89.0;Scott Wilkins;"4249 Monica Landing
+West Sophiabury, MP 40931";170.0;102.0
+79.0;Richard Finley;"49067 Pamela Ford
+Heathtown, AK 08750";199.0;63.0
+34.0;;"223 Laura Lock Apt. 730
+West Isaac, ME 17702";169.0;95.0
+62.0;Brian Williams;"291 Catherine Drive Apt. 648
+Loganland, NM 31540";167.0;
+64.0;Joshua Francis;"53862 Simmons Pines
+Brendastad, MA 85502";186.0;
+59.0;Cynthia Allen;"0326 Thomas Turnpike Apt. 935
+West Johnton, AK 94818";153.0;79.0
+99.0;;"7258 Hickman Radial Apt. 754
+Johnborough, SC 56458";180.0;58.0
+57.0;Jeremy Allison;"Unit 7355 Box 2089
+DPO AP 35857";175.0;61.0
+84.0;Kelly Wright;"68428 Garcia Way Apt. 917
+Matthewside, SD 71541";180.0;60.0
+71.0;Valerie Padilla;"9771 Dakota Plains Apt. 678
+Alejandraburgh, AR 35105";168.0;100.0
+41.0;Savannah King;;150.0;87.0
+49.0;Michael Davis;"6528 Courtney Crest Suite 732
+New Joel, KS 62544";183.0;41.0
+52.0;Cheryl Alexander;;177.0;91.0
+97.0;Marcus Atkinson;"120 Jason Cliff Suite 372
+Johnsonville, VI 97580";193.0;79.0
+85.0;Stephanie Walton;"56695 Simmons Island Apt. 879
+Finleybury, WV 51423";181.0;50.0
+28.0;Steven Atkins;"4810 Karl Island Suite 799
+Lauraport, MS 16596";177.0;61.0
+31.0;Elizabeth Blackwell;"9396 Scott Heights Apt. 170
+North Anthonyport, ND 40822";191.0;75.0
+;Antonio Reyes;"8950 Gray Lakes Apt. 020
+Craigmouth, UT 65667";198.0;105.0
+57.0;Natalie Taylor;"694 Bruce Springs
+Larrymouth, MT 26361";;62.0
+81.0;Casey Vincent;"6245 Wright Lights Suite 996
+West Josephport, ME 48611";159.0;71.0
+88.0;Anna Kelly;"509 Taylor Ridge
+North Josephside, PR 62878";164.0;83.0
+30.0;Jason Miller;"3968 Marcus Garden Suite 705
+Riverafort, RI 75335";173.0;66.0
+43.0;Timothy Alvarez;"USS Thomas
+FPO AE 53702";182.0;60.0
+84.0;Megan Calhoun;"3516 Jill Harbor
+Victoriafurt, NV 25457";193.0;99.0
+;Katherine Johnson;"71377 Shannon Rue Suite 037
+Krystalborough, MN 70715";187.0;42.0
+71.0;Tracy King;"8780 Patterson Roads Suite 827
+Jonathonstad, MA 61998";;59.0
+61.0;Roger Hester;;155.0;69.0
+61.0;;;196.0;79.0
+40.0;;"0036 Kevin Loaf
+Phillipberg, FM 21016";190.0;43.0
+41.0;Tyler Ward;"Unit 1886 Box 2847
+DPO AA 14838";166.0;109.0
+35.0;Joseph Bruce;"0953 Matthew Gateway
+South Aaronland, CO 07096";169.0;
+35.0;Christine Bright;"64305 Katherine Crossroad
+Lake Jacob, HI 11628";167.0;83.0
+92.0;James Monroe;"843 Jordan Run
+Chavezburgh, CO 66033";198.0;
+87.0;Tina Morris;"5263 Walton Creek Apt. 297
+South Ericfurt, MT 42912";181.0;47.0
+44.0;Brad Allen;;176.0;89.0
+88.0;Raymond Cain;"694 Norton Way
+East Amytown, NH 14632";163.0;86.0
+82.0;Heather Dillon;"042 Donna Road
+Mauriceport, CA 58775";188.0;106.0
+84.0;James Hunt;"75533 Owen Freeway Suite 009
+Millerchester, TN 52303";152.0;110.0
+58.0;Taylor Palmer;"12654 David Square Suite 519
+Reedberg, AR 54580";196.0;82.0
+75.0;Douglas Garrett;"962 Mcbride Lodge Apt. 782
+Waltersburgh, TX 96466";;
+22.0;Steven Bates;"PSC 1517, Box 0828
+APO AA 74016";156.0;52.0
+57.0;Patricia Parker;"4463 Wilson Overpass Suite 715
+East Lynnside, ME 93491";;56.0
+71.0;Rachel Schultz;"0550 Thompson Gateway Apt. 383
+Mariaview, NE 98093";;78.0
+66.0;Alicia Nelson;"873 Steven Freeway
+Hernandezport, MH 91752";;65.0
+75.0;Megan Hernandez;"4446 Burton Mall Suite 403
+Luisbury, DE 81576";194.0;68.0
+54.0;Christopher Sanchez;"338 Richard Glen Apt. 222
+East Davidville, MO 03381";196.0;89.0
+41.0;Jose May;"3018 Gill Centers Suite 999
+North Lorichester, SC 73618";;93.0
+95.0;;"1624 Casey Lodge Suite 367
+Monicamouth, WA 10581";177.0;93.0
+80.0;Alicia Robles;"6818 Benjamin Mill
+Kennethmouth, GU 90111";190.0;57.0
+72.0;Cameron Gomez;"73668 Steven Field
+Lake Danafurt, MP 96132";160.0;68.0
+60.0;Michael Griffin;"85623 Christopher Lodge Suite 658
+North Tony, DE 16071";168.0;84.0
+71.0;Martin Cook;"4818 Ray Unions Suite 197
+Dylanport, MD 79132";177.0;95.0
+23.0;Bobby Sanchez;"947 Ewing Junctions Apt. 240
+Lindaville, ID 18794";162.0;99.0
+36.0;Linda Gill;;158.0;54.0
+79.0;Dale Sullivan;"37821 Timothy Drive Suite 469
+North Elizabethbury, WV 12296";183.0;53.0
+53.0;Karen Flores;;178.0;110.0
+80.0;Amanda Smith;;195.0;44.0
+95.0;;"1624 Casey Lodge Suite 367
+Monicamouth, WA 10581";177.0;93.0
+82.0;Benjamin Phillips;"681 Sarah Pine Apt. 416
+South Anthonyborough, KY 37252";171.0;105.0
+49.0;Gina Dyer;"18694 Christine Flats
+Robertborough, MT 12451";154.0;98.0
+39.0;;"97114 Linda Points Apt. 315
+Lake Michaelton, MO 71303";176.0;80.0
+32.0;;"7007 Nicole Lane
+South Jamesland, AS 23567";193.0;68.0
+76.0;Sharon Taylor;"05518 Anderson Fork
+New Tylermouth, CA 09008";177.0;57.0
+97.0;;"21225 Parks Ranch
+Sierrahaven, AR 69912";159.0;99.0
+30.0;Melissa Smith;"466 Tim Ramp Suite 450
+Armstrongburgh, FL 90886";151.0;
+72.0;Larry James;"7620 Gross Pines Apt. 220
+West Abigail, VT 84762";195.0;79.0
+61.0;Roger Hester;;155.0;69.0
+96.0;Jeffrey Moore;"33447 Brady Knoll Suite 959
+New Jasonstad, WI 89686";161.0;92.0
+60.0;Michael Martin;"2290 Michael Plains
+South Justin, AK 16659";150.0;63.0
+36.0;Samantha Nolan;"407 Nicholson Lake
+Castillochester, MP 63936";176.0;79.0
+43.0;Andrew Gallegos;"71959 Travis Canyon Suite 001
+Valeriebury, ND 79387";178.0;72.0
+93.0;John Pitts;"PSC 7133, Box 1926
+APO AP 14174";196.0;80.0
+23.0;John Barrett;"3493 Lynch Road Apt. 382
+Lake Donnamouth, GU 92650";191.0;102.0
+61.0;Aaron Martinez;"119 Henry Way Suite 852
+Millerfurt, WA 82949";177.0;89.0
+39.0;Heather Beck;"98940 Reed Cape Suite 040
+Taylormouth, GA 34351";200.0;78.0
+47.0;George Ruiz;"2690 Graves Dale Apt. 064
+Lewisland, OR 74172";170.0;65.0
+98.0;Sarah Anderson;"2810 Craig Station
+North Robertfort, IL 41634";191.0;84.0
+93.0;Jeffrey Reid;"277 Amy Park Suite 995
+Ericatown, AR 18607";187.0;102.0
+83.0;Michelle Cohen;"087 Ross Rest Apt. 212
+Port Brookeborough, SD 80512";;96.0
+88.0;Michelle Kennedy;;184.0;103.0
+53.0;Evelyn Obrien;;179.0;97.0
+76.0;Spencer Rhodes;"981 Stacey Mission Suite 652
+New Nancyside, NV 78087";196.0;82.0
+42.0;;"825 Andres Wall Suite 019
+South Melissaview, ID 31303";181.0;91.0
+92.0;Michelle Jordan;"7265 Rice Circles
+East Stephen, GA 97902";181.0;77.0
+85.0;;;188.0;99.0
+92.0;Cameron Mccarthy;;175.0;58.0
+71.0;;"0669 Garcia Turnpike
+Gutierrezville, PW 87785";192.0;80.0
+30.0;Jason Miller;"3968 Marcus Garden Suite 705
+Riverafort, RI 75335";173.0;66.0
+96.0;Denise Wise;"USNS Stewart
+FPO AA 40795";157.0;87.0
+75.0;Nicole Beard;"162 Kelsey Corner
+Ramosmouth, NJ 35810";;90.0
+23.0;;"7804 Hendricks Neck Suite 987
+Jenniferhaven, ME 75034";183.0;47.0
+84.0;Maxwell Price;"44824 Nicole Terrace
+West Robinview, TN 46258";192.0;66.0
+47.0;Lisa Dunn;"9603 Harrison Plaza Apt. 149
+North Richardfort, MH 63338";;50.0
+57.0;Lisa Martin;"98707 Jessica Via Suite 978
+North Natalie, NM 45821";182.0;97.0
+22.0;Steven Bates;"PSC 1517, Box 0828
+APO AA 74016";156.0;52.0
+57.0;James Turner;"62670 Vega Dam
+Danieltown, WY 02295";172.0;94.0
+99.0;Lorraine Nixon;"553 Keith Prairie Suite 106
+East Raymondfort, PW 01131";159.0;91.0
+43.0;Nicole Collins;"1171 Melissa Village Apt. 322
+Lake Tracy, NV 43617";152.0;75.0
+41.0;Matthew Solis;"1956 Martin Villages
+Port Christina, HI 28488";176.0;62.0
+100.0;Nathaniel Williams;"996 Lane Rest
+Williamside, UT 97506";153.0;88.0
+83.0;Javier Adkins;"4527 Robertson Landing
+South Julie, AK 46289";172.0;100.0
+34.0;Timothy Brady;"65346 Andrew Course
+South Amanda, NV 94631";171.0;99.0
+51.0;Alexander Bolton;"96622 York Bridge Suite 341
+Michaelmouth, VA 36104";158.0;69.0
+89.0;Terrence Young;"4075 Maxwell Extension Suite 680
+Lake Toddville, SC 10213";171.0;
+42.0;Aaron Martinez;"61920 Mcdaniel Springs Suite 524
+East Kellyton, MD 88594";150.0;107.0
+77.0;Justin Walker;;192.0;108.0
+66.0;Frances Stone;"2664 Erica Overpass Suite 640
+North Richard, VA 29007";189.0;84.0
+75.0;Beth Villanueva;"Unit 9313 Box 3249
+DPO AP 73638";170.0;50.0
+55.0;Daniel Hernandez;"378 Breanna Underpass Suite 810
+Juanshire, GA 55146";199.0;44.0
+26.0;Melissa Hernandez;"4596 Douglas Mountain Apt. 683
+Cohenport, NJ 68408";158.0;67.0
+32.0;Brian Christian;"Unit 0982 Box 9807
+DPO AP 23648";170.0;53.0
+71.0;Scott Manning;"7855 Buck Light
+Sherrichester, CO 60701";167.0;56.0
+49.0;John Howard;"PSC 8284, Box 8638
+APO AA 16692";199.0;48.0
+32.0;Michele Scott;"56751 Hunt Expressway
+Michaelland, CT 51026";186.0;80.0
+;Jonathan Schroeder;"8387 Green Circle Suite 801
+Carlsonside, WA 12914";183.0;102.0
+37.0;;"226 Ramirez Branch
+East Curtisland, WY 74250";179.0;85.0
+63.0;Richard Browning;"77929 Robert Summit
+Adamsport, LA 48369";154.0;45.0
+60.0;Michelle Yates;"USCGC Gomez
+FPO AP 96341";193.0;110.0
+46.0;;"7774 Brooks Street
+Lake Haleybury, RI 94093";189.0;44.0
+79.0;Theresa Chandler;"PSC 5849, Box 3112
+APO AE 77875";178.0;48.0
+71.0;Lori Hill;"618 Ruth Pines Apt. 352
+Joshuaburgh, ID 71800";168.0;75.0
+;Jonathan Parker;"12869 Clark Branch
+Christianshire, NH 25340";190.0;87.0
+33.0;Victor Pierce;"74881 Lopez Creek
+West Meganfurt, MO 70749";163.0;89.0
+37.0;Stephanie Clark;"71493 Mark Village Apt. 227
+North Leetown, IA 85414";160.0;61.0
+86.0;Samuel Hubbard;"60555 Davis Meadows
+Erikahaven, PW 63900";157.0;73.0
+88.0;Mallory Lee;"925 Anderson Branch Apt. 399
+North David, DE 28700";198.0;
+82.0;Jeffrey Williams;"98873 Hernandez Center Apt. 182
+Rodriguezport, MS 31732";159.0;79.0
+;Kimberly Newman;;200.0;41.0
+;Melissa Perez;"4927 Kevin Crossroad
+West Michael, MO 90971";176.0;
+57.0;Wendy Wolfe;"54899 Robbins Dale Apt. 368
+Lake Antonioborough, GU 42663";173.0;53.0
+84.0;Gregory Arnold;"USNS Gutierrez
+FPO AA 01917";;46.0
+84.0;Amanda Chan;"73019 Stacey Lane Suite 147
+North Christopherborough, WY 22251";157.0;55.0
+82.0;Jamie Herring;"68588 Howard Creek Apt. 477
+Dawnfurt, PW 39108";193.0;107.0
+45.0;Juan Hines;"732 Stewart Fields
+New Brittanyside, NV 84333";190.0;87.0
+71.0;Patrick Hogan;"637 Margaret Rapids
+Haneymouth, PA 32947";192.0;106.0
+42.0;Amber Jones;"49876 Campbell Plaza Apt. 920
+West Debrahaven, FM 25303";200.0;80.0
+;Amanda Mata;"654 Rachel Key Suite 522
+Sawyerhaven, ND 82140";174.0;105.0
+52.0;Brenda Conner;"5740 Cuevas Flat Suite 321
+North Jeremyland, MS 78832";194.0;92.0
+50.0;Melissa Santiago;"51938 Beard Bridge
+Port Markville, GA 80604";152.0;75.0
+82.0;Justin Cruz;"4083 Matthew Estate
+Richardsonbury, MA 16934";190.0;84.0
+33.0;Amy Black;"22595 Alicia Fork
+Mcculloughtown, TX 87678";168.0;58.0
+69.0;Katie Mcdonald;"USCGC Serrano
+FPO AP 86038";167.0;72.0
+46.0;Debra Baker;"704 Navarro Trafficway
+East Melissa, MI 94015";166.0;41.0
+76.0;Tiffany Porter;"37805 James Path
+New Phillipville, NY 80965";193.0;
+82.0;Rachel Garcia;"12996 Brooks Square
+Reyeschester, ID 27869";182.0;47.0
+35.0;Keith Tucker;"86561 John Common
+Evansfurt, SC 77672";182.0;83.0
+57.0;Peter Patton;"517 Taylor Square Apt. 714
+Masseyside, PW 53954";;
+60.0;Lauren Phillips;"PSC 9357, Box 5095
+APO AP 27848";154.0;108.0
+42.0;Eric Sanchez;"975 Sabrina Hill
+North Ronald, MS 55082";191.0;105.0
+54.0;Chelsea Dennis;"30717 Cain Fork
+West Adamtown, NV 30117";185.0;86.0
+87.0;Brianna Vaughan;"62258 James Cape
+Hillton, MS 79488";168.0;83.0
+40.0;Paul Mccormick;"1300 Noble Estates
+West Kimberly, DC 46231";180.0;55.0
+26.0;Erin Martin;"531 Henry Flat Suite 570
+Heathertown, PA 79861";151.0;94.0
+50.0;Christopher Miles;"597 Ashley Road
+North Lauren, KY 10035";200.0;83.0
+90.0;Nicole Harris;"Unit 8292 Box 3390
+DPO AE 37592";150.0;89.0
+40.0;Michael Hoffman;"157 Cook Mountain Apt. 610
+Lopezton, CO 02591";;
+;Marcus Brown;"9344 Kennedy Freeway
+East Amandatown, KY 92790";185.0;51.0
+92.0;Jessica Gonzalez;"8436 Jordan Gateway Apt. 494
+Courtneyton, NJ 17364";172.0;
+32.0;Rebecca Contreras;"12287 Daniel Crescent Suite 952
+West Angelaberg, CA 17895";189.0;78.0
+52.0;Tanya Smith;"739 Kimberly Coves
+Lake Keith, LA 15229";181.0;64.0
+93.0;Katie Roberts;"859 Ashley Station
+West Stephenmouth, MH 31633";196.0;92.0
+81.0;Willie Whitehead;"1170 Lori Road Apt. 206
+Danaville, HI 35373";161.0;85.0
+93.0;David Bartlett;"92368 Velazquez Courts
+West Davidland, IL 35356";;61.0
+39.0;Jay Osborne;"Unit 9725 Box 9653
+DPO AE 62441";165.0;86.0
+70.0;Jimmy Matthews;"7729 Spears Corners
+East Michael, HI 44468";196.0;48.0
+53.0;Heather Brown;"0953 Karen Neck
+Port James, KY 08813";166.0;59.0
+;Michael West;"606 Don Vista
+East Jerryport, CO 66723";158.0;98.0
+93.0;Tara Smith;"73980 Olson Courts Suite 286
+Jamesland, DC 41157";174.0;68.0
+33.0;Victor Pierce;"74881 Lopez Creek
+West Meganfurt, MO 70749";163.0;89.0
+80.0;Christina Rollins;"7131 Torres Trail
+West Ericaberg, WI 43539";177.0;47.0
+53.0;Angela Kane;"2312 Heather Tunnel
+Lloydshire, NH 20768";158.0;56.0
+71.0;Gregory Hall;"743 Tracy Manor Suite 521
+Lake Douglasview, MP 10584";173.0;91.0
+79.0;Nicole Rodriguez;;151.0;86.0
+26.0;David Martinez;"9280 Goodwin Squares Apt. 631
+Williamsview, SC 60667";192.0;57.0
+85.0;Kevin Tyler;"50855 Bethany Via Apt. 269
+Michaelfurt, CO 05313";188.0;74.0
+87.0;Brianna Vaughan;"62258 James Cape
+Hillton, MS 79488";168.0;83.0
+97.0;Sergio Gonzales;"9871 Amanda Island Suite 462
+New Daniel, PR 05080";154.0;83.0
+;Nicholas Beasley;"61335 Mora Turnpike Suite 558
+Edwardview, VT 52332";172.0;105.0
+57.0;George Graves;"USCGC Young
+FPO AE 65926";185.0;91.0
+79.0;Jessica Gibson;"6473 Sharon Motorway Apt. 762
+Montoyachester, TN 17240";165.0;60.0
+83.0;Scott Turner;"0100 Nicholas Manors
+West Janice, AL 75367";;102.0
+92.0;Angelica Munoz;"0693 Dustin Mountain Suite 609
+Skinnerburgh, IL 57757";192.0;45.0
+74.0;Sandra Pham;"13253 Desiree Skyway Suite 405
+Jacksonbury, NV 39415";191.0;71.0
+88.0;Daniel Cole;"3199 Harrison Trafficway
+North Breanna, MD 37892";191.0;
+95.0;Jessica Martin;"08688 Stacy Pike Suite 999
+Danielbury, NJ 57784";189.0;
+;Crystal Huynh;"83918 Pace Groves Suite 522
+West Jessicamouth, WV 32059";;104.0
+63.0;Thomas Collins;;173.0;104.0
+34.0;Jonathan Johnson;"579 Devon Locks
+Villarrealtown, PR 17831";;97.0
+73.0;Mikayla Simpson;"264 Ellen Turnpike
+Bowersville, WY 22989";175.0;108.0
+95.0;Wendy Livingston;"914 Wilkerson Neck Apt. 011
+West Gabrielle, MT 13003";169.0;80.0
+26.0;;;160.0;62.0
+71.0;;"47563 Mitchell Wells Suite 345
+South Victoriafurt, PA 64497";;50.0
+46.0;Justin Jenkins;"3177 Dawson Lock
+Reedtown, CT 18502";176.0;
+25.0;Deborah Moore;"071 Larry Mall Suite 283
+Michaelshire, CA 01976";;
+35.0;Jason Williams;"85506 Karen Knolls
+Woodsview, WV 23675";164.0;66.0
+28.0;;"149 Brian Mountain Suite 619
+Diazmouth, DE 42748";192.0;106.0
+;Jessica Ross;"3872 Jones Road Suite 068
+West Richard, TN 70880";;73.0
+49.0;;;150.0;94.0
+;Amanda Cruz;"14649 Logan Flat Suite 910
+North Rachelview, KS 48488";164.0;54.0
+27.0;Francis Cabrera;;162.0;90.0
+30.0;Ashley Campbell;"260 Payne Rapid Apt. 843
+Lake Mallory, PA 87693";181.0;78.0
+47.0;Jordan Wilson;"8337 Schmidt Avenue Suite 668
+North Christopher, ND 71490";179.0;106.0
+51.0;Diana Craig;"92764 Oscar Path
+Alexandrafort, VT 27917";164.0;106.0
+21.0;Richard Smith;"523 Rodriguez Courts Suite 766
+Jacobsport, AL 69790";166.0;96.0
+95.0;;"866 Dylan Mews
+New Dustin, AR 38575";156.0;
+66.0;Alicia Nelson;"873 Steven Freeway
+Hernandezport, MH 91752";;65.0
+54.0;Christian Ball;"33836 Stephen Corner Apt. 728
+New Stephanieborough, ID 21405";159.0;104.0
+20.0;Angela Curtis;"Unit 8797 Box 7722
+DPO AA 86599";167.0;95.0
+47.0;James Cisneros;"525 Perkins Shore Apt. 557
+West Hollyton, MN 71161";153.0;71.0
+83.0;Christopher Arnold;"165 William Trail Apt. 794
+North Lisahaven, ND 09698";191.0;54.0
+84.0;Jeffrey Grant;;193.0;75.0
+87.0;Derek Reed;"1871 William Summit Suite 558
+Fernandoport, DC 11723";193.0;86.0
+89.0;Albert Stein;"747 Casey Turnpike Apt. 911
+Jeffreybury, PA 88104";162.0;58.0
+53.0;Marissa Barnes;"7106 Goodwin Skyway Apt. 463
+Lake Jordan, WA 76666";174.0;76.0
+;Michelle Nichols;"37421 Jane Fort Suite 361
+New Lindaville, WY 43092";170.0;107.0
+35.0;;"1207 Brittany Hills
+Port Tyler, NH 68540";194.0;43.0
+47.0;Ryan Miller;"600 Brown Dam Suite 366
+Jacobsbury, ID 10321";181.0;
+69.0;Christine Branch;"USCGC Phillips
+FPO AA 31128";191.0;75.0
+82.0;Cody Mcdonald;"21178 Maria Valleys
+West Donald, NM 61143";;54.0
+44.0;Laura Stokes;"47793 Flores Summit Suite 462
+West Patriciaside, AZ 94717";182.0;
+;Charles May;"1013 Jessica Coves Suite 994
+Donaldfurt, ID 31394";162.0;74.0
+25.0;Jacob Wagner;"801 Green Fall Apt. 782
+Chenfurt, NE 61171";165.0;63.0
+66.0;Christopher Neal;"06112 Baldwin Wells Suite 324
+Torresbury, DC 92073";177.0;55.0
+36.0;Erin Simon;"83346 James Bypass
+Briantown, AZ 72620";162.0;77.0
+95.0;Vincent Hall;"51604 Jeffrey Rapids Suite 730
+South Lisa, OR 46882";194.0;96.0
+96.0;Cody Molina;"32461 Pena Vista
+Knightfurt, MO 75461";162.0;51.0
+64.0;Crystal Guerra;"8437 Gregory Gardens
+Beckland, NE 64461";;89.0
+;Lynn Miller;"097 Rivera Crossroad Suite 643
+Morenoland, VT 78170";196.0;
+35.0;John Burns;"89266 Allen Views
+New Kathyside, NV 20153";192.0;70.0
+78.0;Michael Lopez;"668 Hernandez Stream Suite 612
+Vangview, RI 42236";169.0;46.0
+52.0;Michelle Carpenter;"3049 Deborah Cove Apt. 739
+Juliaborough, IA 90894";170.0;82.0
+93.0;Kristen Meyer;"451 Michael Lake
+Jasontown, PA 85380";199.0;75.0
+82.0;;"7841 Gerald Course Suite 491
+Johnsonside, MI 78935";164.0;72.0
+85.0;Sara Smith;;196.0;80.0
+86.0;Troy Bonilla;"168 Rebecca Rest Apt. 340
+Lake Joshuahaven, OK 57168";164.0;71.0
+46.0;Christopher Johnson;"4570 Roberts Centers Apt. 038
+New Jennifertown, TN 32832";179.0;53.0
+46.0;;;183.0;
+47.0;Nathan Jones;"49037 Kevin Ranch
+South Johnnyfurt, IL 25807";178.0;81.0
+96.0;Mary Thomas;"7023 Scott Vista
+Maryport, SD 56515";184.0;78.0
+83.0;Ryan Duncan;;191.0;48.0
+58.0;William Lee;"01061 Yvonne Knolls
+Jonesborough, AK 56509";196.0;97.0
+;Roger Atkins;;;79.0
+44.0;Jesus Levine;"1155 Randy Pine Suite 723
+Robertsfurt, MA 98542";164.0;41.0
+46.0;Maria Garcia;"88779 Anna Spurs Apt. 307
+Howellfort, WA 21245";165.0;45.0
+97.0;Elizabeth Wolf;"70354 Thomas Turnpike
+New Clintonside, OK 20219";168.0;102.0
+;Gina Oconnor;"813 Rachel Hollow
+East Jennifer, VT 38750";172.0;85.0
+53.0;Robert Gutierrez;;157.0;89.0
+76.0;Nancy Carlson;"299 Mccann Ranch
+New Morganhaven, RI 28334";184.0;77.0
+82.0;Monica Brooks;"PSC 1385, Box 0878
+APO AE 17057";195.0;47.0
+91.0;Roger Collins;;189.0;81.0
+57.0;Michael Flynn;"83356 Long Passage Suite 406
+Santoston, NE 86564";177.0;102.0
+35.0;;"1890 Charles Mountain Apt. 269
+Stevenland, IA 08210";172.0;73.0
+;;"2359 Allison Village Suite 827
+Nicholasstad, IL 21089";164.0;43.0
+70.0;Kenneth Larson;"631 Bailey Green Apt. 855
+West Anthonystad, MA 62681";169.0;48.0
+28.0;Travis Harris;"Unit 4851 Box 6934
+DPO AP 64621";177.0;53.0
+86.0;;"1781 Brown Street
+West Ashleymouth, NM 59607";176.0;57.0
+44.0;Cynthia Wright;"29724 Baldwin Ville
+South John, VI 90712";188.0;46.0
+49.0;Anthony Jackson;"443 Olson Harbor
+Sotoshire, HI 59260";180.0;108.0
+74.0;Ann Trujillo;"435 Crystal Corner
+Rogerstad, AK 61586";156.0;75.0
+;Yvette Boyd;"896 Gilbert Ridges
+West Julianbury, KY 71005";188.0;105.0
+76.0;Amanda Chapman;"46117 Walker Motorway Apt. 874
+South Cody, TN 20574";;95.0
+30.0;Paul Edwards;"63557 Green Knoll Apt. 395
+Randyshire, OH 23265";;100.0
+73.0;Shawn Harris;"USNS Morales
+FPO AP 29344";155.0;99.0
+65.0;Cathy Huber;"633 Medina Shores Suite 616
+Andrewtown, IN 45673";;80.0
+60.0;Matthew Haas;"PSC 7962, Box 4882
+APO AA 74016";185.0;
+;Crystal Huynh;"83918 Pace Groves Suite 522
+West Jessicamouth, WV 32059";;104.0
+30.0;Amy Foster;"Unit 1240 Box 0844
+DPO AA 80820";153.0;66.0
+63.0;Richard Todd;;180.0;106.0
+75.0;Felicia Parker;"8591 Kevin Springs Apt. 034
+Cynthiachester, VI 58863";195.0;41.0
+43.0;Angela Dixon;"066 Nicole Extensions
+Martinstad, HI 91424";179.0;103.0
+35.0;Amanda Brown;"513 Rodriguez Spur Suite 579
+Murphyton, MH 36343";177.0;84.0
+50.0;Christopher Miles;"597 Ashley Road
+North Lauren, KY 10035";200.0;83.0
+99.0;;;165.0;108.0
+33.0;Sarah Dunn;"77655 Brittany Row
+Davidton, HI 36912";195.0;93.0
+52.0;Alexis Goodwin;"Unit 3158 Box 2998
+DPO AE 80191";168.0;108.0
+89.0;Katie Williamson;"6952 Wiley Rapid Suite 624
+South Jordan, WV 85252";156.0;74.0
+88.0;Sara Burns;"USNV Kennedy
+FPO AA 72262";167.0;97.0
+;Kevin Reeves;"USCGC Leonard
+FPO AP 49094";160.0;66.0
+59.0;Katherine Wright;"83870 Jennifer Mews Suite 381
+West Mariah, NY 17373";170.0;62.0
+70.0;Pamela Collins;"98622 Phillip Greens
+Bradshawport, NH 34091";199.0;76.0
+;Holly Thompson;;188.0;61.0
+40.0;Jacob Freeman;;164.0;59.0
+;Jessica Pruitt;;179.0;64.0
+39.0;Daniel Woodward;"87946 Simpson Glen
+Mikeside, AZ 37909";163.0;61.0
+27.0;;"8799 Leslie Cove Apt. 867
+Melissabury, TN 71172";189.0;46.0
+30.0;Brandon Johnson;"0060 Whitney Unions Suite 392
+Port Lisaside, AL 33979";189.0;50.0
+28.0;;"00248 Daniel Run Apt. 896
+East Sarastad, PR 68783";164.0;72.0
+33.0;Christopher Smith;"5098 Wilson Crossing
+South Patrick, AZ 39254";195.0;91.0
+60.0;Ronald Ramirez;"236 Stephanie Divide
+Murphystad, VI 48435";163.0;45.0
+54.0;Dana Robinson;"280 Jennifer Light
+North Davidfurt, GA 63394";183.0;90.0
+53.0;Kyle Flores;"4026 Jonathon Flat Suite 496
+North Jessicaland, MT 44970";176.0;108.0
+79.0;Ricardo Phillips;;192.0;64.0
+87.0;Brittany Booth;"65063 Wheeler Fork
+Davidside, MH 92122";159.0;67.0
+34.0;Jennifer Washington;"3512 Lindsey Fords
+North Sharon, AR 41907";166.0;48.0
+31.0;David Buckley;"996 Taylor Neck Suite 109
+Cookton, KS 06287";182.0;42.0
+98.0;;"3583 Allen Burg
+Jonesfort, NM 39713";174.0;102.0
+84.0;Alan Phillips;"653 Jenkins Greens
+North Devin, GU 07740";168.0;88.0
+62.0;Matthew Norman;"590 Mueller Lodge Suite 912
+Hensleyport, WI 12485";193.0;89.0
+70.0;Michelle Morris;"Unit 6395 Box 2308
+DPO AE 44059";;93.0
+46.0;Marc Stephens;"13023 Alexis Well Suite 497
+Nathanielmouth, SC 83583";152.0;
+60.0;Jennifer Johnston;"4964 Johnson Run
+Jonathanhaven, AK 66260";184.0;47.0
+41.0;Scott Garcia;"480 Amy Square
+Danielshire, TX 94430";189.0;60.0
+33.0;Charles Paul;"7969 Barr Camp
+Richardville, AK 09006";;40.0
+85.0;Mary Wallace;"8551 Butler Trail
+Erinville, NV 60825";177.0;75.0
+61.0;April Lin;"95854 April Prairie Apt. 388
+South Gabrielfort, NJ 71505";;43.0
+39.0;;"949 Curtis Overpass Suite 222
+Ashleyside, MH 72671";191.0;41.0
+81.0;Jeffrey Davis;"0930 Paul Mill
+Morrisonside, DC 56546";186.0;105.0
+78.0;Christopher Ortiz;"543 Kerr Greens Suite 951
+Bellfort, CO 31243";154.0;89.0
+64.0;Karen Montgomery;"34907 Gabriel Greens
+Collierburgh, UT 91278";161.0;93.0
+87.0;;"42567 Young Locks
+Amberport, CT 79708";199.0;109.0
+66.0;Katherine Coleman;"0696 Christine Burg
+Hensleyhaven, TN 69450";170.0;94.0
+59.0;Jose Young;"687 Howard Isle Apt. 055
+South Amyshire, AK 23920";178.0;55.0
+74.0;Wendy Rivera;"838 Garrett Hollow
+East Scott, OK 70667";;104.0
+25.0;Zachary Rivas;"96137 Villa Ford
+Lawrenceside, OR 93134";166.0;110.0
+52.0;Matthew Ward;"670 Moore Fields Suite 634
+West Leslie, MI 44423";174.0;80.0
+;Brenda Williams;"Unit 0151 Box 6533
+DPO AA 57671";182.0;76.0
+22.0;Stephanie Bond;"9563 Barnett Roads Apt. 214
+Heatherchester, MD 93140";155.0;45.0
+91.0;Ronald Williams;"1636 Nathan Keys Apt. 971
+Gibsonview, ID 26440";195.0;61.0
+65.0;Denise Mccoy;"429 Guerra Manors Suite 400
+Port Erikaburgh, WI 50715";;108.0
+50.0;Michael Ward;"6602 Thomas Mountain Apt. 707
+Port Karenmouth, HI 85713";199.0;70.0
+51.0;John Reeves;"134 Brown Alley
+Jenniferchester, OR 32903";187.0;57.0
+44.0;Victoria Bass;"466 Guerrero Fall
+East Melissaberg, PW 91099";177.0;90.0
+77.0;Jose Roberts;"2163 Crystal Valleys Suite 075
+West Tyler, FM 83431";165.0;86.0
+84.0;Erika Castillo;"875 Ashley Lights
+Kevinburgh, DE 24411";153.0;89.0
+89.0;Jose Thomas;;163.0;
+100.0;Rhonda Garcia;"195 Brad Crossroad
+New John, PW 40003";196.0;55.0
+63.0;Susan Johnson;"9350 Johnson Via
+Lake Sarah, OH 92473";152.0;69.0
+21.0;Tracey Martin;"PSC 2761, Box 5429
+APO AP 42838";160.0;83.0
+77.0;Jessica Olson;"263 Jason Spurs Apt. 195
+Barbaraport, AL 71614";179.0;76.0
+98.0;Charles Walker;;;
+93.0;;"2671 Mccann Corners
+Shawnaview, ND 92876";166.0;56.0
+71.0;Martin Cook;"4818 Ray Unions Suite 197
+Dylanport, MD 79132";177.0;95.0
+77.0;Tracy Ferguson;"00906 William Manors
+New Andrewview, ND 85362";195.0;99.0
+83.0;Joseph Osborn;"256 Mclaughlin Haven
+Davidtown, SD 51421";189.0;87.0
+82.0;Mark Smith;"092 Thomas Camp
+East Aprilberg, NV 55109";181.0;79.0
+64.0;Stacy Gibbs;"7878 Charles Garden Suite 136
+Michaelview, RI 90934";184.0;
+47.0;Thomas Snyder;"783 Morgan Key Suite 651
+Burkefurt, HI 77868";175.0;52.0
+66.0;Melanie Stevens;"10407 Ashley Meadow Suite 800
+Spencerhaven, HI 92542";163.0;89.0
+49.0;Christina Cooper;;158.0;68.0
+70.0;Austin Spencer;;158.0;
+;Yvette Lee;;;49.0
+83.0;Mark Mcneil;"436 Nicholas Hollow
+Nguyenchester, DE 77202";194.0;57.0
+86.0;Ricky Clark;"21728 Nicole Tunnel
+Evanborough, OR 41428";159.0;44.0
+57.0;Monica Hubbard;"USS Graves
+FPO AP 77377";;101.0
+45.0;Caleb Mcguire;;154.0;79.0
+30.0;Robert Benitez;"32581 Monica Causeway
+South Ericamouth, OK 42216";163.0;78.0
+75.0;;"674 Long Drive Apt. 511
+Kristenmouth, KY 02971";;63.0
+50.0;;"04354 Keith Parkways
+Joshuaberg, NY 77801";;97.0
+23.0;Stacy Garcia;"62677 Mosley Villages
+Ashleyview, FL 67335";157.0;62.0
+96.0;Shari Jensen;"75819 Sonya Crest
+Ramirezchester, PA 04666";159.0;92.0
+63.0;Richard Todd;;180.0;106.0
+91.0;Raymond Park;"559 Griffin Mill
+West Ryan, IN 08924";184.0;64.0
+79.0;Amy Richardson;"Unit 9941 Box 0235
+DPO AA 91395";200.0;60.0
+64.0;Eric Barnett;"787 Rice Tunnel
+Jimenezshire, MT 43124";174.0;52.0
+81.0;Jennifer Estrada;"5827 Nicole Oval
+East Jeffrey, MS 49253";166.0;73.0
+98.0;Danny Collins;"Unit 8122 Box 9070
+DPO AE 97920";172.0;100.0
+48.0;Emily Norton;;163.0;70.0
+90.0;Sheri Thompson;;169.0;80.0
+28.0;Sandy Moore;"1351 Hernandez Station Suite 944
+West Brian, VT 32974";161.0;
+79.0;Kimberly Mcdowell;;200.0;77.0
+45.0;Robert Myers;"69290 Kayla Shores Suite 154
+Aimeestad, AK 81383";190.0;100.0
+27.0;Timothy Watson;"4436 Richards Rest Apt. 980
+New Katelyn, DC 74887";154.0;61.0
+28.0;Kelly Owens;"9712 Samuel Lake Apt. 261
+Gregorystad, PR 30766";157.0;92.0
+66.0;Cathy Nelson;"Unit 3261 Box 3213
+DPO AA 96304";192.0;50.0
+25.0;Thomas Vazquez;"468 Miller Plaza Apt. 950
+New Rachaelshire, LA 51297";198.0;55.0
+47.0;Melissa Long;"79918 Tracy Viaduct
+Julieburgh, MP 48312";172.0;49.0
+78.0;;"153 Meghan Knolls
+Lake Christina, NM 29287";161.0;98.0
+;Christopher Schultz;;170.0;41.0
+;Jeremy Lopez;"931 Mark Mission Suite 704
+Marilynland, PW 53906";165.0;50.0
+;Daniel Wang;"848 Robert Locks
+East Bradley, SC 05730";190.0;
+20.0;James Pham;"668 Thomas Circle Apt. 404
+Beltranfurt, MP 90174";;100.0
+39.0;Willie Mathews;"882 Wise Pike
+Port Scottville, ME 66382";153.0;69.0
+94.0;Christopher Smith;"14431 Laurie Mountains
+West Melissabury, NE 33528";178.0;71.0
+44.0;Jessica Thompson;;182.0;70.0
+31.0;Vickie King;"959 Hampton Points
+West Tony, WV 21599";156.0;63.0
+72.0;;"8245 Tina Point Suite 994
+Emilymouth, DE 31761";193.0;76.0
+85.0;Jaime Bass;"11196 Megan Center
+Carlmouth, VA 01228";152.0;50.0
+29.0;Andrea Hickman;"143 Strickland Ford
+Christianport, AR 27739";190.0;89.0
+;Amy Higgins;"2489 Ralph Divide Suite 828
+South Edward, GU 13281";161.0;61.0
+70.0;Samantha Castaneda;"24987 Trevor Harbor
+Lake Stacey, GU 85583";195.0;78.0
+45.0;;;171.0;61.0
+48.0;;;162.0;54.0
+33.0;Brandon Mercer;"467 Haney Walks Apt. 877
+Julietown, LA 46245";198.0;63.0
+83.0;Richard Wells;"8949 Morgan Stravenue
+Denisebury, FM 86833";197.0;75.0
+53.0;Tiffany Bennett;"49707 Johnson Fort
+Lake Jonathanfort, WY 65402";185.0;83.0
+81.0;;"2570 Alvarado Terrace
+East Williamview, AZ 74644";189.0;46.0
+97.0;Wayne Gallegos;"0519 Meghan Freeway Suite 409
+Mckenzieville, AR 66996";196.0;79.0
+;Matthew Watson;"4370 Roy Walks
+Ericksonberg, OH 75819";164.0;52.0
+37.0;Stephanie Clark;"71493 Mark Village Apt. 227
+North Leetown, IA 85414";160.0;61.0
+53.0;;"2535 Evans Center Apt. 821
+Henryport, VA 04610";165.0;105.0
+71.0;Valerie Padilla;"9771 Dakota Plains Apt. 678
+Alejandraburgh, AR 35105";168.0;100.0
+65.0;Denise Mccoy;"429 Guerra Manors Suite 400
+Port Erikaburgh, WI 50715";;108.0
+64.0;Morgan Ramirez;;198.0;80.0
+;Calvin Montgomery;"15107 Jacobs Drives Suite 327
+South Kenneth, MO 10526";170.0;109.0
+59.0;Emily Doyle;"88736 James Village Suite 517
+East Michele, CT 47355";178.0;87.0
+43.0;;"5692 Kyle Corner
+Elizabethborough, IN 55827";156.0;
+20.0;Kelly Johnston;"97555 Cox Brook
+West Joannhaven, HI 01728";159.0;109.0
+94.0;Jennifer Velazquez;"24038 Brown Skyway Suite 294
+Fordburgh, TX 46569";168.0;47.0
+83.0;Joshua Williams;"6032 Ruiz Crossing Suite 916
+Danielmouth, MP 21687";151.0;47.0
+;Doris Castro;"66678 Lane Ridges Apt. 799
+Lake Alexis, VA 63892";156.0;76.0
+97.0;Richard Ortega;"733 Quinn Ranch
+East Josephville, MO 66403";192.0;
+71.0;Paul Barnes;"45820 Lisa Drive Suite 963
+South Jessica, ID 55781";198.0;
+73.0;Timothy Burns;;151.0;90.0
+78.0;Kimberly Allen;"54349 Williams Glens Apt. 720
+Taylorfurt, MS 53421";156.0;104.0
+20.0;Willie Walker;"580 Munoz Shores Apt. 172
+South Erin, IN 64658";192.0;90.0
+74.0;Lauren Mcgee;"599 Donald Summit
+South Mary, AK 25994";163.0;
+72.0;Micheal Rodriguez;"226 Sandra Corners
+West Amy, MH 15868";155.0;72.0
+58.0;Charles Lowe;"621 Hicks Highway
+Kennethfurt, FL 27921";170.0;79.0
+100.0;David Taylor;"6847 William Corners Suite 419
+Kimfurt, WV 86729";176.0;43.0
+94.0;Kevin Carr;"04165 Ryan Glen
+South Nancystad, LA 25329";152.0;84.0
+47.0;;"3413 Danielle Tunnel
+Lindsayville, MS 61151";157.0;43.0
+84.0;Rebecca Brown;;167.0;102.0
+95.0;Rebecca Simon;"3399 Jennifer Common
+Gomezside, NM 49587";150.0;67.0
+64.0;Kristen Davis;;150.0;80.0
+;Sarah Osborne;"8522 Cooper Glens
+Paulville, NE 72582";186.0;
+97.0;Hannah Howard;"7991 Andrea Vista Apt. 326
+Lisaside, VA 75453";158.0;63.0
+52.0;Tanya Smith;"739 Kimberly Coves
+Lake Keith, LA 15229";181.0;64.0
+32.0;Shelby Erickson;"0494 Zachary Mountain
+Port Staceyview, VT 20140";165.0;98.0
+95.0;Courtney Flores;"98794 Valentine Ways
+Lake Samantha, VT 74584";160.0;87.0
+44.0;Emily Hardin;"23392 Elizabeth Meadow Suite 433
+Shannonville, DE 41723";;105.0
+63.0;Carlos Harrison;;182.0;99.0
+93.0;Scott Mercado;"52610 Cherry Valley Apt. 598
+West Douglasborough, NJ 84121";167.0;
+30.0;Nicole Kim;"2251 Rebekah Street Apt. 458
+South Catherineport, HI 16715";200.0;62.0
+82.0;Zachary Ortega;"306 Michelle Tunnel Apt. 327
+Shieldsport, AS 43141";178.0;97.0
+72.0;Brandi Vasquez;"Unit 9757 Box 6839
+DPO AA 31107";152.0;51.0
+78.0;Brenda Williamson;"20085 Buckley Hill
+Hernandezville, PA 29278";198.0;68.0
+99.0;Mikayla Mcguire;"USS Kirk
+FPO AA 80829";187.0;51.0
+63.0;Briana Moran;;199.0;55.0
+32.0;Jenna Davis;"85832 Moody Union
+South Rebeccaton, KS 89642";178.0;76.0
+47.0;Colleen Lindsey;"8699 Andrew Alley Suite 625
+Christopherton, WA 77655";184.0;92.0
+91.0;;"6653 Summer Pine Apt. 713
+Patrickstad, MH 34157";;46.0
+89.0;;"0854 Joseph Bridge
+South Daniel, RI 24453";182.0;
+33.0;Joseph Willis;"18055 Suarez Camp Suite 335
+Sanchezfurt, AZ 50114";200.0;91.0
+72.0;Aaron Singleton;"4126 Patrick Canyon
+Smithside, SD 59399";161.0;82.0
+88.0;Gabriel Oliver;"018 Karen Brook Apt. 614
+New William, ID 88479";170.0;106.0
+51.0;Jessica Lin;"444 Berry Cove Apt. 619
+West Jonathan, MH 60766";200.0;46.0
+80.0;Zachary Williams;;188.0;
+68.0;Christopher Jensen;"16810 Jimmy Fords Suite 069
+East Ashley, MD 32798";179.0;104.0
+25.0;Laura Mendoza;;168.0;62.0
+67.0;Joshua Davila;"59676 Douglas Pines Apt. 121
+Port Cory, AL 90306";167.0;84.0
+;Brandon Greene;"800 Dean Freeway Apt. 894
+Davidmouth, GA 98665";170.0;41.0
+69.0;Julie Spencer;"8812 Orr Villages Apt. 750
+Port Jesse, VI 29262";166.0;
+55.0;James Garcia;"09900 Melanie Station
+East Chaseshire, IL 18354";174.0;55.0
+94.0;David Bowman;"PSC 8594, Box 5302
+APO AE 62887";195.0;65.0
+83.0;Ashley Jones;"9596 Jimenez Station Suite 047
+Weaverfurt, IL 06360";158.0;74.0
+29.0;Jacob Lara;"8880 Traci Road
+South Heather, MH 76544";152.0;41.0
+76.0;Jonathan Simpson;"8938 Baker Rest Apt. 831
+North Jamesbury, MH 37802";160.0;65.0
+76.0;Robert Young;"99636 Meghan Prairie Suite 234
+Cookehaven, OR 12274";194.0;82.0
+91.0;Kristina Coleman;"448 Ward Terrace
+Port Evanside, SC 92178";;46.0
+78.0;Rebecca Mendez;"8293 Duarte Dam
+East Rachel, MP 87736";194.0;58.0
+82.0;Dylan Martinez;;158.0;101.0
+74.0;;"0029 Ryan Extension Suite 443
+New Denisetown, NJ 79984";150.0;106.0
+48.0;Emily Lucas;"438 Brandt Drive
+East Nancy, WY 82089";189.0;
+23.0;Amy Macias;"4140 Shelly Ways
+Anneville, GU 63200";169.0;69.0
+60.0;Samantha Oconnell;"301 Young Valley
+Berrymouth, NJ 68263";169.0;73.0
+26.0;;"39748 Ashley Ranch
+West Robert, NE 68295";171.0;56.0
+23.0;Edwin Gray;"893 Arnold Plains Apt. 814
+Villaport, KY 82628";172.0;
+54.0;Andrew King;"182 Williams Land
+Stewartchester, MN 15565";159.0;66.0
+89.0;Paul Frey;;189.0;62.0
+93.0;Colleen Jones;"40962 Jay Run Suite 336
+North Mariahshire, IL 43207";181.0;54.0
+43.0;Renee Adams;"7331 Davis Well Apt. 044
+Shieldsberg, NC 24408";171.0;72.0
+97.0;Jesse Morris;"2772 Marvin Parks
+North William, VT 65433";186.0;40.0
+45.0;Jennifer Hamilton;"8641 Troy Islands Apt. 442
+Zacharyborough, AS 44634";163.0;68.0
+81.0;Jeffrey Davis;"0930 Paul Mill
+Morrisonside, DC 56546";186.0;105.0
+32.0;Michelle Cochran;"646 Jenny Divide Suite 766
+Castillofurt, MO 56869";166.0;44.0
+;Judith Howard;"42993 White Shoal Apt. 604
+Mccarthychester, VI 13818";154.0;47.0
+25.0;Joshua Jackson;"2998 James Ferry Suite 583
+Barrettton, WV 90633";184.0;40.0
+80.0;Robert Schultz;"715 Jessica Manors
+Danielshire, WY 58580";154.0;41.0
+32.0;Olivia Fitzpatrick;"409 Morgan Branch Suite 028
+Rileyberg, IN 52867";187.0;86.0
+;Kayla Hansen;"33584 Baldwin Summit
+West Nancy, TX 37590";198.0;62.0
+72.0;Zachary Russell;"8073 Rodriguez Harbors Suite 516
+Stephanieside, TN 44157";152.0;
+44.0;Emily Hardin;"23392 Elizabeth Meadow Suite 433
+Shannonville, DE 41723";;105.0
+83.0;Michelle Cohen;"087 Ross Rest Apt. 212
+Port Brookeborough, SD 80512";;96.0
+48.0;Jason Elliott;"82102 Lee Drive Apt. 539
+Kellymouth, MP 18346";188.0;61.0
+97.0;Thomas Compton;"3128 Thomas Harbor Suite 094
+Christophermouth, VA 47881";;101.0
+70.0;Thomas Rios;;172.0;96.0
+51.0;Melvin Ruiz;"857 Walter Cliff
+Careybury, NM 33963";188.0;70.0
+31.0;Tommy Hernandez;"9580 Derrick Drive
+Blakeport, VA 64839";175.0;72.0
+70.0;Molly Perez;"68860 John Fork
+Lake Albert, AL 65288";181.0;62.0
+34.0;Michael Davidson;"90854 Amber Glens
+Mccartystad, MH 32586";166.0;95.0
+48.0;Troy Hurley;"3300 Mitchell Summit Suite 931
+Port David, CA 91270";160.0;88.0
+22.0;Tonya Vasquez;"61775 Holt Pike
+North Thomasburgh, AZ 81356";187.0;42.0
+76.0;Tyler Fisher;"8622 Burns Ferry
+South Ginafort, WI 44798";195.0;54.0
+94.0;;;154.0;83.0
+22.0;Susan Lutz;;156.0;61.0
+95.0;Gary Young;"PSC 5959, Box 3385
+APO AA 84767";193.0;43.0
+58.0;;"90332 Robinson Hollow
+West Josephview, ND 37261";163.0;49.0
+47.0;George Ruiz;"2690 Graves Dale Apt. 064
+Lewisland, OR 74172";170.0;65.0
+86.0;Dana Thomas;;178.0;90.0
+25.0;Margaret Fletcher;"4916 Pamela Mills Apt. 601
+Faulknerview, CT 79819";164.0;94.0
+32.0;;"145 Barrett Isle
+Karenton, DE 83972";153.0;
+50.0;Kevin Stevenson;"76571 Kirsten Key
+North Regina, MI 90990";152.0;100.0
+30.0;Jennifer Rodriguez;"445 Stephen Mountain
+Lake Hollymouth, VI 11012";156.0;60.0
+81.0;Paul Murphy;"PSC 9627, Box 2771
+APO AP 49113";194.0;
+59.0;Linda Cummings;;164.0;62.0
+85.0;Daniel Wang;"25999 Gutierrez Rapid
+Port Paulaview, PR 08002";154.0;86.0
+51.0;Dean Brown;"USNV Skinner
+FPO AA 60212";153.0;61.0
+;Jason Irwin;"8684 Phillips Curve Apt. 983
+New William, NE 52835";193.0;60.0
+96.0;Justin Powers;"7983 Rebecca Highway Apt. 253
+Lake Tammyfurt, IL 66184";168.0;46.0
+32.0;Heather Ellis;"4331 Kristine Canyon
+North Abigail, VI 82362";185.0;78.0
+30.0;Maria Potter;"4357 Jones Way Apt. 609
+Sarahton, UT 45143";;65.0
+91.0;Ronald Williams;"1636 Nathan Keys Apt. 971
+Gibsonview, ID 26440";195.0;61.0
+;Ashley Bridges;"12568 Rebecca Roads
+New Robertchester, WA 09843";170.0;48.0
+54.0;Jason Smith;"2765 Justin Orchard Apt. 150
+South Gabriel, LA 60304";172.0;96.0
+25.0;Deborah Moore;"071 Larry Mall Suite 283
+Michaelshire, CA 01976";;
+70.0;Jimmy Matthews;"7729 Spears Corners
+East Michael, HI 44468";196.0;48.0
+51.0;Evelyn White;;;103.0
+38.0;Jeffrey Hutchinson;"15729 Hayes Knolls
+North Michellestad, CO 48368";160.0;58.0
+90.0;Thomas Sandoval;"258 Reyes Burgs Suite 937
+South Erinfurt, SD 03414";186.0;
+55.0;Raymond Ray;"3614 Laura Rest
+Lake Donna, TN 86321";187.0;104.0
+56.0;Michael Campbell;"269 Roberts Burg
+Keithbury, NV 91918";189.0;52.0
+49.0;Julie Murray;"5263 Alan Hollow
+Morganville, MI 93071";170.0;
+74.0;Michael Herring;"2218 Martin Harbors
+Christinaberg, OK 94930";159.0;59.0
+77.0;Manuel Hodge;"3227 Green Mill
+Lake Jeffery, FL 16130";172.0;80.0
+82.0;Calvin Johnson;"5700 Schneider Prairie Apt. 375
+Washingtonburgh, VT 25081";178.0;109.0
+54.0;Lucas Baldwin;"958 Phillips Corner
+Triciamouth, ID 42180";163.0;98.0
+57.0;George Graves;"USCGC Young
+FPO AE 65926";185.0;91.0
+39.0;Dawn Ryan;"PSC 6061, Box 1661
+APO AE 31482";161.0;41.0
+58.0;Gregory Hall;"2183 Monroe Drive Suite 345
+Johnsonview, DC 69778";162.0;
+76.0;Gregory Evans;"3259 Vargas Streets
+New Jamesside, MD 04941";163.0;70.0
+54.0;Jay Hardin;;180.0;88.0
+32.0;Rebecca Contreras;"12287 Daniel Crescent Suite 952
+West Angelaberg, CA 17895";189.0;78.0
+29.0;Carolyn Mooney;;164.0;105.0
+94.0;Judith Allen;"777 Krause Causeway
+Ronnieside, KY 96952";189.0;91.0
+96.0;;;195.0;84.0
+46.0;Debra Baker;"704 Navarro Trafficway
+East Melissa, MI 94015";166.0;41.0
+29.0;Douglas Guerrero;"32713 Wallace Walk Apt. 088
+Thomasview, LA 35548";192.0;42.0
+30.0;Brandon Johnson;"0060 Whitney Unions Suite 392
+Port Lisaside, AL 33979";189.0;50.0
+26.0;Anthony Baker;"559 Romero Lakes Suite 117
+Haleland, PW 21224";174.0;73.0
+98.0;Eric Potter;"54101 Scott Track Suite 703
+Lake Lisa, CA 65956";187.0;99.0
+27.0;Thomas Stone;"71789 John Courts Suite 713
+Lauraport, WA 03507";189.0;70.0
+85.0;Stephanie Casey;;155.0;101.0
+80.0;;"7597 April Forest Apt. 438
+Port Anthonyside, AL 67870";183.0;79.0
+99.0;Bob Mcneil;"447 Sarah Creek
+South Julia, DC 04531";;99.0
+81.0;April Lopez;"290 Nathan Trace Apt. 975
+East Melissa, ND 52493";181.0;80.0
+;Brian Williams;"2175 Brandon Light Suite 529
+Parrishside, AR 45127";162.0;72.0
+90.0;Cynthia Miller;"3047 Ronald Lights Apt. 257
+Josephtown, ME 18032";187.0;
+24.0;Jackie Mercer;"38994 Samantha Hollow
+Jamiehaven, MI 69183";199.0;
+;Henry Henson;"3701 Debra Isle
+West Michaelchester, IA 79045";197.0;99.0
+52.0;Regina Wells;"2977 Victoria Park Apt. 235
+South Dorothyfurt, NM 33249";151.0;102.0
+30.0;Jennifer Pennington;"8316 Theresa Bypass Suite 745
+Terryshire, FM 57409";188.0;51.0
+88.0;Miranda Cortez;"7075 Landry Junction Suite 993
+West Kenneth, GA 79612";191.0;78.0
+66.0;Danny Jones;;191.0;69.0
+81.0;;"8954 Elizabeth Estate Suite 889
+Harrisonborough, HI 80344";178.0;95.0
+50.0;;"2905 Diane Isle
+East Nicole, AS 95665";179.0;
+100.0;;"852 Norton Forks Suite 731
+Paulmouth, OH 64119";184.0;110.0
+100.0;Hannah Paul;"16818 Hanson Center
+Victoriafurt, NY 12831";170.0;44.0
+46.0;Christina Hill;"4953 Mcdonald Freeway
+Rebeccamouth, SC 96552";150.0;90.0
+96.0;Cynthia Dickson;"059 Nicole Gardens
+Fitzgeraldside, SC 90397";160.0;94.0
+99.0;Jeremy Arnold;"81836 Kyle Loaf Suite 973
+Buchananbury, IN 60167";163.0;79.0
+49.0;Michelle Johns;"Unit 5032 Box 5097
+DPO AP 75772";189.0;110.0
+62.0;Mathew Fowler;"655 Kathryn Parkways
+West Matthew, AL 94673";174.0;98.0
+84.0;Travis Frost;"041 Stephanie Heights Apt. 904
+Rebeccabury, TX 19709";156.0;44.0
+21.0;Barbara Hammond;"212 Willie Corner Apt. 699
+Reneeton, MH 08619";159.0;66.0
+62.0;Tara Hill;"9899 Cowan Light Apt. 827
+North Tammy, AR 99179";200.0;69.0
+36.0;;;193.0;72.0
+42.0;Robert Giles;"1200 Steven Fall Apt. 609
+South Tim, CO 76821";181.0;76.0
+87.0;Catherine Harvey;"404 Arias Junctions
+Sherryfurt, MI 07092";169.0;63.0
+20.0;;"992 White Green Apt. 025
+Clarkchester, MA 06932";180.0;44.0
+46.0;Robert Williams;"312 Perkins Lakes Apt. 930
+New Williamville, FM 01049";157.0;110.0
+66.0;Melanie Stevens;"10407 Ashley Meadow Suite 800
+Spencerhaven, HI 92542";163.0;89.0
+62.0;Ray Merritt;"04882 Brandon Well
+Jessicaborough, CA 39701";196.0;108.0
+79.0;Taylor Kim;"38343 Archer Flats Suite 089
+Kimberlyburgh, SD 09158";152.0;110.0
+83.0;Latoya Padilla;"111 Smith Parks
+Cooperfurt, WI 42817";179.0;107.0
+38.0;Veronica Hill;"525 Cochran Drive Suite 316
+New Davidberg, OR 14428";;73.0
+45.0;Penny Brown;"480 Neal Ford
+Dunnfort, MI 11008";157.0;67.0
+32.0;Christina Evans;"3701 Beth Rapids
+Lake Jerry, TN 59035";190.0;65.0
+20.0;;"665 Daniel Port
+Lake Yvette, SD 58135";151.0;92.0
+95.0;David Woods;"2191 Little Trail Apt. 071
+North Johnstad, MS 68138";198.0;74.0
+57.0;Thomas Smith;"2646 Diana Coves
+West Sarafurt, VA 26786";194.0;88.0
+28.0;Mary Powell;"8616 Bryan Dale Suite 813
+Lake James, NC 50071";151.0;49.0
+49.0;Andrea Villanueva;"950 Robinson River
+Chasemouth, VT 54461";163.0;69.0
+85.0;Pamela Booker;"21256 Jose Ford Apt. 280
+Owensland, MD 58950";151.0;87.0
+36.0;Kimberly Riggs;"537 Diana Course
+Autumntown, FL 39710";189.0;72.0
+82.0;Charles Orozco;"0263 Tucker Port Suite 354
+Murphyberg, RI 24330";;58.0
+;Sandra Brown;"956 Alexis Tunnel Suite 485
+Fernandoview, NJ 15294";;97.0
+82.0;Megan Morrison;;159.0;76.0
+;Sandra Haas;"884 David Harbors Apt. 471
+Foxstad, CO 50338";168.0;54.0
+75.0;Christopher James;"USNV Cooper
+FPO AP 84245";163.0;80.0
+87.0;Tiffany Williams;"71774 Miguel Walk
+North Amanda, SC 08104";196.0;97.0
+46.0;George Fields;"438 Katie Spur
+North Kelseyborough, TN 72000";162.0;
+;Matthew Taylor;"73675 Karen Creek Suite 997
+Jacksonstad, MH 26063";174.0;
+20.0;Lisa Andrews;;178.0;80.0
+74.0;;"08516 Rachael Burg Apt. 020
+South Bradleyhaven, WV 01255";168.0;88.0
+86.0;Deanna Gilmore;;167.0;
+;Mary Sanchez;"7203 Andrew Pike Apt. 913
+New Megan, AS 90483";159.0;63.0
+78.0;Sabrina Castillo;"PSC 8630, Box 6176
+APO AE 56694";;100.0
+87.0;Raven Mclean;"72298 Reed Tunnel
+Christopherview, KS 91643";157.0;
+28.0;;"PSC 1015, Box 4753
+APO AE 74380";156.0;94.0
+75.0;William Harrison;"552 James Field
+Port Richardbury, WV 38414";178.0;55.0
+91.0;Adam Cox;"744 Graham Pines
+South Stephanie, MA 45239";199.0;80.0
+71.0;Stacy Santana;"9267 Casey Route
+West Anthonystad, MN 46489";160.0;89.0
+67.0;Jeremy Edwards;"24231 Vasquez Rue
+East Kayla, WI 03970";195.0;57.0
+48.0;Eric Taylor;;170.0;52.0
+55.0;John Wilkins;"PSC 1981, Box 4695
+APO AE 58802";153.0;100.0
+33.0;Christine Hoover;"5174 Miranda Views Suite 159
+West Stevenland, MT 32147";194.0;55.0
+61.0;Andrew Sanders;"555 Paul Causeway
+Port Erikmouth, IL 96243";184.0;88.0
+32.0;Latoya Chavez;"885 Meyers Summit Suite 308
+Nealchester, WY 42197";167.0;103.0
+36.0;Joshua Skinner;"662 Susan Key Apt. 753
+West Richard, MA 92525";158.0;
+99.0;Haley Burgess;"5523 Seth Plains
+Melissaburgh, MN 17044";163.0;100.0
+52.0;Colin Archer;"06331 Hicks Lakes
+New Lisa, AK 27087";168.0;53.0
+87.0;Brian Warren;"938 Jordan Spur Suite 726
+New Hannahmouth, IN 85969";188.0;
+56.0;Debra Lopez;"874 Dakota Freeway
+North Erin, TN 08115";192.0;60.0
+43.0;Brent Vega;"51147 Rush Manors Suite 122
+Parkertown, SC 27926";182.0;53.0
+91.0;Nathaniel Williams;"Unit 4874 Box 7897
+DPO AP 50750";194.0;77.0
+73.0;George Lowery;;160.0;90.0
+97.0;Madeline Price;"7498 Michael Estate
+South James, NY 44975";161.0;104.0
+51.0;Mary Walsh;"73346 Morrison Fort
+New Heather, NH 67083";166.0;67.0
+98.0;Eric Potter;"54101 Scott Track Suite 703
+Lake Lisa, CA 65956";187.0;99.0
+22.0;Gary Peterson;"3314 Carolyn Shoal
+Lake Chelseaside, MN 19033";159.0;51.0
+69.0;Michael Carson;"PSC 1183, Box 7648
+APO AP 24943";187.0;77.0
+;Jennifer Hartman;"211 Nunez Meadow
+Alexistown, CA 92957";173.0;85.0
+95.0;Eduardo Fields;"935 Kara Run Suite 583
+Port Jessicaville, CT 03607";200.0;
+20.0;Anthony Sharp;"2363 Wilson Trail Apt. 252
+North Kellyburgh, SD 48518";194.0;88.0
+29.0;Adam Salas;"045 Christopher Road
+Mooreland, OK 93619";167.0;92.0
+46.0;Melanie Lynn;"065 Paula Center
+Lake Crystal, VT 16005";196.0;84.0
+;Marco Harris;"710 Gonzalez Stream Apt. 100
+West Matthewshire, NM 48427";193.0;46.0
+58.0;Alexander Thornton;;163.0;
+72.0;Margaret Hill;"668 William Squares
+North Johnborough, MA 22779";181.0;97.0
+69.0;Cassandra Key;"6300 Thomas Mountains Apt. 279
+South Elijahtown, IL 92772";179.0;50.0
+41.0;Stacy Scott;"7369 Moreno Lake
+Lambertside, AS 93916";190.0;66.0
+87.0;Aaron James;"232 William Common
+Sandyberg, WI 26144";184.0;80.0
+;;"97943 Patricia Trace
+Destinychester, WY 20840";192.0;61.0
+49.0;Crystal Fox;"917 Heather Port Suite 594
+New Kent, FM 40125";183.0;68.0
+20.0;;"16754 Richard Vista Apt. 265
+Potterbury, OK 41000";194.0;42.0
+66.0;Charles Mayo;"9233 Cooper Crest Suite 162
+Sanfordfort, AZ 24577";175.0;47.0
+67.0;Megan Smith;"41505 Joseph Track Apt. 114
+Emilychester, MN 49203";183.0;101.0
+77.0;Tina Martinez;"366 Mclaughlin Pass
+Millerville, SD 48534";160.0;102.0
+39.0;Dawn Ryan;"PSC 6061, Box 1661
+APO AE 31482";161.0;41.0
+;Andrew Durham;"022 Scott Shore
+East Jonfurt, NE 29519";153.0;108.0
+88.0;Jessica Carter;"305 Jeff Causeway
+Glendatown, NM 98024";160.0;95.0
+49.0;Michele Jackson;"855 Kelly Port
+Rochaborough, KY 11878";194.0;
+;Joshua Hernandez;;171.0;93.0
+24.0;;"370 Fuller Lodge
+Carriemouth, IL 91156";163.0;87.0
+100.0;Rhonda Garcia;"195 Brad Crossroad
+New John, PW 40003";196.0;55.0
+;Michael Scott;"Unit 5191 Box 8596
+DPO AP 98239";173.0;105.0
+38.0;Thomas Williams;;170.0;91.0
+50.0;Kathleen Preston;"9776 Andrew Vista
+East Jeffreystad, MH 22963";196.0;105.0
+94.0;;"725 Jeffrey Cape Suite 424
+Harveybury, GU 67336";155.0;
+68.0;;"1862 Michael Harbor Apt. 130
+West Joelview, OR 85413";155.0;95.0
+74.0;Jeffrey Turner;;184.0;84.0
+97.0;Stephanie Meyers;"946 Cassandra Green Suite 231
+East Renee, MA 44010";150.0;
+70.0;Heather Brooks;;157.0;96.0
+44.0;Cynthia Wright;"29724 Baldwin Ville
+South John, VI 90712";188.0;46.0
+59.0;Emily Beck;"9362 Bush Oval Suite 770
+Port Alexandraberg, WV 37416";159.0;63.0
+52.0;Jose Morgan;"40193 Nicole Ferry
+Jonesbury, DE 46536";198.0;62.0
+65.0;Maria Reed;"42944 Hamilton Causeway Apt. 806
+Port Jenniferfurt, GA 18109";;106.0
+70.0;Christine Hill;;186.0;74.0
+21.0;Kelsey Martinez;;191.0;80.0
+48.0;Shannon Le;"5011 Duran Stravenue
+East Priscilla, ND 55180";154.0;59.0
+80.0;Morgan Lambert;"1918 Richard Falls Suite 781
+Michaelville, PR 35686";191.0;
+97.0;Mary Anderson;"786 Rogers Lane
+Webbfort, TX 74352";;73.0
+;Rebecca Long;"USS Lamb
+FPO AA 83506";195.0;42.0
+55.0;Kevin Crawford;"00198 Soto Freeway
+Swansonshire, OR 53598";181.0;57.0
+21.0;Alyssa Ford;"25656 Jacob River
+Taylorton, IA 20798";170.0;63.0
+80.0;;"4455 Heather Fort Apt. 360
+Edwardbury, SD 33523";183.0;108.0
+;Sarah Osborne;"8522 Cooper Glens
+Paulville, NE 72582";186.0;
+64.0;Angela Fry;"319 Smith Place
+Devinside, CT 35504";166.0;68.0
+64.0;Karen Montgomery;"34907 Gabriel Greens
+Collierburgh, UT 91278";161.0;93.0
+29.0;Laura Kim;"39275 Karen Lane
+North Billy, CT 77433";173.0;106.0
+75.0;Victor Mitchell;"Unit 3828 Box 7681
+DPO AE 60463";;95.0
+64.0;Stephen Bartlett;"973 Michael Springs Suite 573
+Martinberg, IA 84456";178.0;77.0
+81.0;Jennifer Estrada;"5827 Nicole Oval
+East Jeffrey, MS 49253";166.0;73.0
+43.0;Brent Vega;"51147 Rush Manors Suite 122
+Parkertown, SC 27926";182.0;53.0
+98.0;Thomas Williams;"Unit 8026 Box 9997
+DPO AP 42419";150.0;89.0
+91.0;Meghan Fuentes;"6726 Richard Port
+Gardnerview, CT 33898";200.0;77.0
+;Matthew Watson;"4370 Roy Walks
+Ericksonberg, OH 75819";164.0;52.0
+;John Anderson;"Unit 4735 Box 7053
+DPO AA 85262";177.0;65.0
+;Angela Jones;"10516 Kelsey Locks Apt. 753
+Hamiltonstad, AZ 38961";187.0;47.0
+22.0;;"9797 Whitehead Springs Apt. 214
+Randymouth, DE 17229";153.0;75.0
+95.0;Austin Mercer;"324 Olson Station Apt. 230
+Hendersonport, OR 31380";184.0;74.0
+91.0;;"7096 Brenda Falls
+Gayborough, TN 39490";186.0;42.0
+31.0;John Cummings;"889 Crawford Light Apt. 895
+Youngberg, KY 82905";158.0;105.0
+86.0;Ricky Clark;"21728 Nicole Tunnel
+Evanborough, OR 41428";159.0;44.0
+79.0;;"48165 Schultz Unions
+South Allison, OK 97977";159.0;69.0
+;Kelsey Long;"73929 Riddle Plain Suite 714
+Port Bridgetmouth, PR 52541";191.0;42.0
+21.0;Paul Scott;"795 Melissa Forge Suite 460
+Monicaton, KY 11184";196.0;68.0
+88.0;Donna Rios;"59669 Shelby Meadows
+Saraside, WV 95598";184.0;
+44.0;Brad Allen;;176.0;89.0
+51.0;Chad Kennedy;"Unit 9710 Box 4847
+DPO AE 62031";199.0;
+48.0;Jason Elliott;"82102 Lee Drive Apt. 539
+Kellymouth, MP 18346";188.0;61.0
