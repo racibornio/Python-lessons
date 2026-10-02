@@ -6,54 +6,41 @@ raw_job_description = """
 
 
 
-W związku z dynamicznym rozwojem Biuro IT Centralnego Portu Komunikacyjnego sp. z o.o. poszukuje kandydatów na stanowisko: Ekspert ds. projektów IT (K/M)
+Hello Patryk! 
+Andersen is looking for a 𝐒𝐲𝐬𝐭𝐞𝐦 𝐀𝐧𝐚𝐥𝐲𝐬𝐭 with PO experience for a large insurance and fintech product ecosystem. If you enjoy combining system analysis, product ownership, stakeholder communication, and Agile delivery, this could be a great fit. Interested? 
 
+Wednesday
+View Yana’s profileYana Ivanova
+Yana Ivanova   12:41 PM
+Hi Patryk,
+
+Thanks for connecting! I came across your profile and thought you might be a great fit for a 𝐒𝐲𝐬𝐭𝐞𝐦 𝐀𝐧𝐚𝐥𝐲𝐬𝐭 role we’re currently hiring for. 
+
+𝐀𝐛𝐨𝐮𝐭 𝐭𝐡𝐞 𝐩𝐫𝐨𝐣𝐞𝐜𝐭 
+You'll join a large product environment in the insurance and fintech domain. Several Agile teams are already delivering integration solutions, while new teams are building strategic products. The focus is on developing a central integration layer that connects multiple platforms, partner systems, and customer-facing services. 
+
+𝐘𝐨𝐮𝐫 𝐫𝐨𝐥𝐞 
+This role combines System Analysis and Product Ownership. You'll gather and document requirements, create user stories and acceptance criteria, model business processes with BPMN and UML, refine backlog items, and support solution design. You'll also align stakeholders, facilitate discussions, manage priorities, validate delivered functionality, monitor product goals, and help drive continuous improvement across Agile teams. 
+
+Here’s a quick look at the role: https://people-andersenlab.com/vacancy/2509956?utm_source=SA&utm_campaign=recruiter
  
+And this is a bit about us as a company: https://people.andersenlab.com/useful-links-andersen 
 
-Czym będziesz się zajmować:
+𝐖𝐡𝐲 𝐀𝐧𝐝𝐞𝐫𝐬𝐞𝐧 
+At Andersen, you'll work on international products, collaborate with a strong analyst community, and gain access to mentoring, internal training, certification reimbursement, and clear career growth opportunities. We support both expert and leadership development while providing project stability and a comprehensive benefits package. 
 
-    Współpraca z właścicielami biznesowymi i analitykami w celu efektywnego ustalenia uzgodnień projektowych
-    Kierowanie realizacją projektów IT w całym cyklu życia
-    Tworzenie planów, harmonogramów, monitorowanie postępów prac i ryzyk projektowych
-    Raportowanie postępów prac projektowych
-    Organizacja testów, przygotowanie do wdrożenia i powołania usług IT
-    Zarządzanie komunikacją w ramach prowadzonych projektów
-    Koordynacja prac podwykonawców i zaangażowanych zespołów wewnętrznych oraz postępowań zakupowych
-    Tworzenie dokumentacji projektowej
-    Pełnienie funkcji koordynatora umów, w ramach których są wdrażane lub rozwijane usługi IT
-    Współpraca z biurami, wykonawcami zewnętrznymi, deweloperami i testerami przy realizacji i wdrażaniu projektów IT
-    Koordynowanie odbiorów dokumentacji analitycznej i projektowej
-    Współpraca z zespołami projektowymi
-    Współpraca z producentami oprogramowania oraz innymi zewnętrznymi podmiotami
-    Udział od strony IT w postępowaniach zakupowych związanych w wdrażaniem projektów IT
+Would you be open to discussing this opportunity further?
 
-Nasze wymagania:
+Today
+View Yana’s profileYana Ivanova
+Yana Ivanova   12:46 PM
+👏
+👍
+😊
 
-    Wykształcenie wyższe (preferowane techniczne IT lub związane z zarządzaniem projektami)
-    Wiedza teoretyczna i praktyczna z zakresu metodyk PRINCE2/AGILE/SCRUM
-    Minimum 5-letnie doświadczenie w prowadzeniu projektów i zarządzaniu zespołami projektowymi
-    Doświadczenie w testowaniu i wdrażaniu aplikacji
-    Bardzo dobra znajomość pakietu Microsoft Office 365
-    Znajomość narzędzia Microsoft Project Portfolio Management
-    Samodzielność w organizacji pracy i realizacji powierzonych zadań
-    Wysokie zdolności interpersonalne, komunikacyjne i prezentacyjne
-    Znajomość języka angielskiego na poziomie umożliwiającym swobodną komunikację
 
-Co oferujemy:
 
-    Udział w największym projekcie infrastrukturalnym w Polsce o międzynarodowym znaczeniu
-    Kultura organizacyjna oparta na współpracy, partnerskich relacjach oraz innowacyjności
-    Środowisko pracy zapewniające równe traktowanie oraz wsparcie dla różnorodności
-    Zatrudnienie na podstawie umowy o zastępstwo
-    Elastyczne godziny rozpoczęcia pracy
-    Rozwój zawodowy oparty na szkoleniach wewnętrznych i zewnętrznych
-    Dofinansowanie do prywatnej opieki medycznej
-    Dostęp do platformy benefitowej, w tym karty sportowej
-    Dofinansowanie do ubezpieczenia grupowego na życie
-    Dofinansowanie do wypoczynku
-    Zniżki na zakupy w sklepach sieci Baltona
-    Dostęp do programu well-being
-    Pracę w nowoczesnym biurze tuż przy Dworcu Zachodnim
+Hello Patryk! Are you interested in the proposed vacancy? 
 
 
 
