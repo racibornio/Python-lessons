@@ -1,0 +1,17 @@
+1
+00:00:00,000 --> 00:00:08,000
+Sztuczna inteligencja to dziedzina technologii, która umo¿liwia maszynom naœladowanie ludzkiego myœlenia i podejmowanie decyzji.
+
+2
+00:00:08,000 --> 00:00:18,000
+Dziêki zaawansowanym algorytmom i uczeniu maszynowemu, AI potrafi analizowaæ ogromne iloœci danych, rozpoznawaæ wzorce i przewidywaæ przysz³e zdarzenia.
+
+3
+00:00:18,000 --> 00:00:30,000
+Wspó³czeœnie AI znajduje zastosowanie w wielu dziedzinach, takich jak medycyna, finanse, transport czy edukacja, rewolucjonizuj¹c sposób w jaki funkcjonuje spo³eczeñstwo.
+
+4
+00:00:30,000 --> 00:00:38,000
+Choæ niesie ze sob¹ ogromny potencja³, rozwój AI rodzi tak¿e pytania o etykê, prywatnoœæ i przysz³oœæ rynku pracy.
+
+
